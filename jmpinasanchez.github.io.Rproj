@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Version: 1.0
 ProjectId: 8fdcbe5b-e4da-4701-a9a5-a73255d04508
 
@@ -12,3 +13,19 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+=======
+Version: 1.0
+ProjectId: 8fdcbe5b-e4da-4701-a9a5-a73255d04508
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+>>>>>>> a74315afc109737f6ffeafdc93d584d9cfb776d5

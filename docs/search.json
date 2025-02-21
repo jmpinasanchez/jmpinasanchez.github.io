@@ -2,9 +2,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
+<<<<<<< HEAD
     "title": "Prof. Jose Pina-Sánchez",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\nR language bjkfeg\nhttps://www.youtube.com/watch?v=hceM0-RuPwo"
+=======
+    "title": "jmpinasanchez.github.io",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+>>>>>>> a74315afc109737f6ffeafdc93d584d9cfb776d5
   },
   {
     "objectID": "about.html",
