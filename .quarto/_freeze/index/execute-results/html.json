@@ -1,8 +1,8 @@
 {
-  "hash": "c5e9e3bde241850096b71888429ed799",
+  "hash": "f092a615d4eb6dfee975721b14e6d1ce",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: Prof. Jose Pina-Sánchez\nimage: fig-gender.png\nabout:\n  template: trestles\n---\n\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n\nR language\n\nhttps://www.youtube.com/watch?v=hceM0-RuPwo\n",
+    "markdown": "---\ntitle: Prof. Jose Pina-Sánchez\nimage: fig-gender.png\nabout:\n  template: trestles\n---\n\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n\nR language bjk\n\nhttps://www.youtube.com/watch?v=hceM0-RuPwo\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
