@@ -13,6 +13,8 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 1 + 1
 ```
 
-R language bjkfeg
+Try again afbj
+
+![](fig-race-jurisdiction-1.png)
 
 https://www.youtube.com/watch?v=hceM0-RuPwo
