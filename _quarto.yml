@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 project:
   type: website
   output-dir: docs
@@ -19,25 +18,3 @@ format:
 
 editor: visual
 
-=======
-project:
-  type: website
-  output-dir: docs
-
-website:
-  title: "jmpinasanchez.github.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-editor: visual
-
->>>>>>> a74315afc109737f6ffeafdc93d584d9cfb776d5

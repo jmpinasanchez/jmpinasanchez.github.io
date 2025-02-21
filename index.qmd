@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Prof. Jose Pina-Sánchez
 image: fig-gender.png
@@ -17,16 +16,3 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 R language bjkfeg
 
 https://www.youtube.com/watch?v=hceM0-RuPwo
-=======
----
-title: "jmpinasanchez.github.io"
----
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
->>>>>>> a74315afc109737f6ffeafdc93d584d9cfb776d5
