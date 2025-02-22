@@ -1,0 +1,9 @@
+---
+title: "Expert Elicitation Techniques for Social Scientists"
+---
+
+These are the materials for the part of the short course on Expert Elicitation Techniques that I delivered. The short course was led by Prof. John Paul Gosling, from the *University of Leeds*, and it was sponsored by the *National Centre for Research Methods*.  
+- [Lecture I](static/day-1_session-1_intro-quantifying-uncertainty.pdf) (Introduction)\
+- [Lecture II](static/day-2_session-3_expert-elicitation-in-the-social-sciences.pdf) (Expert Elicitation Tecniques in the Social Sciences)\
+- [Practical I](static/day-1_session-3_practical-1.pdf), [Exercise I](static/practical_guilty-plea.pdf) (Innocent Defendants Pleading Guilty)\
+- [Practical II](static/day-2_session-2_practical-2.pdf), [Exercise II](static/practical_crown-court-effect.pdf) (The Crown Court Tariff)

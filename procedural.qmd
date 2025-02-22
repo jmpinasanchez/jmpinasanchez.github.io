@@ -1,0 +1,20 @@
+---
+title: "Procedural Justice"
+---
+
+------------------------------------------------------------------------
+
+### Are We All Equally Persuaded by Procedural Justice?
+
+*Re-examining the Invariance Thesis Using Longitudinal Data and Random Effects*
+
+[![](https://img.shields.io/badge/Article-Journal%20of%20Developmental%20and%20Lifecourse%20Criminology-blue)](https://link.springer.com/article/10.1007/s40865-021-00170-y?fromPaywallRec=true)\
+[![](https://img.shields.io/badge/Article-PDF-blue)](static/s40865-021-00170-y.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+A growing number of empirical studies has sought to explore differences in the effectiveness of the procedural justice model across people. Much of this new evidence points at the procedural justice association with both legitimacy and compliance being largely invariant. Here we expand the analysis of this procedural justice ‘invariance thesis’ by introducing a novel life-course perspective to the debate. Specifically, we focus on the variability of the procedural justice effect within individuals across time. To do so, we use mixed effects structural equation models and longitudinal data from a sample of 1,354 young offenders in the US reporting perceptions of the police, and a sample of 511 subjects of the Australian general population reporting on the tax authority. We find the procedural justice within-person association with legitimacy to be highly variant across individuals, which can be negative for more than 10% of subjects in the two samples used, while for at least another 11% of participants the relationship is twice as strong as the average or stronger. We also find variability in the within-person association with compliance; however, this is only the case for a specific measure of procedural justice in the sample of young offenders. These results question the ‘invariance thesis’. Compliance, and especially perceptions of institutional legitimacy, cannot be expected to change uniformly across all subgroups of the population in line with their perceptions of the procedural just actions of those institutions.
+:::
+
+`Pina-Sánchez, J. and Brunton-Smith, I. (2021). Are we all equally persuaded by procedural justice? Measuring the ‘invariance thesis’ using longitudinal data and random effects. Journal of Developmental and Life-Course Criminology, 7:449–480. https://doi.org/10.1007/s40865-021-00170-y`
+
+------------------------------------------------------------------------

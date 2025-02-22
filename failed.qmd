@@ -1,0 +1,15 @@
+---
+title: "Failed Projects"
+---
+
+Here I'm going to try to list every research project that I was part of and decided to abandon after giving it a good try, documenting the reasons why. The aim is to contribute to illustrate potential problems of file-drawer / publication bias, and - hopefully - illustrate problems with particular research designs and subjects of study so others can learn from our mistakes.
+
+------------------------------------------------------------------------
+
+### Disparities in Remand Decisions in England & Wales
+
+In May 2024, as part of our [ESRC project](https://essl.leeds.ac.uk/law/dir-record/research-projects/1215/disproportionality-exploring-the-nature-of-ethnic-disparities-in-sentencing-through-causal-inference) on ethnic disparities in sentencing, Dr. Eoing Guilfoyle and I [pre-registered](static/Preregistration_Disparities%20in%20Remand.pdf) the analytical strategy for an administrative data analysis of disparities in remand decisions in England and Wales. However, due to unanticipated data quality problems in how remand is measured, and the backlog of data access and publication clearance requests experienced in the project - many of which are still ongoing - it is not longer clear what will be the future of this study.
+
+`Guilfoyle, E., & Pina-Sánchez, J. (2024). Preregistration of Study into Disparities in Remand Decisions in England and Wales.`
+
+------------------------------------------------------------------------

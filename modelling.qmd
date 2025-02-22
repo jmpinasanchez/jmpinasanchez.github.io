@@ -1,0 +1,50 @@
+---
+title: "Statistical Modelling"
+---
+
+Here you can find the materials I use in the UG module *Quantitative Social Research II: Advanced Statistical Modelling*, which constitutes the second part of our BSc in Criminology - Quantitative Pathway at the University of Leeds.
+
+Recap: Advanced Quantitative Methods I\
+- [Lecture](static/LAW3287.Workshop1.Intro_full.pdf)\
+- [Practical](static/W1_Introduction_Full.pdf)\
+- <a href="static/ESS9e01_1.dta" download>Data</a> (2018/19 European Social Survey)
+
+Selecting Explanatory Variables\
+- [Lecture](static/LAW3287.Workshop2.Selecting%20Explanatory%20Variables_Full.pdf)\
+- [Practical](static/W2_Selecting-Explanatory-Variables_Full.pdf)\
+- <a href="static/CCSS2011_trimmed.csv" download>Data I</a> (2011 Crown Court Sentencing Survey)\
+- <a href="static/Census.csv" download>Data II</a> (2011 Census)\
+- <a href="static/CourtChars.csv" download>Data III</a> (court characteristics)
+
+Path Analysis\
+- [Lecture](static/LAW3287.Workshop3.Mediating%20effects_Full.pdf)\
+- [Practical](static/W3_Path-analysis_Full.pdf)
+
+Non-Linear Associations\
+- [Lecture](static/LAW3287.Workshop4.Nonlinear%20Effects.pdf)\
+- [Practical](static/W4_NonLinear-Effects_Full.pdf)
+
+Time Series\
+- [Lecture](static/LAW3287.Workshop5.TimeSeries.pdf)\
+- [Practical](static/W5_Time-Series_Full.pdf)\
+- <a href="static/day.csv" download>Data I</a> (bikes per day)\
+- <a href="static/Tables_Final.csv" download>Data II</a> (all offences)\
+- <a href="static/Indictable.csv" download>Data III</a> (indictable offences)\
+- <a href="static/MoJ_sex.csv" download>Data IV</a> (sex offences)
+
+Missing Data\
+- [Lecture](static/LAW3287.Workshop7.Data%20Quality_Full.pdf)\
+- [Practical](static/W7_Data-Quality_Full.pdf)\
+- <a href="static/ASSAULT_2013_NEW.csv" download>Data I</a> (2013 assault offences)\
+- <a href="static/ASSAULT_2014_NEW.csv" download>Data II</a> (2014 assault offences)\
+- <a href="static/LeedsParksSurvey.sav" download>Data III</a> (Leeds Parks Survey)
+
+Hierarchical Data\
+- [Lecture](static/LAW3287.Workshop8.Hierarchical%20Data_Full.pdf)\
+- [Practical](static/W8_Hierarchical-data_Full.pdf)\
+- <a href="static/ESS9e01_1.dta" download>Data I</a> (2018/19 European Social Survey)\
+- <a href="static/CCSS_trimmed.csv" download>Data II</a> (2011 Crown Court Sentencing Survey)
+
+Longitudinal Data\
+- [Lecture](static/LAW3287.Workshop9.Longitudinal%20Data.pdf)\
+- [Practical](static/W9_Longitudinal-data_Full.pdf)

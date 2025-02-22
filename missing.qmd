@@ -1,0 +1,19 @@
+---
+title: ""
+---
+
+### Sensitivity Analysis for Missing Data
+
+These are the materials from a short course delivered at the *NCRM 2023 Research Methods E-Festival*\
+- [Lecture](static/missing-data_introduction.pdf)\
+- [Practical I](static/remf_missing_cust_slides.pdf) (Probability of Custody)\
+- [Practical I](static/remf_missing_sl.pdf) (Sentence Length)
+
+------------------------------------------------------------------------
+
+### Data Quality (Missing Data)
+
+These are the materials for the missing data part of a short course that Dr. Albert Varela and myself delivered back in 2023 at the *University of Leeds*. The course was sponsored by the *National Centre for Research Methods* and the *Social Research Methods Centre at Leeds*.\
+- [Practical I](static/missing_tutorial_1.pdf) (Simulating Missing Data)
+
+------------------------------------------------------------------------

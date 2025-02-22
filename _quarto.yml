@@ -1,20 +1,63 @@
 project:
   type: website
   output-dir: docs
+  resources:
+   - static/
+   - images/
 
 website:
-  title: "jmpinasanchez.github.io"
+  title: ""
+  google-analytics: "G-S2928KYNDE"  
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Teaching
+        menu: 
+        - href: modelling.qmd
+          text: Statistical Modelling
+        - href: methods.qmd
+          text: Research Crime & Justice
+        - href: error.qmd
+          text: Measurement Error 
+        - href: missing.qmd
+          text: Missing Data  
+        - href: expert.qmd
+          text: Expert Elicitation Techniques          
+        - href: longitudinal.qmd
+          text: Métodos Longitudinales
+      - text: Research
+        menu:
+        - href: sentencing.qmd
+          text: Sentencing
+        - href: disparities.qmd
+          text: Disparities
+        - href: measurement.qmd
+          text: Measurement
+        - href: crime.qmd
+          text: Causes of Crime
+        - href: procedural.qmd
+          text: Procedural Justice
+        - href: cars.qmd
+          text: Car Dependency
+        - href: meta.qmd
+          text: Meta Science          
+        - href: failed.qmd
+          text: Failed Projects
+      - href: outreach.qmd
+        text: Outreach          
+      - href: rants.qmd
+        text: Rants
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    embed-resources: true
+    html-math-method: katex
+    execute:
+      allowjs: true    
 
 editor: visual
 

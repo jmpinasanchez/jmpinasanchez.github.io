@@ -1,0 +1,39 @@
+---
+title: "Outreach"
+---
+
+Stepping away from my desk to share research findings is the best part of my job. Here are some recent outreach and impact activities I've been involved in.
+
+------------------------------------------------------------------------
+
+### Introduction to Measurement Error
+
+In this first clip of the new 7X7 methods spotlight series from the [Social Research Methods centre](https://socialresearchmethods.leeds.ac.uk/) at the University of Leeds, I provide a broad introduction to measurement error and the methods available to adjust for it.
+
+{{< video https://www.youtube.com/watch?v=DlJ5gtW94Eg >}}
+
+------------------------------------------------------------------------
+
+### Estimating Ethnic Disparities in Sentencing
+
+*Methodological Challenges and a Path Forward*
+
+In January 2025 I was invited to participate in the Faculty of Social Sciences Inaugural Lecture Series 2024/25 at the University of Leeds ([slides](https://rpubs.com/jmpinasanchez/inaugural)).
+
+------------------------------------------------------------------------
+
+### Estimating Ethnic Disparities in Sentencing in England & Wales
+
+*Taking Stock and Moving Forward*
+
+In November 2024 we organised a symposium to discuss the latest evidence of ethnic disparities in sentencing, bringing together policy-makers, sentencers, practitioners, and researchers from government, the civil sector and academia ([program](static/Symposium_14thNov2024_anonymised.pdf)). This event marked the end of our [ESRC project](https://essl.leeds.ac.uk/law/dir-record/research-projects/1215/disproportionality-exploring-the-nature-of-ethnic-disparities-in-sentencing-through-causal-inference).
+
+------------------------------------------------------------------------
+
+### The Need for an Empirical Revolution in Criminal Justice Research:
+
+*Examples from Research on Sentencing Disparities*
+
+In September 2024 I was invited to give a keynote talk ([slides](static/Northumbria.pdf)) at the Northumbria University [Empirical Research Methods Conference](https://www.northumbria.ac.uk/about-us/news-events/events/2024/09/empirical-research-methods-conference-2024/).
+
+------------------------------------------------------------------------

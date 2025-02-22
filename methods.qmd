@@ -1,0 +1,38 @@
+---
+title: "Researching Crime & Justice"
+---
+
+The following are materials I have used to teach research methods to UG and PGT students at the University of Leeds.
+
+Quantitative & Qualitative Research Designs\
+- [Lecture](static/rccj.lecture.week2_.data-and-theory.pdf)
+
+Social Surveys & Questionnaires\
+- [Workshop](static/law5022m_w3_social-surveys-and-questionnaires.pdf)
+
+Experimental Designs\
+- [Lecture](static/rccj.lecture.week10.experiments.pdf)
+
+Sampling\
+- [Lecture](static/sampling_lecture.pdf)\
+- [Practical](static/law5022m_sampling-in-practice.pdf)
+
+Descriptive Statistics using SPSS\
+- [Lecture](static/law5022m_descriptive-stats_lecture.pdf)\
+- [Practical I](static/law5022m_descriptive-stats_tutorial.pdf) (Descriptive Statistics)\
+- [Practical II](static/rccj.seminar-5.data-manipulation-in-spss.pdf) (Data Manipulation)
+
+Analysing Qualitative Data\
+- [Workshop](static/rcj.week21.analysing-qualitative-data.pdf)
+
+Accessing Secondary Data\
+- [Workshop](static/law5022m_w7_accessing-secondary-data.pdf)
+
+Ethics and Politics in Social Research\
+- [Workshop](static/rcj.week3_.politics-and-ethics.pdf)
+
+Writing a Research Proposal\
+- [Workshop](static/rcj.week23.writing-a-research-proposal.pdf)
+
+Empirical Research on Sentencing\
+- [Workshop](static/law5010m_week7_sentencing.pdf)

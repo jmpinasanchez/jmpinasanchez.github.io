@@ -1,0 +1,21 @@
+---
+title: "Meta-Science"
+---
+
+Very much inspired by the work of my Uni of Leeds colleague [Dr Eike Rinke](https://essl.leeds.ac.uk/politics/staff/1073/dr-eike-mark-rinke), and the fantastic workshop on [Open Science](https://www.alexandertrinidad.com/) organised by [Dr Christof Nägel](https://scholar.google.com/citations?user=yHMd71wAAAAJ&hl=de) and [Dr Alex Trinidad](https://www.alexandertrinidad.com/a), I've been developing an interest in questions of meta-science. I'm hoping to keep learning and whenever possible adapt many of the novel techniques developed to assess model uncertainty, such as specification curves or quantitative bias analysis, to my own research.
+
+------------------------------------------------------------------------
+
+### What Is the External Validity of Sentencing Research?
+
+*A Multi-level Meta-analysis of Race and Gender Disparities*
+
+[![Preprint](https://img.shields.io/badge/Preprint-PDF-blue)](static/Disparities-Meta-Analysis_14thFeb2025.pdf)  [![Preprint](https://img.shields.io/badge/Preprint-HTML-blue)](https://rpubs.com/jmpinasanchez/1271785) Under review at Sociological Science
+
+::: {.callout-note collapse="true" title="Abstract"}
+Sentencing research is rarely cross-jurisdictional. More problematically, most quantitative sentencing research is based on a limited number of American jurisdictions where court data is available. As a result, it is difficult to assess the extent to which key findings from the sentencing literature apply universally. We build on the recent growth of sentencing research outside the US to explore the external validity of studies reporting the conditional association of offenders’ race and gender with sentence length. To do so, we conduct two multi-level meta-analyses, distinguishing the proportion of between-study heterogeneity attributable to differences at the study and jurisdiction levels. Our findings reveal that while race disparities in sentencing are statistically significant, they are minimal in magnitude (a 3% penalty for racial minorities) and remarkably consistent across jurisdictions. In contrast, gender disparities are more pronounced (a 13% penalty against men) but highly variable, with some jurisdictions showing parity. Both analyses uncover substantial variability due to sample and modelling choices, highlighting the limited generalisability of existing sentencing research. We urge caution in interpreting findings from single studies on sentencing disparities and advocate for the pre-registration of analytical strategies to mitigate researcher bias.
+:::
+
+`Pina-Sánchez, J., & Brunton-Smith, I. (2025). What is the external validity of sentencing research? A multi-level meta-analysis of race and gender disparities. SocArXiv. https://doi.org/10.31235/osf.io/5d2bq_v2`
+
+------------------------------------------------------------------------

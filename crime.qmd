@@ -1,0 +1,19 @@
+---
+title: "Causes of Crime"
+---
+
+I've collaborated with several Criminilogy colleagues in studies exploring trends and correlates of crime. At the moment I am working with [Dr. David Buil-Gil](https://builgil.com/) and [Prof. Ian Brunton-Smith](https://www.surrey.ac.uk/people/ian-brunton-smith) in a study re-estimating the association between collective efficacy and street crime after taking into account differential under-recording in police statistics.
+
+------------------------------------------------------------------------
+
+### Post-pandemic Crime Trends in England and Wales
+
+[![](https://img.shields.io/badge/Article-Crime%20Science-blue)](https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-024-00201-1)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This study of recorded crime trends in England & Wales spans three and a half years, that is, two covid pandemic years from March 2020 and 18 ‘post-pandemic’ months following cessation of covid restrictions. Observed crime rates were compared to expected (based on 5-year ARIMA models) and the ambient population (using Community Mobility Reports). It finds that, In Year 1, observed rates diverged dramatically from expected, waxing and waning generally in line with the movement restrictions of three national lockdowns. In Year 2, movement restrictions loosened and observed crime rates moved towards but mostly remained far from expected. In post-pandemic Year 3, people’s movement increased and observed crime rates continued towards expected. By mid-Year 4 many rates remained below expected levels, their mean monthly differences including: theft from person (− 22%); burglary (− 20%); vehicle crime (− 29%); violence & sexual offences (− 27%); robbery (− 16%) and; public order offences (− 21%). An exceptional increase in shoplifting achieved 20% above expected rates by August 2023. Methodological limitations and further research on shoplifting and other issues are discussed. The main conclusion is that crime trends generally followed ambient population movement and that enduring lifestyle changes in the post-pandemic period, notably increased work-from-home, account for continuing below-expected rates of many crime types.
+:::
+
+`Seyidoglu, H., Dixon, A., Pina-Sánchez, J., Malleson, N., and Farrell, G. (2024). Short, medium, and long-term effects of the COVID-19 pandemic on crime trends in England and Wales. Crime Science, 13(6): 1–11. https://doi.org/10.1186/s40163-024-00201-1`
+
+------------------------------------------------------------------------

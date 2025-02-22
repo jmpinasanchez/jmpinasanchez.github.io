@@ -1,0 +1,22 @@
+---
+title: "Sentencing"
+---
+
+I've been working on judicial decision-making (sentencing) since I went to do a short internship at the Sentencing Council for England and Wales as part of my ESRC PhD, back in 2012. I've mainly focuse on the estimation of between court consistency, [disparities](https://jmpinasanchez.github.io/disparities.html), sentence severity, individualisation, the impact of sentencing guidelines, the effect of aggravating/mitigating factors, and trends in public opinion.
+
+------------------------------------------------------------------------
+
+### Finding the Key Case Characteristics Considered by Judges
+
+*An Application of Bayesian Model Averaging to Theft Offences Sentenced in the England and Wales Magistrates*
+
+[![Preprint](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/2c1pvzvd/release/5)\
+[![Chapter](https://img.shields.io/badge/Chapter-HTML-blue)](https://www.elgaronline.com/edcollchap/book/9781035309320/book-part-9781035309320-43.xml)
+
+::: {.callout-note collapse="true" title="Abstract"}
+In order to identify the case characteristics considered by judges in their sentencing deliberations, researchers have relied heavily on regression modelling techniques. In most instances, the sample of sentences available is many times larger than the number of case characteristics recorded, providing enough degrees of freedom to estimate the effect of these case characteristics adequately. However, when the number of case characteristics recorded is too large, or the samples are too small, regression models can overfit the data. Here, we demonstrate how, in such settings, Bayesian methods such as spike-and-slab models can be used to select the most consequential case characteristics in a principled and reliable way. The potential of this approach is illustrated using a sample of 2,116 sentences imposed in the magistrates’ courts in England and Wales on shoplifters. For this small sample, we reliably estimated twenty case characteristics predicting custody decisions. This highlights the high degree of discretion afforded to sentencers in England and Wales. We also found that offender-related factors (such as the offender’s previous convictions, and caring responsibilities), appeared to be far more important than characteristics defining the offence (e.g., value of goods stolen or lasting effect of offence on victim). This questions the widely held belief that sentencing in England and Wales is based around the principle of proportionality.
+:::
+
+`Pina-Sánchez, J., Dhami, M., and Gosling, J. P. (2024). Finding the key case characteristics considered by judges: An application of Bayesian model averaging to theft offences sentenced in the England and Wales Magistrates’ Courts. In Fix, M. P. and Montgomery, M., editors, Research Handbook on Judicial Politics, pages 450–464. Edward Elgar. https://doi.org/10.4337/9781035309320.00043`
+
+------------------------------------------------------------------------

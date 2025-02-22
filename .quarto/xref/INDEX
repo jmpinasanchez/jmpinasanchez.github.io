@@ -4,5 +4,65 @@
   },
   "about.qmd": {
     "about.html": "0a177250"
+  },
+  "cv.qmd": {
+    "cv.html": "62a0e58d"
+  },
+  "courses.qmd": {
+    "courses.html": "e2a55a1f"
+  },
+  "crime.qmd": {
+    "crime.html": "ce6126c5"
+  },
+  "disparities.qmd": {
+    "disparities.html": "f62c16e1"
+  },
+  "failed.qmd": {
+    "failed.html": "be2e4335"
+  },
+  "measurement.qmd": {
+    "measurement.html": "8431c1c5"
+  },
+  "methods.qmd": {
+    "methods.html": "c543cafa"
+  },
+  "modelling.qmd": {
+    "modelling.html": "7141bc66"
+  },
+  "procedural.qmd": {
+    "procedural.html": "8df4de96"
+  },
+  "progress.qmd": {
+    "progress.html": "3a0b601b"
+  },
+  "rants.qmd": {
+    "rants.html": "a0c3b0f3"
+  },
+  "sentencing.qmd": {
+    "sentencing.html": "c7cdccc9"
+  },
+  "cars.qmd": {
+    "cars.html": "da671ddf"
+  },
+  "meta.qmd": {
+    "meta.html": "1149aea4"
+  },
+  "outreach.qmd": {
+    "outreach.html": "eedbc12b"
+  },
+  "missing.qmd": {
+    "missing.html": "4bf719a6"
+  },
+  "error.qmd": {
+    "error.html": "12da2c8d"
+  },
+  "cars - Copy.qmd": {
+    "cars - Copy.html": "3b8fc3da"
+  },
+  "expert.qmd": {
+    "expert.html": "6fbcd0fb"
+  },
+  "longitudinal.qmd": {
+    "longitudinal.html": "0c104430"
   }
 }

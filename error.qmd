@@ -1,0 +1,33 @@
+---
+title: ""
+---
+
+### Introduction to Measurement Error in the Social Sciences
+
+These are the slides from a presentation I gave at the *NCRM 2021 Research Methods E-Festival*\
+- [Lecture](static/rmef_measurement-error_b.pdf)
+
+------------------------------------------------------------------------
+
+### Data Quality (Measurement Error & Misclassification)
+
+These are the materials that we (Dr. Albert Varela and myself) used for the measurement error / misclassification part of a short course delivered in 2023 at the *University of Leeds*. The course was sponsored by the National Centre for Research Methods and the Social Research Methods Centre at Leeds.  
+- [Lecture I](static/Introduction%20to%20Measurement%20Error.pdf) (Introduction to Measurement Error)\
+- [Lecture II](static/Adjustment%20methods.pdf) (Adjustment Methods)\
+- [Practical I](static/Simulations_practical_17thDecember2023.pdf) (Adjusting for Systematic and Differential Errors Using Simulations)\
+`Pina-Sánchez, J., Brunton-Smith, I., Buil-Gil, D., & Cernat, A. (2024). Adjusting for Measurement Error in Police Recorded Crime Counts Using Bayesian Statistics. CrimRxiv.`  
+- [Practical II](static/SIMEX_practical_28thNovember2023.pdf) (Adjusting for Random Measurement Error and Misclassification Using SIMEX)\
+`Pina-Sánchez, J., & Varela, A. (2023). Adjusting for Random Measurement Error and Misclassification Using SIMEX. CrimRxiv.`  
+- [Practical III](static/Bayesian_workshop_31stDecember2023.pdf) (Adjusting for Measurement Error and Missing Data Using Bayesian Statistics)\
+`Pina-Sánchez, J., Brunton-Smith, I., Buil-Gil, D., & Cernat, A. (2024). Adjusting for Measurement Error in Police Recorded Crime Counts Using Bayesian Statistics. CrimRxiv.`
+
+Amongst others, these practicals include examples on how to adjust for misclassification in sentencing data, multiplicative errors in victimisation surveys, and systematic underreporting in police data.
+
+------------------------------------------------------------------------
+
+### RCME: Recounting Crime with Measurement Error
+
+This workshop (developed by Prof. Brunton Smith) is a tutorial on how to use the rcme package, which can be used to explore the impact of using police recorded crime data on estimates from regression models. We delivered this short course at the 2022 *British Society of Criminology* conference.  
+- [Practical](static/r-workshop_rcme.pdf)
+
+------------------------------------------------------------------------
