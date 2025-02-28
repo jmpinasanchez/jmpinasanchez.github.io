@@ -108,13 +108,56 @@ Empirical research has repeatedly focused on the potential existence of sentenci
 
 *A new approach based on a scale of severity*
 
-[![Article](https://img.shields.io/badge/Article-Quality & Quantity-blue)](https://link.springer.com/article/10.1007/s11135-020-00973-z)
+[![](https://img.shields.io/badge/Article-Quality & Quantity-blue)](https://link.springer.com/article/10.1007/s11135-020-00973-z)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 For reasons of methodological convenience statistical models analysing judicial decisions tend to focus on the duration of custodial sentences. These types of sentences are however quite rare (7% of the total in England and Wales), which generates a serious problem of selection bias. Typical adjustments employed in the literature, such as Tobit models, are based on questionable assumptions and are incapable to discriminate between different types of non-custodial sentences (such as discharges, fines, community orders, or suspended sentences). Here we implement an original approach to model custodial and non-custodial sentence outcomes simultaneously avoiding problems of selection bias while making the most of the information recorded for each of them. This is achieved by employing Pina-Sánchez et al. (Br J Criminol 59:979–1001, 2019) scale of sentence severity as the outcome variable of a Bayesian regression model. A sample of 7242 theft offences sentenced in the Crown Court is used to further illustrate: (a) the pervasiveness of selection bias in studies restricted to custodial sentences, which leads us to question the external validity of previous studies in the literature limited to custodial sentence length; and (b) the inadequacy of Tobit models and similar methods used in the literature to adjust for such bias.
 :::
 
 `Pina-Sánchez, J. and Gosling, J. P. (2020). Tackling selection bias in sentencing data analysis: A new approach based on a scale of severity. Quality & Quantity, 54:1047–1073. https://doi.org/10.1007/s11135-020-00973-z`
+
+------------------------------------------------------------------------
+
+### Sentencing Gender? 
+
+*Investigating the Extent and Origin of Sentencing Gender Disparities in the Crown Court*
+
+[![](https://img.shields.io/badge/Article-Criminal Law Review-blue)](static/JosePSLyndonH Article final.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We explore the presence of gender sentencing disparities using large samples of
+assault, burglary and drugs offences from the Crown Court Sentencing Survey.
+We find significantly harsher sentences imposed on male offenders even after
+controlling for most case characteristics, including mitigating factors such as
+“caring responsibilities”. Specifically, the odds ratios of receiving a custodial
+sentence for offences of assault, burglary and drugs committed by a man as opposed
+to a woman are 2.84, 1.89 and 2.72. To put it in context, with the exception of
+“intent to commit serious harm”, the gender effect was stronger than any other
+“harm and culpability” factor applicable to assault offences. These disparities do
+not seem to stem primarily from differential interpretations of offender
+dangerousness. It is possible that they might be due to lower rates of reoffending
+amongst female offenders, or more probably to the higher punitive effect of
+custodial sentences on women. What seems clear is that sentencing is not gender
+neutral. If gender-specific sentencing guidelines are to be developed in the future
+it would be important that the noted disparities are taken in consideration.
+:::
+
+`Pina-Sánchez, J. and Harris, L. (2020). Sentencing Gender? Investigating the Extent and Origin of Sentencing Gender Disparities in the Crown Court. Criminal Law Review, 1:3–28`
+
+------------------------------------------------------------------------
+
+### Nudge the Judge? 
+
+*Theorising the Interaction between Heuristics, Sentencing Guidelines and Sentence Clustering*
+
+[![](https://img.shields.io/badge/Article-Criminology and Criminal Justice-blue)](https://journals.sagepub.com/doi/abs/10.1177/1748895818818869)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Marder.2018.Nudge the Judge.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Although it has long been acknowledged that heuristics influence judicial decision making, researchers have yet to explore how sentencing guidelines might interact with heuristics to shape sentencing decisions. This article contributes to addressing this gap in the literature in three ways: first, by considering how heuristics might help produce the phenomenon of sentence clustering, in which a significant proportion of sentences are concentrated around a small number of outcomes; second, by reflecting on the role of sentencing guidelines as a feature of the environment within which sentencing decisions are made; and third, by analysing the guidelines from Minnesota and from England and Wales, theorizing how their content might interact with heuristics to make clustering more or less likely. Ultimately, we argue that sentencing guidelines likely affect the role played by heuristics in shaping sentencing decisions and, consequently, that their design should be informed by research evidence from the decision sciences.
+:::
+
+`Marder, I. and Pina-Sánchez, J. (2020). Nudge the judge? Theorising the interaction between heuristics, sentencing guidelines and sentence clustering. Criminology & Criminal Justice, 20(4):399–415. https://doi.org/10.1177/1748895818818869`
 
 ------------------------------------------------------------------------
 
