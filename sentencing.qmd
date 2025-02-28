@@ -20,3 +20,105 @@ In order to identify the case characteristics considered by judges in their sent
 `Pina-Sánchez, J., Dhami, M., and Gosling, J. P. (2024). Finding the key case characteristics considered by judges: An application of Bayesian model averaging to theft offences sentenced in the England and Wales Magistrates’ Courts. In Fix, M. P. and Montgomery, M., editors, Research Handbook on Judicial Politics, pages 450–464. Edward Elgar. https://doi.org/10.4337/9781035309320.00043`
 
 ------------------------------------------------------------------------
+
+### What Is the Value of Judicial Experience? 
+
+*Exploring Judge Trajectories Using Longitudinal Data*
+
+[![Article](https://img.shields.io/badge/Article-Justice Quarterly-blue)](https://www.tandfonline.com/doi/full/10.1080/07418825.2022.2051585#abstract)\
+
+::: {.callout-note collapse="true" title="Abstract"}
+Judicial experience is considered essential for the proper functioning of the sentencing system. We investigate how it influences judicial decisions and its role in reducing sentencing disparity. To do so, we analyze all Czech criminal decisions imposed in 2007–2017 using data that includes judge identifiers. This unique feature of our data enables us to measure judges’ experience directly, as the number of criminal cases processed, and to assess patterns in between-judge disparities longitudinally over the course of judges’ careers. We find that experienced judges impose more prison sentences, decide fewer cases via shortened procedure and find fewer defendants guilty. In addition, as judges become more experienced, between-judge disparities reduce across all the outcomes considered. Experience is thus an instrumental factor affecting judicial decisions throughout the criminal process, and one that contributes to greater consistency.
+:::
+
+`Drápal, J. and Pina-Sánchez, J. (2023). What is the value of judicial experience? exploring judge trajectories using longitudinal data. Justice Quarterly, 40(2):211–240. https://doi.org/10.1080/07418825.2022.2051585`
+
+------------------------------------------------------------------------
+
+### Sentence Reductions for a Guilty Plea
+
+*The impact of the revised guideline on rates of pleas and ‘cracked trials’*
+
+[![Article](https://img.shields.io/badge/Article-The Journal of Criminal Law-blue)](https://journals.sagepub.com/doi/full/10.1177/00220183211041912)\
+
+::: {.callout-note collapse="true" title="Abstract"}
+In 2017, the Sentencing Council introduced a revised guideline for plea-based sentence reductions. The revisions were designed to provide greater certainty and to accelerate the timing of guilty pleas. Late pleas resulting in ‘cracked trials’ have long been a problem in the court system. The guideline was not intended to change the rate of defendants who plead guilty, but rather to increase the percentage of pleas entered early in the criminal process. This brief article reports findings from an analysis of data from the Crown Court before and after the introduction of the revised sentencing guideline. Findings reveal that the overall guilty plea remained stable over the period 2014–2019. The guideline appears to have had no effect on the timing of guilty pleas entered, and in fact the percentage of ‘cracked’ trials rose in the post-guideline period.
+:::
+
+`Roberts, J. V. and Pina-Sánchez, J. (2022). Sentence reductions for a guilty plea: The impact of the revised guideline on rates of pleas and ‘cracked trials’. The Journal of Criminal Law, 86(5):327–335. https://doi.org/10.1177/00220183211041912`
+
+------------------------------------------------------------------------
+
+### Enhancing the Measurement of Sentence Severity through Expert Knowledge Elicitation
+
+[![Article](https://img.shields.io/badge/Article-Journal of Legal Research Methodology-blue)](https://www.northumbriajournals.co.uk/index.php/jlrm/article/view/1241)\
+
+::: {.callout-note collapse="true" title="Abstract"}
+Quantitative research on judicial decision-making faces the methodological challenge of analysing disposal types that are measured in different units (e.g. money for fines, days for custodial sentences). To overcome this problem a wide range of scales of sentence severity have been suggested in the literature. One particular group of severity scales that has achieved high validity and reliability are those based on Thurstone’s pairwise comparisons. However, this method invokes a series of simplifying assumptions, one of them being that the range of severity covered by different disposal types is constant. We undertook an expert elicitation workshop to assess the validity of that assumption. Responses from the six criminal law practitioners and researchers that participated in our workshop unanimously pointed at severity ranges being highly variable across disposal types (e.g. much wider severity ranges were identified for suspended custodial sentences than for fines). We used this information to re-specify Thurstone’s model allowing for unequal variances. As a result, we obtained a new, more robust, scale of sentence severity.
+:::
+
+`Pina-Sánchez, J. and Gosling, J. P. (2022). Enhancing the measurement of sentence severity through expert knowledge elicitation. Journal of Legal Research Methodology, 2(1):26–45. https://doi.org/10.19164/jlrm.v2i1.1241 `
+
+------------------------------------------------------------------------
+
+### Contextual Culpability 
+
+*How Drinking and Social Context Impact Sentencing of Violence*
+
+[![Article](https://img.shields.io/badge/Article-Criminology & Criminal Justice-blue)](https://journals.sagepub.com/doi/10.1177/1748895820972160)\
+
+::: {.callout-note collapse="true" title="Abstract"}
+The controversial effect of intoxication on sentencing outcomes has received renewed attention with a series of new empirical studies. However, these studies have relied on survey data that conflate alcohol and drug intoxication and miss pertinent contextual features of the offence. This article explores how alcohol intoxication, and its social context, impact sentence outcomes for violent offences. To do so, the probability of custodial sentence severity is modelled using multilevel Cox regression using data from online sentence transcripts. Findings contribute insights into how punishment is shaped by not only the presence of alcohol intoxication in offending but also in which contexts by highlighting the significant punitive effects of reference to concomitant drug use, the defendant drinking together with the victim and if the offence occurred in a private setting. This helps clarify complex considerations taken into account by sentencers when processing cases and the need for clearer guidance.
+:::
+
+`Lightowlers, C., Pina-Sánchez, J., and Watkins, E. (2022). Contextual culpability: How drinking and social context impact upon sentencing of violence. Criminology & Criminal Justice, 22(3):442–461. https://doi.org/10.1177/1748895820972160`
+
+------------------------------------------------------------------------
+
+### Mind the Step 
+
+*A More Insightful and Robust Analysis of the Sentencing Process in England and Wales under the New Sentencing Guidelines*
+
+[![Article](https://img.shields.io/badge/Article-Criminology & Criminal Justice-blue)](https://journals.sagepub.com/doi/abs/10.1177/1748895818811891)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/1748895818811891.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The ‘England and Wales Sentencing Guidelines’ aim to promote consistency by organizing the sentencing process as a sequence of steps, with initial judicial assessments subsequently adjusted to reflect relevant case characteristics. Yet, existing evaluations of the guidelines have failed to incorporate this structure adequately, instead concentrating solely on sentence outcomes. We use multivariate multilevel models to offer new insights into the decisions made throughout the sentencing process. Focusing on cases of assault sentenced at the Crown Court we show that the level of compliance with the guidelines is high. However, we also show that some case characteristics are being unduly considered at more than one stage of the sentencing process, meaning existing studies may be underestimating their true influence.
+:::
+
+`Pina-Sánchez, J., Brunton-Smith, I., and Guangquan, L. (2020). Mind the step: A more insightful and robust analysis of the sentencing process in England and Wales under the new sentencing guidelines. Criminology & Criminal Justice, 20(3):268–301. https://doi.org/10.1177/1748895818811891`
+
+------------------------------------------------------------------------
+
+### Re-assessing the Consistency of Sentencing Decisions in Cases of Assault 
+*Allowing for Within Court Inconsistencies*
+
+[![Article](https://img.shields.io/badge/Article-The British Journal of Criminology-blue)](https://academic.oup.com/bjc/article-abstract/60/6/1438/5843314?redirectedFrom=fulltext)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/BruntonSmith.2020.Reassessing the Consistency of Sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Empirical research has repeatedly focused on the potential existence of sentencing disparities. In particular, a growing number of studies have used multilevel models to quantify the extent that ‘similar’ offences are treated alike in different courts. This reliance on multilevel models has resulted in a natural focus on differences in the mean sentence awarded between courts, with the amount of within-group variability generally assumed to be the same in each court. In this paper, we show how multilevel models can be extended by allowing the magnitude of within-court differences to be different in each court. This provides a natural framework to connect between-court disparities with the sentencing differences that are thought to originate between judges operating within the same court, particularly in the absence of more fine-grained sentencing data about the judge residing in each case. Focusing specifically on cases of assault sentenced in 2011, we show that there are substantial differences in the range of sentences awarded in different courts, with the range almost twice as large in some courts. We also find that it is those courts that appear to show the traits of more homogeneous sentencing that sentence more harshly and that offences involving the presence of a weapon or evidence of good character and/or exemplary conduct were associated with higher levels of internal consistency.
+:::
+
+`Brunton-Smith, I., Pina-Sánchez, J., and Guangquan, L. (2020). Re-assessing the consistency of sentencing decisions in cases of assault: Allowing for within court inconsistencies. The British Journal of Criminology, 60(6): 1438–1459. https://doi.org/10.1093/bjc/azaa030`
+
+------------------------------------------------------------------------
+
+### Tackling Selection Bias in Sentencing Data Analysis 
+
+*A new approach based on a scale of severity*
+
+[![Article](https://img.shields.io/badge/Article-Quality & Quantity-blue)](https://link.springer.com/article/10.1007/s11135-020-00973-z)
+
+::: {.callout-note collapse="true" title="Abstract"}
+For reasons of methodological convenience statistical models analysing judicial decisions tend to focus on the duration of custodial sentences. These types of sentences are however quite rare (7% of the total in England and Wales), which generates a serious problem of selection bias. Typical adjustments employed in the literature, such as Tobit models, are based on questionable assumptions and are incapable to discriminate between different types of non-custodial sentences (such as discharges, fines, community orders, or suspended sentences). Here we implement an original approach to model custodial and non-custodial sentence outcomes simultaneously avoiding problems of selection bias while making the most of the information recorded for each of them. This is achieved by employing Pina-Sánchez et al. (Br J Criminol 59:979–1001, 2019) scale of sentence severity as the outcome variable of a Bayesian regression model. A sample of 7242 theft offences sentenced in the Crown Court is used to further illustrate: (a) the pervasiveness of selection bias in studies restricted to custodial sentences, which leads us to question the external validity of previous studies in the literature limited to custodial sentence length; and (b) the inadequacy of Tobit models and similar methods used in the literature to adjust for such bias.
+:::
+
+`Pina-Sánchez, J. and Gosling, J. P. (2020). Tackling selection bias in sentencing data analysis: A new approach based on a scale of severity. Quality & Quantity, 54:1047–1073. https://doi.org/10.1007/s11135-020-00973-z`
+
+------------------------------------------------------------------------
+
+
+
+
+

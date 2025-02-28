@@ -84,5 +84,18 @@ Large research efforts have been directed at the exploration of ethnic dispariti
 
 ------------------------------------------------------------------------
 
+### Racial and Ethnic Disparities in Sentencing 
+
+*What Do We Know, and Where Should We Go?* 
+
+[![](https://img.shields.io/badge/Article-The Howard Journal of Crime and Justice-blue)](https://onlinelibrary.wiley.com/doi/10.1111/hojo.12496)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Strong evidence of racial and ethnic disparities has been documented in recent government-led reports, suggesting the presence of discrimination in sentencing, with Black and ethnic minority defendants being systematically sentenced more harshly than their white counterparts. However, we still do not know how these disparities come about as most of the sentencing research has relied on quantitative designs focused on documenting the problem, rather than exploring its causes. In this exploratory study we use qualitative interviews with criminal law barristers to explore the different mechanisms that may give rise to these disparities. From our interviews we identified two predominant causal mechanisms: the differential consideration of mitigating and aggravating factors and indirect discrimination arising from defendants’ socio-economic backgrounds and over-policing. Based on these findings, we suggest effective strategies such as explicitly listing social deprivation as a mitigating factor in the sentencing guidelines and increasing judicial diversity for redressing these disparities.
+:::
+
+`Veiga, A., Pina-Sánchez, J., and Lewis, S. (2023). Racial and ethnic disparities in sentencing: What do we know, and where should we go? The Howard Journal of Crime and Justice, 62(2):167–182 https://doi.org/10.1111/hojo.12496`
+
+------------------------------------------------------------------------
 
 

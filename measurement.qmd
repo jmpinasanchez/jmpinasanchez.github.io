@@ -31,9 +31,52 @@ It is well known that police recorded crime data is susceptible to substantial m
 
 ------------------------------------------------------------------------
 
+### The Impact of Measurement Error in Models Using Police Recorded Crime Rates
 
+[![](https://img.shields.io/badge/Article-Journal of  Quantitative Criminology-blue)](https://link.springer.com/article/10.1007/s10940-022-09557-6)
 
+::: {.callout-note collapse="true" title="Abstract"}
+*Objectives*: Assess the extent to which measurement error in police recorded crime rates impact the estimates of regression models exploring the causes and consequences of crime.\
+*Methods*: We focus on linear models where crime rates are included either as the response or as an explanatory variable, in their original scale or log-transformed. Two measurement error mechanisms are considered, systematic errors in the form of under-recorded crime, and random errors in the form of recording inconsistencies across areas. The extent to which such measurement error mechanisms impact model parameters is demonstrated algebraically using formal notation, and graphically using simulations.\
+*Results*: The impact of measurement error is highly variable across different settings. Depending on the crime type, the spatial resolution, but also where and how police recorded crime rates are introduced in the model, the measurement error induced biases could range from negligible to severe, affecting even estimates from explanatory variables free of measurement error. We also demonstrate how in models where crime rates are introduced as the response variable, the impact of measurement error could be eliminated using log-transformations.\
+*Conclusions*: The validity of a large share of the evidence base exploring the effects and consequences of crime is put into question. In interpreting findings from the literature relying on regression models and police recorded crime rates, we urge researchers to consider the biasing effects shown here. Future studies should also anticipate the impact in their findings and employ sensitivity analysis if the expected measurement error induced bias is non-negligible.
+:::
 
+`Pina-Sánchez, J., Buil-Gil, D., Brunton-Smith, I., and Cernat, A. (2022). The
+impact of measurement error in models using police recorded crime rates. Journal
+of Quantitative Criminology, 39(4):975–1002. https://doi.org/10.1007/s10940-022-09557-6`
+
+------------------------------------------------------------------------
+
+### Estimating Crime in Place 
+
+*Moving beyond Residence Location*
+
+[![](https://img.shields.io/badge/Article-Crime & Delinquency-blue)](https://journals.sagepub.com/doi/full/10.1177/00111287211064779)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We assess if asking victims about the places where crimes happen leads to estimates of “crime in place” with better measurement properties. We analyze data from the Barcelona Victimization Survey (2015–2020) aggregated in 73 neighborhoods using longitudinal quasi-simplex models and criterion validity to estimate the quality of four types of survey-based measures of crime. The distribution of survey-based offense location estimates, as opposed to victim residence estimates, is highly similar to police-recorded crime statistics, and there is little trade off in terms of the reliability and validity of offense location and victim residence measures. Estimates of crimes reported to the police show a better validity, but their reliability is lower and capture fewer crimes.
+:::
+
+`Cernat, A., Buil-Gil, D., Brunton-Smith, I., Pina-Sánchez, J., and Murrià-Sangenís, M.
+(2022). Estimating crime in place: Moving beyond residence location. Crime & Delinquency,
+68(11):2061–2091. https://doi.org/10.1177/00111287211064779`
+
+------------------------------------------------------------------------
+
+### Comparing Measurements of Violent Crime in Local Communities 
+
+*A Case Study in Islington, London*
+
+[![](https://img.shields.io/badge/Article-Police, Practice and Research-blue)](https://www.tandfonline.com/doi/full/10.1080/15614263.2022.2047047)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Police-recorded crime data are prone to measurement error, affecting our understanding of the nature of crime. Research has responded to this problem using data from surveys and emergency services. These data sources are not error-free, and data from different sources are not always easily comparable. This study compares violent crime data recorded by police, ambulance services, two surveys and computer simulations in Islington, London. Different data sources show remarkably different results. However, crime estimates become more similar, but still show different distributions, when crime rates are calculated using workday population as the denominator and log-transformed. Normalising crime rates by workday population controls for the fact that some data sources reflect offences’ location while others refer to victims’ residence, and log-transforming rates mitigates the biasing effect associated with some multiplicative forms of measurement error. Comparing multiple data sources allows for more accurate descriptions of the prevalence and distribution of crime.
+:::
+
+`Buil-Gil, D., Brunton-Smith, I., Pina-Sánchez, J., and Cernat, A. (2022). Comparing measurements of crime in local communities: A case study in Islington, London. Police Practice and Research, 23(4):489–506. https://doi.org/10.1080/15614263.2022.2047047 `
+
+------------------------------------------------------------------------
 
 
 
