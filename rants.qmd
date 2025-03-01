@@ -2,7 +2,121 @@
 title: "Rants"
 ---
 
-Here's a curated list of my rants, so you can see how I waste my time being annoying in social media. I find it quite cathartic, though, so I'll probably go on a little longer.
+------------------------------------------------------------------------
+
+Here's a curated list of my favourite rants, so you can see how I waste time being annoying in social media. I find it quite cathartic, though, so I'll probably go on a little longer.
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3m2lpw2jkuc25" data-bluesky-cid="bafyreie4bp3mxr2jogecr5iwcv4dcqdee6cuxmjigmojnegwnzvjx2cpsi">
+
+<p lang="en">
+
+"The public are sick of voting for tougher sentences and getting the opposite." www.theguardian.com/law/2025/oct... To put it mildly, Robert Jenrick is a complete imbecile who does not know what he is talking about: www.sentencingacademy.org.uk/wp-content/u...<br><br><a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3m2lpw2jkuc25?ref_src=embed">\[image or embed\]</a>
+
+</p>
+
+— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3m2lpw2jkuc25?ref_src=embed">October 7, 2025 at 9:36 AM</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3lyfny5ktp22h" data-bluesky-cid="bafyreifccfmm32cnw6tl7dur24t4cibjiew4r42lrcikw4otnxvvgrlmba">
+
+<p lang="en">
+
+This is a question I need to get right (I cannot say "Avoid using GenAI at all to eliminate any risks of mistakes") in order to complete the compulsory training on GenAI required at work. I'm not anti Ai, I find it useful for tasks like coding and proofreading, but this feels like forcing it.<br><br><a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lyfny5ktp22h?ref_src=embed">\[image or embed\]</a>
+
+</p>
+
+— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lyfny5ktp22h?ref_src=embed">September 9, 2025 at 12:55 PM</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3lsjnrfe7fc2x" data-bluesky-cid="bafyreign7yrmsa7emrclq4tyvpaxcfxgaa4kvfdn4limtrz3twskmc2wwa">
+
+<p lang="en">
+
+This goes on my epitaph: "Professor Jose Pino Sanchez said in his presentation that research ought to be 'unbias' and implied that knowledge should have a statistically verifiable basis for it to be acceptable. This is quite disrespectful towards qualitative researchers..."
+
+</p>
+
+— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lsjnrfe7fc2x?ref_src=embed">June 26, 2025 at 6:31 PM</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3lrfc26535k27" data-bluesky-cid="bafyreihqwrqvelphdewgy55mfezlwc7t655dvopjfdyp5n5wmlgxo6oqem">
+
+<p lang="en">
+
+'Engaging researchers in conversations about the impact of their publishing choices'. This is quite funny. The general public finds academics insufferable in how we love pontificating about everything, yet when it comes to our own practices, we are as innocent and oblivious as little babies. 🙈🙉🙊<br><br><a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lrfc26535k27?ref_src=embed">\[image or embed\]</a>
+
+</p>
+
+— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lrfc26535k27?ref_src=embed">Jun 12, 2025 at 07:25</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3lnwvwt6jzk2c" data-bluesky-cid="bafyreifa6vwlhd4btfz7ptoragpjd5227otftnunljvkavbefliuprp6q4">
+
+<p lang="en">
+
+Piece of advice to anyone thinking of submitting an article to 'The European Journal of Psychology Applied to Legal Context', DO NOT preregister your analytical strategy or preprint the paper. It seems that sets out a 'similarity check' alarm, 67% similarity in my case, #DeskRejected, #OpenScience
+
+</p>
+
+— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lnwvwt6jzk2c?ref_src=embed">April 29, 2025 at 9:56 AM</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3lna3qtwnmk2z" data-bluesky-cid="bafyreif3sg65qsspqaqcv5jommmvrizlrkd2qdcwqbossrlxdlldhwdipa">
+
+<p lang="en">
+
+Crazy idea: when evaluating candidates for academic jobs or promotions, what if we set aside citations, grants, REF\*, impact factors, keynotes, social media followers… and just read their work?<br><br><a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lna3qtwnmk2z?ref_src=embed">\[image or embed\]</a>
+
+</p>
+
+— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lna3qtwnmk2z?ref_src=embed">April 20, 2025 at 8:09 AM</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3ljheidh2f22l" data-bluesky-cid="bafyreid4476prvnu7f6unaggou3wv2cvsyna4sy7kzuynj6asiaqflgvei">
+
+<p lang="en">
+
+#ResearchFish, by far the most effective strategy deployed by #UKRI to limit the number of grant applications.
+
+</p>
+
+— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3ljheidh2f22l?ref_src=embed">March 3, 2025 at 6:53 AM</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3lht2xh5n7c27" data-bluesky-cid="bafyreic7hevgedwcbo2k7yc2sv5aiihyluhledmll6wsx76myqg7ezjmiu">
 
@@ -157,22 +271,6 @@ Does anyone know how much do UK universities pay to make papers published by the
 </p>
 
 — Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lcn2s4f6yc2y?ref_src=embed">December 6, 2024 at 11:19 AM</a>
-
-</blockquote>
-
-```{=html}
-<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
-```
-
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:e73x2agpxzjezxw3acygrvyr/app.bsky.feed.post/3lbakoqdxjc2f" data-bluesky-cid="bafyreihn2aqk4hko6xf3vhwemx6xntagg7oph7lbfq75u4b6s46jes3uja">
-
-<p lang="en">
-
-<br><br><a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lbakoqdxjc2f?ref_src=embed">\[image or embed\]</a>
-
-</p>
-
-— Jose Pina-Sánchez 🇪🇺 (<a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr?ref_src=embed">@jpinasanchez.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:e73x2agpxzjezxw3acygrvyr/post/3lbakoqdxjc2f?ref_src=embed">November 18, 2024 at 6:34 PM</a>
 
 </blockquote>
 

@@ -1,0 +1,40 @@
+---
+title: "Presentations"
+---
+
+------------------------------------------------------------------------
+
+### UCL - Quantitative Social Science & Centre for Longitudinal Studies Seminar Series
+
+[Exploring the effect of motor traffic on street crime](static/cars-and-crime_14thoctober2025.htm)
+
+------------------------------------------------------------------------
+
+### ECR Sentrix Project - Decision-making Architecture in Sentencing
+
+[Beyond Guidelines: How Judicial Interaction Promotes Consistency in Sentencing](static/Abstract_Bled%20talk.pdf)
+
+------------------------------------------------------------------------
+
+### Charles University - Research Seminars in Law, Economics and Empirics
+
+[Estimating Discrimination in Sentencing: Distinguishing between Good and Bad Controls](https://jmpinasanchez.github.io/presentations/Prague_2025/Prague_2025.html)
+
+<!--
+[Estimating Discrimination in Sentencing: Distinguishing between Good and Bad Controls](static/prague_2025.htm) 
+-->
+
+
+------------------------------------------------------------------------
+
+### 2025 Annual Conference of the Society of Legal Scholars
+
+[What is the external validity of sentencing research? A multi-level meta-analysis of race and gender disparities](static/SLS_2025.pdf)
+
+------------------------------------------------------------------------
+
+### 2025 Annual Conference of the White Rose Social Sciences DTP
+
+[Can we establish the presence of discrimination in sentencing?](static/WRDTP_2025%20Conference_16thJune.html)
+
+------------------------------------------------------------------------

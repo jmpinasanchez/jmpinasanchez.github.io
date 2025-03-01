@@ -20,12 +20,14 @@ about:
       href: mailto:j.pinasanchez@leeds.ac.uk        
 ---
 
+```{=html}
 <style>
   p { margin-bottom: 5px; }
 </style>
+```
 
-Hi, I'm Jose, Professor of Quantitative Criminology at the [University of Leeds](https://essl.leeds.ac.uk/law/staff/222/professor-jose-pina-sanchez), where I teach Criminology, Sociology, and Social Policy students about crime data and statistical modelling. I also serve as Co-Director of [Social Research Methods at Leeds](https://socialresearchmethods.leeds.ac.uk/) and Director of Advanced Quantitative Methods of the [White Rose Doctoral Training Partnership](https://wrdtp.ac.uk/), where we promote the adoption of innovative and rigourous research methods.
+Hi, I'm Jose, Professor of Quantitative Criminology at the [University of Leeds](https://essl.leeds.ac.uk/law/staff/222/professor-jose-pina-sanchez), where I teach Criminology, Sociology, and Social Policy students about crime data and statistical modelling, and I also serve as Co-Director of [Social Research Methods at Leeds](https://socialresearchmethods.leeds.ac.uk/) and Director of Advanced Quantitative Methods of the [White Rose Doctoral Training Partnership](https://wrdtp.ac.uk/), where we promote the adoption of innovative and rigourous research methods.
 
-Here, you’ll find my latest papers, talks, and teaching materials, along with discussions of my work in progress and the occasional rant. Most of my research focuses on [sentencing](https://jmpinasanchez.github.io/sentencing.html), [disparities](https://jmpinasanchez.github.io/disparities.html), [causes of crime](https://jmpinasanchez.github.io/crime.html), [procedural justice](https://jmpinasanchez.github.io/procedural.html), [measurement](https://jmpinasanchez.github.io/measurement.html), and, more recently, [meta-science](https://jmpinasanchez.github.io/meta.html) and [car dependency](https://jmpinasanchez.github.io/cars.html). 
+Here, you’ll find my latest papers, talks, and teaching materials, along with discussions of my work in progress and the occasional rant. Most of my research focuses on [sentencing](https://jmpinasanchez.github.io/sentencing.html), [disparities](https://jmpinasanchez.github.io/disparities.html), [causes of crime](https://jmpinasanchez.github.io/crime.html), [procedural justice](https://jmpinasanchez.github.io/procedural.html), [measurement](https://jmpinasanchez.github.io/measurement.html), and, more recently, [meta-science](https://jmpinasanchez.github.io/meta.html) and [car dependency](https://jmpinasanchez.github.io/cars.html).
 
 If you're interested in any of these topics, feel free to reach out!

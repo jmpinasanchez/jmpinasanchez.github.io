@@ -8,8 +8,8 @@ Here I'm going to try to list every research project that I was part of and deci
 
 ### Disparities in Remand Decisions in England & Wales
 
-In May 2024, as part of our [ESRC project](https://essl.leeds.ac.uk/law/dir-record/research-projects/1215/disproportionality-exploring-the-nature-of-ethnic-disparities-in-sentencing-through-causal-inference) on ethnic disparities in sentencing, Dr. Eoing Guilfoyle and I [pre-registered](static/Preregistration_Disparities%20in%20Remand.pdf) the analytical strategy for an administrative data analysis of disparities in remand decisions in England and Wales. However, due to unanticipated data quality problems in how remand is measured, and the backlog of data access and publication clearance requests experienced in the project - many of which are still ongoing - it is not longer clear what will be the future of this study.
+In May 2024, as part of our [ESRC project](https://essl.leeds.ac.uk/law/dir-record/research-projects/1215/disproportionality-exploring-the-nature-of-ethnic-disparities-in-sentencing-through-causal-inference) on ethnic disparities in sentencing, Dr Eoing Guilfoyle and I [pre-registered](static/Preregistration_Disparities%20in%20Remand.pdf) the analytical strategy for an administrative data analysis of disparities in remand decisions in England and Wales. However, due to unanticipated data quality problems in how remand is measured, and the backlog of data access and publication clearance requests experienced in the project - many of which are still ongoing - it is not longer clear what will be the future of this study.
 
-`Guilfoyle, E., & Pina-Sánchez, J. (2024). Preregistration of Study into Disparities in Remand Decisions in England and Wales.`
+`Guilfoyle, E., and Pina-Sánchez, J. (2024). Preregistration of Study into Disparities in Remand Decisions in England and Wales.`
 
 ------------------------------------------------------------------------

@@ -1,0 +1,48 @@
+---
+title: "Aggravating & Mitigating Factors"
+---
+
+------------------------------------------------------------------------
+
+### Finding the Key Case Characteristics Considered by Judges
+
+*An Application of Bayesian Model Averaging to Theft Offences Sentenced in the England and Wales Magistrates*
+
+[![](https://img.shields.io/badge/Chapter-Research%20Handbook%20on%20Judicial%20Politics-blue)](https://www.elgaronline.com/edcollchap/book/9781035309320/book-part-9781035309320-43.xml)\
+[![](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/2c1pvzvd/release/5)
+
+::: {.callout-note collapse="true" title="Abstract"}
+In order to identify the case characteristics considered by judges in their sentencing deliberations, researchers have relied heavily on regression modelling techniques. In most instances, the sample of sentences available is many times larger than the number of case characteristics recorded, providing enough degrees of freedom to estimate the effect of these case characteristics adequately. However, when the number of case characteristics recorded is too large, or the samples are too small, regression models can overfit the data. Here, we demonstrate how, in such settings, Bayesian methods such as spike-and-slab models can be used to select the most consequential case characteristics in a principled and reliable way. The potential of this approach is illustrated using a sample of 2,116 sentences imposed in the magistrates’ courts in England and Wales on shoplifters. For this small sample, we reliably estimated twenty case characteristics predicting custody decisions. This highlights the high degree of discretion afforded to sentencers in England and Wales. We also found that offender-related factors (such as the offender’s previous convictions, and caring responsibilities), appeared to be far more important than characteristics defining the offence (e.g., value of goods stolen or lasting effect of offence on victim). This questions the widely held belief that sentencing in England and Wales is based around the principle of proportionality.
+:::
+
+`Pina-Sánchez, J., Dhami, M., and Gosling, J. P. (2024). Finding the key case characteristics considered by judges: An application of Bayesian model averaging to theft offences sentenced in the England and Wales Magistrates’ Courts. In Fix, M. P. and Montgomery, M., editors, Research Handbook on Judicial Politics, pages 450–464. Edward Elgar. https://doi.org/10.4337/9781035309320.00043`
+
+------------------------------------------------------------------------
+
+### Contextual Culpability
+
+*How Drinking and Social Context Impact Sentencing of Violence*
+
+[![Article](https://img.shields.io/badge/Article-Criminology%20&%20Criminal%20Justice-blue)](https://journals.sagepub.com/doi/10.1177/1748895820972160)\
+
+::: {.callout-note collapse="true" title="Abstract"}
+The controversial effect of intoxication on sentencing outcomes has received renewed attention with a series of new empirical studies. However, these studies have relied on survey data that conflate alcohol and drug intoxication and miss pertinent contextual features of the offence. This article explores how alcohol intoxication, and its social context, impact sentence outcomes for violent offences. To do so, the probability of custodial sentence severity is modelled using multilevel Cox regression using data from online sentence transcripts. Findings contribute insights into how punishment is shaped by not only the presence of alcohol intoxication in offending but also in which contexts by highlighting the significant punitive effects of reference to concomitant drug use, the defendant drinking together with the victim and if the offence occurred in a private setting. This helps clarify complex considerations taken into account by sentencers when processing cases and the need for clearer guidance.
+:::
+
+`Lightowlers, C., Pina-Sánchez, J., and Watkins, E. (2022). Contextual culpability: How drinking and social context impact upon sentencing of violence. Criminology & Criminal Justice, 22(3):442–461. https://doi.org/10.1177/1748895820972160`
+
+------------------------------------------------------------------------
+
+### The Role of Previous Convictions at Sentencing in the Crown Court
+
+*Some New Answers to an Old Question*
+
+[![](https://img.shields.io/badge/Article-Criminal%20Law%20Review-blue)](static/Roberts.2015.Previous%20Convictions.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Most offenders appearing for sentencing have a criminal record. Despite the prevalence of previous convictions, little is known about their impact on sentence outcomes, and in particular the decision to imprison. How should previous convictions affect sentence outcomes? Competing theoretical models exist. Previous convictions may simply disentitle repeat offenders to first offender mitigation and then fail to aggravate (progressive loss of mitigation). Alternatively, prior convictions may be used to continuously increase the severity of sentence (cumulative sentencing). Until now, due to limitations of the sentencing statistics, it has been impossible to determine which model underpins sentencing practices. The Crown Court Sentencing Survey ( CCSS) provides a more adequate source of data. Sentencers complete a return noting the factors taken into account at sentencing, including the number of prior convictions. This article reports new data from the CCCS which demonstrate that for most offences, courts continue to apply the principle of the progressive loss of mitigation. Once this mitigation is lost, there is little further increase in severity as measured by the custody rate, although some variation in the effect of previous convictions does emerge between offences.
+:::
+
+`Roberts, J. V. and Pina-Sánchez, J. (2014). The role of previous convictions at sentencing in the Crown Court: Some new answers to an old question. Criminal Law Review, 8:575–588`
+
+------------------------------------------------------------------------

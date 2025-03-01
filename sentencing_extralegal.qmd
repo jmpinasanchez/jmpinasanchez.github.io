@@ -1,0 +1,37 @@
+---
+title: "Extra-legal Factors"
+---
+
+------------------------------------------------------------------------
+
+### Does the Weather Influence Sentencing?
+
+*Empirical Evidence from Czech Data*
+
+[![](https://img.shields.io/badge/Article-International%20Journal%20of%20Law%20Crime%20and%20Justice-blue)](https://www.sciencedirect.com/science/article/abs/pii/S1756061618301952)
+
+::: {.callout-note collapse="true" title="Abstract"}
+*Purpose*: Sentencing has been shown to be influenced by different extralegal factors. Following psychological research into the various effects the weather can have on mood and two studies claiming finding an influence of weather on sentencing, we examine the extent to which the weather may influence sentencing.\
+*Methods*: Using sentencing decisions from twelve district courts in Prague in the period 2011–2015 and multilevel modelling techniques, we explore the impact of temperature, wind speed, sunshine, precipitation, barometric pressure and humidity on the decision to incarcerate and the duration of non-suspended prison sentences.\
+*Results*: In line with the inconclusive findings in the psychological literature on weather and mood and contrary to previous two studies finding the link between weather and sentencing, we do not find that the weather has any substantial impact on sentencing decision making.\
+*Conclusions*: We conclude that no meaningful unwarranted disparities in sentencing are caused by the weather in Prague, Czech Republic.
+:::
+
+`Drápal, J. and Pina-Sánchez, J. (2019). Does the weather influence sentencing? Empirical evidence from Czech data. International Journal of Law, Crime and Justice, 56:1–12. https://doi.org/10.1016/j.ijlcj.2018.09.004`
+
+------------------------------------------------------------------------
+
+### Location and Sentencing
+
+*To What Extent Do contextual Factors Explain Between Court Disparities?*
+
+[![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/58/3/529/3862711?redirectedFrom=fulltext)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Pina.2017.Location%20and%20Sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This article investigates the presence of unwarranted between court disparities in England and Wales, examining whether they can be explained by non-legal contextual factors such as the organisation of the court and socio-economic composition of the area. In contrast with previous literature, we emphasise the importance of controlling for a wide range of legally relevant case characteristics. The findings reveal that some preliminary startling trends, such as more severe sentencing in courts located in neighbourhoods with high proportions of Muslim residents, are in fact accounted for by differences in the cases reviewed across courts. These findings call into question the validity of previous studies exploring the influence of the context on sentencing that did not adequately control for legal factors.
+:::
+
+`Pina-Sánchez, J. and Grech, D. (2017). Location and sentencing: To what extent do contextual factors explain between court disparities? The British Journal of Criminology, 58(3):529–549. https://doi.org/10.1093/bjc/azx033`
+
+------------------------------------------------------------------------

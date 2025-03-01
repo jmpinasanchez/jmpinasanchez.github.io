@@ -1,0 +1,81 @@
+---
+title: "Sentencing Guidelines"
+---
+
+------------------------------------------------------------------------
+
+### Sentence Reductions for a Guilty Plea
+
+*The Impact of the Revised Guideline on Rates of Pleas and ‘Cracked Trials’*
+
+[![](https://img.shields.io/badge/Article-The%20Journal%20of%20Criminal%20Law-blue)](https://journals.sagepub.com/doi/full/10.1177/00220183211041912)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Roberts.2021.Sentence%20reductions%20for%20a%20guilty%20plea.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+In 2017, the Sentencing Council introduced a revised guideline for plea-based sentence reductions. The revisions were designed to provide greater certainty and to accelerate the timing of guilty pleas. Late pleas resulting in ‘cracked trials’ have long been a problem in the court system. The guideline was not intended to change the rate of defendants who plead guilty, but rather to increase the percentage of pleas entered early in the criminal process. This brief article reports findings from an analysis of data from the Crown Court before and after the introduction of the revised sentencing guideline. Findings reveal that the overall guilty plea remained stable over the period 2014–2019. The guideline appears to have had no effect on the timing of guilty pleas entered, and in fact the percentage of ‘cracked’ trials rose in the post-guideline period.
+:::
+
+`Roberts, J. V. and Pina-Sánchez, J. (2022). Sentence reductions for a guilty plea: The impact of the revised guideline on rates of pleas and ‘cracked trials’. The Journal of Criminal Law, 86(5):327–335. https://doi.org/10.1177/00220183211041912`
+
+------------------------------------------------------------------------
+
+### Mind the Step
+
+*A More Insightful and Robust Analysis of the Sentencing Process in England and Wales Under the New Sentencing Guidelines*
+
+[![Article](https://img.shields.io/badge/Article-Criminology%20&%20Criminal%20Justice-blue)](https://journals.sagepub.com/doi/abs/10.1177/1748895818811891)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/1748895818811891.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The ‘England and Wales Sentencing Guidelines’ aim to promote consistency by organizing the sentencing process as a sequence of steps, with initial judicial assessments subsequently adjusted to reflect relevant case characteristics. Yet, existing evaluations of the guidelines have failed to incorporate this structure adequately, instead concentrating solely on sentence outcomes. We use multivariate multilevel models to offer new insights into the decisions made throughout the sentencing process. Focusing on cases of assault sentenced at the Crown Court we show that the level of compliance with the guidelines is high. However, we also show that some case characteristics are being unduly considered at more than one stage of the sentencing process, meaning existing studies may be underestimating their true influence.
+:::
+
+`Pina-Sánchez, J., Brunton-Smith, I., and Guangquan, L. (2020). Mind the step: A more insightful and robust analysis of the sentencing process in England and Wales under the new sentencing guidelines. Criminology & Criminal Justice, 20(3):268–301. https://doi.org/10.1177/1748895818811891`
+
+------------------------------------------------------------------------
+
+### Nudge the Judge?
+
+*Theorising the Interaction Between Heuristics, Sentencing Guidelines and Sentence Clustering*
+
+[![](https://img.shields.io/badge/Article-Criminology%20and%20Criminal%20Justice-blue)](https://journals.sagepub.com/doi/abs/10.1177/1748895818818869)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Marder.2018.Nudge%20the%20Judge.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Although it has long been acknowledged that heuristics influence judicial decision making, researchers have yet to explore how sentencing guidelines might interact with heuristics to shape sentencing decisions. This article contributes to addressing this gap in the literature in three ways: first, by considering how heuristics might help produce the phenomenon of sentence clustering, in which a significant proportion of sentences are concentrated around a small number of outcomes; second, by reflecting on the role of sentencing guidelines as a feature of the environment within which sentencing decisions are made; and third, by analysing the guidelines from Minnesota and from England and Wales, theorizing how their content might interact with heuristics to make clustering more or less likely. Ultimately, we argue that sentencing guidelines likely affect the role played by heuristics in shaping sentencing decisions and, consequently, that their design should be informed by research evidence from the decision sciences.
+:::
+
+`Marder, I. and Pina-Sánchez, J. (2020). Nudge the judge? Theorising the interaction between heuristics, sentencing guidelines and sentence clustering. Criminology & Criminal Justice, 20(4):399–415. https://doi.org/10.1177/1748895818818869`
+
+------------------------------------------------------------------------
+
+### Individualisation at Sentencing
+
+*The Effects of Guidelines and ‘Preferred’ Numbers*
+
+[![](https://img.shields.io/badge/Article-Criminal%20Law%20Review-blue)](static/Roberts.2018.Individualisation%20at%20Sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Over a decade after the introduction of sentencing guidelines in England and Wales, little is known about their effects on consistency and individualisation. Limited research has addressed the issue of consistency, and no research has explored another key concept, namely individualisation. This is regrettable since one criticism of guidelines is that they undermine the principle of individualisation at sentencing, and this critique is examined here. The article explores two potential threats to individualisation, using sentence length data from the Crown Court Sentencing Survey. One threat may arise if a guideline constrains judges to sentence within a restricted range, leading to a less individualised approach to sentencing. The second is more fundamental, and consists of the tendency to favour some sentence lengths over others—a preference for certain “round” numbers. The article reports an analysis of custodial sentences for assault offences. Results indicate that sentence lengths for assault offences are affected by a preference for certain numbers—a tendency first observed by Francis Galton in the 19th century. On a more positive note, we find no evidence that the sentencing guidelines for assault and burglary introduced in 2011 have diminished the degree of individualisation in sentencing. We also find that courts report taking a larger number of sentencing factors into account under the new guidelines, further evidence that the guidelines have not undermined individualisation.
+:::
+
+`Roberts, J. V., Pina-Sánchez, J., and Marder, I. (2018). Individualisation at sentencing: The effects of guidelines and ‘preferred’ numbers. Criminal Law Review, 2:123–136`
+
+------------------------------------------------------------------------
+
+### Enhancing Consistency in Sentencing
+
+*Exploring the Effects of Guidelines in England and Wales*
+
+[![](https://img.shields.io/badge/Article-Journal%20of%20Quantitative%20Criminology-blue)](https://link.springer.com/article/10.1007/s10940-014-9221-x)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/10.1007_s10940-014-9221-x.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+*Objectives*: The development and application of methods to assess consistency in sentencing before and after the 2011 England and Wales assault guideline came into force.\
+*Methods*: We use the Crown Court Sentencing Survey to compare the goodness of fit of two regression analyses of sentence length on a set of legal factors before and after the assault guideline came into force. We then monitor the dispersion of residuals from these regressions models across time. Finally, we compare the variance in sentence length of equivalent types of offences using exact matching.   *Results*: We find that legal factors can explain a greater portion of variability in sentencing after the guideline was implemented. Furthermore, we detect that the unexplained variability in sentencing decreases steadily during 2011, while results from exact matching point to a statistically significant average reduction in the variance of sentence length amongst same types of offences.\
+*Conclusions*: We demonstrate the relevance of two new methods that can be used to produce more robust assessments regarding the evolution of consistency in sentencing, even in situations when only observational non-hierarchical data is available. The application of these methods showed an improvement in consistency during 2011 in England and Wales, although this positive effect cannot be conclusively ascribed to the implementation of the new assault guideline.
+:::
+
+`Pina-Sánchez, J. and Linacre, R. (2014). Enhancing consistency in sentencing: Exploring the effects of guidelines in England and Wales. Journal of Quantitative Criminology, 30(4):731–748. https://doi.org/10.1007/s10940-014-9221-x`
+
+------------------------------------------------------------------------

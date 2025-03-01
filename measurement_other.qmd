@@ -1,0 +1,17 @@
+---
+title: ""
+---
+
+### Decentralization as a Multifaceted Concept
+
+*A More Encompassing Index Using Bayesian Statistics*
+
+[![](https://img.shields.io/badge/Article-Revista%20Española%20de%20Ciencia%20Política-blue)](https://recyt.fecyt.es/index.php/recp/article/view/37611)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Most measures of political decentralization seem to capture only specific facets of the concept. In particular, the excessive dependence on fiscal indicators has often been criticized since they seem unable to assess the degree of autonomy exerted by subnational governments. On the other hand, efforts directed at developing more encompassing indexes have had to rely on the aggregation of items developed by experts, a process that is prone to idiosyncratic errors. In this paper I propose the development of a measurement framework using a Bayesian factor analysis model for mixed ordinal and continuous outcomes. This model can efficiently combine multiple measures of decentralization regardless of their level of measurement, and in this way make use of both the rigour of fiscal indicators and the wider coverage of qualitative indi-cators. Applying this model to a set of 14 indicators I elaborate a more encompassing index of decen-tralization for 33 OECD countries. In order to illustrate the importance of using non-partial measures of decentralization, I use this index to replicate parts of De Mello and Barenstein (2001) exploratory analysis regarding the relationship between decentralization and corruption, showing that such relationship is practically non-existent.
+:::
+
+`Pina-Sánchez, J. (2014). Decentralization as a multifaceted concept: A more encompassing index using Bayesian statistics. Revista Española de Ciencia Política, 34:9–34`
+
+------------------------------------------------------------------------

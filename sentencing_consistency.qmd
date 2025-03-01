@@ -1,0 +1,95 @@
+---
+title: "Consistency in Sentencing"
+---
+
+------------------------------------------------------------------------
+
+### What Is the Value of Judicial Experience?
+
+*Exploring Judge Trajectories Using Longitudinal Data*
+
+[![](https://img.shields.io/badge/Article-Justice%20Quarterly-blue)](https://www.tandfonline.com/doi/full/10.1080/07418825.2022.2051585#abstract)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Drapal.2022.What%20is%20the%20Value%20of%20Judicial%20Experience_Exploring%20Judge%20Trajectories%20Using%20Longitudinal%20Data.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Judicial experience is considered essential for the proper functioning of the sentencing system. We investigate how it influences judicial decisions and its role in reducing sentencing disparity. To do so, we analyze all Czech criminal decisions imposed in 2007–2017 using data that includes judge identifiers. This unique feature of our data enables us to measure judges’ experience directly, as the number of criminal cases processed, and to assess patterns in between-judge disparities longitudinally over the course of judges’ careers. We find that experienced judges impose more prison sentences, decide fewer cases via shortened procedure and find fewer defendants guilty. In addition, as judges become more experienced, between-judge disparities reduce across all the outcomes considered. Experience is thus an instrumental factor affecting judicial decisions throughout the criminal process, and one that contributes to greater consistency.
+:::
+
+`Drápal, J. and Pina-Sánchez, J. (2023). What is the value of judicial experience? exploring judge trajectories using longitudinal data. Justice Quarterly, 40(2):211–240. https://doi.org/10.1080/07418825.2022.2051585`
+
+------------------------------------------------------------------------
+
+### Re-assessing the Consistency of Sentencing Decisions in Cases of Assault
+
+*Allowing for Within Court Inconsistencies*
+
+[![Article](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/60/6/1438/5843314?redirectedFrom=fulltext)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/BruntonSmith.2020.Reassessing%20the%20Consistency%20of%20Sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Empirical research has repeatedly focused on the potential existence of sentencing disparities. In particular, a growing number of studies have used multilevel models to quantify the extent that ‘similar’ offences are treated alike in different courts. This reliance on multilevel models has resulted in a natural focus on differences in the mean sentence awarded between courts, with the amount of within-group variability generally assumed to be the same in each court. In this paper, we show how multilevel models can be extended by allowing the magnitude of within-court differences to be different in each court. This provides a natural framework to connect between-court disparities with the sentencing differences that are thought to originate between judges operating within the same court, particularly in the absence of more fine-grained sentencing data about the judge residing in each case. Focusing specifically on cases of assault sentenced in 2011, we show that there are substantial differences in the range of sentences awarded in different courts, with the range almost twice as large in some courts. We also find that it is those courts that appear to show the traits of more homogeneous sentencing that sentence more harshly and that offences involving the presence of a weapon or evidence of good character and/or exemplary conduct were associated with higher levels of internal consistency.
+:::
+
+`Brunton-Smith, I., Pina-Sánchez, J., and Guangquan, L. (2020). Re-assessing the consistency of sentencing decisions in cases of assault: Allowing for within court inconsistencies. The British Journal of Criminology, 60(6): 1438–1459. https://doi.org/10.1093/bjc/azaa030`
+
+------------------------------------------------------------------------
+
+### The Impact of Three Guidelines on Consistency in Sentencing
+
+[![](https://img.shields.io/badge/Report-The%20Sentencing%20Council%20for%20England%20and%20Wales-blue)](https://www.sentencingcouncil.org.uk/wp-content/uploads/The-impact-of-three-guidelines-on-consistency-in-sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+A methodology to measure consistency of approach to sentencing was developed and applied to data covering three Sentencing Council guidelines, to understand whether these guidelines have achieved the Council’s aim of promoting greater consistency in sentencing.\
+The analysis found that for domestic burglary and supply/ possession with intent to supply a controlled drug, there is some evidence of an increase in consistency following the introduction of these guidelines. However, for theft from a shop or stall, no increase in consistency was observed.\
+When looking at specific guideline factors, it was found that the majority of the factors tested were associated with consistent sentencing. A small number were found to have been associated with inconsistent sentencing, including several factors related to the use of or addiction to alcohol/ drugs, and whether the offender had any previous convictions. A number of possible reasons were given for these inconsistencies; however, more research would be needed to understand this further.\
+The Council will consider how this research can assist when developing and evaluating future sentencing guidelines.
+:::
+
+`Isaac, A., Pina-Sánchez, J., and Varela, A. (2021). The impact of three guidelines on consistency in sentencing. Sentencing Council for England and Wales. https://www.sentencingcouncil.org.uk/wp-content/uploads/The-impact-of-three-guidelines-on-consistency-in-sentencing.pdf`
+
+------------------------------------------------------------------------
+
+### Exploring the Origin of Sentencing Disparities in the Crown Court
+
+*Using Text Mining Techniques to Differentiate Between Court and Judge Disparities*
+
+[![](https://img.shields.io/badge/Article-Social%20Science%20Research-blue)](https://www.sciencedirect.com/science/article/abs/pii/S0049089X18308731)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Pina.2019.Exploring%20the%20Origin%20of%20Sentencing%20Disparities%20in%20the%20Crown%20Court.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Research on sentence consistency in England and Wales has focused on disparities between courts, with differences between judges generally ignored. This is largely due to the limitations in official data. Using text mining techniques from Crown Court sentence records available online we generate a sample of 7,212 violent and sexual offences where both court and judge are captured. Multilevel time-to-event analyses of sentence length demonstrate that most disparities originate at the judge, not the court-level. Two important implications follow: i) the extent of sentencing consistency in England and Wales has been underestimated; and ii) the importance attributed to the location in which sentences are passed – in England and Wales and elsewhere - needs to be revisited. Further analysis of the judge level disparities identifies judicial rotation across courts as a practice conducive of sentence consistency, which suggests that sentencing guidelines could be complemented with other, less intrusive, changes in judicial practice to promote consistency.
+:::
+
+`Pina-Sánchez, J., Grech, D., Brunton-Smith, I., and Sferopoulos, D. (2019). Exploring the origin of sentencing disparities in the Crown Court: Using text mining techniques to differentiate between court and judge disparities. Social Science Research, 84:1–13. https://doi.org/10.1016/j.ssresearch.2019.102343`
+
+------------------------------------------------------------------------
+
+### Refining the Measurement of Consistency in Sentencing
+
+*A Methodological Review*
+
+[![](https://img.shields.io/badge/Article-International%20Journal%20of%20Law,%20Crime%20and%20Justice-blue)](https://www.sciencedirect.com/science/article/abs/pii/S1756061615000579)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/1-s2.0-S1756061615000579-main.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The importance of improving consistency in sentencing has been underscored by institutional reforms in a number of jurisdictions. However, the effectiveness of these policy changes has not been clearly measured. To a certain extent this is due to the methodological confusion reflected by the multiplicity of methods that have been used in the study of consistency in sentencing. Here we review and categorise all of the quantitative methods that have been used to measure consistency in the literature. Our classification differentiates methods based on characteristics such as their robustness, the type of data they require, or whether they are amenable to comparisons in time or across jurisdictions. In this way the paper has a twofold contribution: it simplifies the implementation of future empirical analyses on consistency and facilitates their critical interpretation.
+:::
+
+`Pina-Sánchez, J. and Linacre, R. (2016). Refining the measurement of consistency in sentencing: A methodological review. International Journal of Law, Crime and Justice, 44:68–87. https://doi.org/10.1016/j.ijlcj.2015.06.001`
+
+------------------------------------------------------------------------
+
+### Sentence Consistency in England and Wales
+
+*Evidence from the Crown Court Sentencing Survey*
+
+[![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/53/6/1118/415099)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/bjc.azt040.full.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We assess the use of sentencing guidelines for assault issued in England and Wales, and the consistency with which they are applied by judges in the Crown Court. We use data from the Crown Court Sentencing Survey (CCSS), which records data on legal factors considered in the sentencing guidelines. This gives us access to a wide range of explanatory variables, allowing us to produce more robust findings about consistency in sentencing. We first employ a standard regression model to determine how guideline factors affect sentence outcomes empirically. Second, a random slopes multilevel model is used to analyse whether these factors have been consistently applied across different Crown Court centres. Our results point to a substantial degree of consistency in sentencing.
+:::
+
+`Pina-Sánchez, J. and Linacre, R. (2013). Sentence consistency in England and Wales evidence from the Crown Court Sentencing Survey. The British Journal of Criminology, 53(6): 1118–1138`
+
+------------------------------------------------------------------------

@@ -1,0 +1,55 @@
+---
+title: "Measurement: Retrospective Questions"
+---
+
+------------------------------------------------------------------------
+
+### Adjusting for Measurement Error in Retrospectively Reported Work Histories
+
+*An Analysis Using Swedish Register Data*
+
+[![](https://img.shields.io/badge/Article-Journal%20of%20Official%20Statistics-blue)](https://journals.sagepub.com/doi/abs/10.2478/jos-2019-0010)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We use work histories retrospectively reported and matched to register data from the Swedish unemployment office to assess: 1) the prevalence of measurement error in reported spells of unemployment; 2) the impact of using such spells as the response variable of an exponential model; and 3) strategies for the adjustment of the measurement error. Due to the omission or misclassification of spells in work histories we cannot carry out typical adjustments for memory failures based on multiplicative models. Instead we suggest an adjustment method based on a mixture Bayesian model capable of differentiating between misdated spells and those for which the observed and true durations are unrelated. This adjustment is applied in two manners, one assuming access to a validation subsample and another relying on a strong prior for the mixture mechanism. Both solutions demonstrate a substantial reduction in the vast biases observed in the regression coefficients of the exponential model when survey data is used.
+:::
+
+`Pina-Sánchez, J., Koskinen, J., and Plewis, I. (2019). Adjusting for measurement error in retrospectively reported work histories: An analysis using Swedish register data. Journal of Official Statistics, 35(1):203–229. https://doi.org/10.2478/jos-2019-0010`
+
+------------------------------------------------------------------------
+
+### Adjustment of Recall Errors in Duration Data Using SIMEX
+
+[![](https://img.shields.io/badge/Article-Advances%20in%20Methodology%20and%20Statistics-blue)](https://mz.mf.uni-lj.si/index.php/ams/article/view/mz-2016-13-1-3)
+
+::: {.callout-note collapse="true" title="Abstract"}
+It is widely accepted that due to memory failures retrospective survey questions tend to be prone to measurement error. However, the proportion of studies using such data that attempt to adjust for the measurement problem is shockingly low. Arguably, to a great extent this is due to both the complexity of the methods available and the need to access a subsample containing either a gold standard or replicated values. Here I suggest the implementation of a version of SIMEX capable of adjusting for the types of multiplicative measurement errors associated with memory failures in the retrospective report of durations of life-course events. SIMEX is a method relatively simple to implement and it does not require the use of replicated or validation data so long as the error process can be adequately specified. To assess the effectiveness of the method I use simulated data. I create twelve scenarios based on the combinations of three outcome models (linear, logit and Poisson) and four types of multiplicative errors (non-systematic, systematic negative, systematic positive and heteroscedastic) affecting one of the explanatory variables. I show that SIMEX can be satisfactorily implemented in each of these scenarios. Furthermore, the method can also achieve partial adjustments even in scenarios where the actual distribution and prevalence of the measurement error differs substantially from what is assumed in the adjustment, which makes it an interesting sensitivity tool in those cases where all that is known about the error process is reduced to an educated guess.
+:::
+
+`Pina-Sánchez, J. (2016). Adjustment of recall errors in duration data using SIMEX. Advances in Methodology and Statistics, 13(1):27–58.    https://doi.org/10.51936/cspz2183`
+
+------------------------------------------------------------------------
+
+### Measurement Error in Retrospective Work Histories
+
+[![](https://img.shields.io/badge/Article-Survey%20Research%20Methods-blue)](https://ojs.ub.uni-konstanz.de/srm/article/view/5144)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Measurement error in retrospective reports of work status has been difficult to quantify in the past. Issues of confidentiality have made access to datasets linking survey responses to a valid administrative source very problematic. This study uses a Swedish register of unemployment as a benchmark against which responses from two survey questions are compared and hence the presence of measurement error elucidated. We carry out separate analyses for the different forms that measurement error in retrospective reports of unemployment can take: miscounting of the number of spells of unemployment, mismeasuring duration in unemployment, and misdating starts of spells and misclassification of status. The prevalence of measurement error for different social categories and interview formats is also examined, leading to a better understanding of the error-generating mechanisms that interact when interviewees are asked to produce retrospective reports of past work status.
+:::
+
+`Pina-Sánchez, J., Koskinen, J., and Plewis, I. (2014). Measurement error in retrospective work histories. Survey Research Methods, 8(1):43–55. https://doi.org/10.18148/srm/2014.v8i1.5144`
+
+------------------------------------------------------------------------
+
+### Implications of Retrospective Measurement Error in Event History Analysis
+
+[![](https://img.shields.io/badge/Article-Metodología%20de%20Encuestas-blue)](static/1032-1126-1-PB-1.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+It is commonly accepted that the use of retrospective questions in surveys makes interviewees face harder cognitive challenges and therefore leads to less precise measures than questions asking about current states. In this paper we evaluate the effect of using data derived from retrospective questions as the response variable in different event history analysis models: an accelerated life Weibull, an accelerated life exponential, a proportional hazards Cox, and a proportional odds logit. The impact of measurement error is assessed by a comparison of the estimates obtained when the models are specified using durations of unemployment derived from a retrospective question against those obtained using validation data derived from a register of unemployment. Results show large attenuation effects in all the regression coefficients. Furthermore, these effects are relatively similar across models
+:::
+
+`Pina-Sánchez, J., Koskinen, J., and Plewis, I. (2013). Implications of retrospective measurement error in event history analysis. Metodología de Encuestas, 15:5–25`
+
+------------------------------------------------------------------------

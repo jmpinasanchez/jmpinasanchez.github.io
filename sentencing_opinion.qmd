@@ -1,0 +1,29 @@
+---
+title: "Public Opinion"
+---
+
+------------------------------------------------------------------------
+
+### Public Confidence in the Slovenian State Prosecutors’ Office
+
+[![](https://img.shields.io/badge/Preprint-SocArXiv-blue)](https://osf.io/preprints/socarxiv/z3fqx_v1)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This report presents results from a representative survey exploring attitudes of the Slovenian general public towards the work undertaken by the State Prosecutors’ Office. We found that a majority of participants (about six in ten) think that courts are currently too lenient, while more than nine in ten think that the State Prosecutors’ Office does not prosecute enough crimes to deter crime effectively. Slightly less than half of participants find the State Prosecutors’ Office to be trustworthy, independent, efficient, transparent, or express confidence in its work. Such perceptions were more positive for participants who would classify themselves as informed regarding the work of the State Prosecutor’s Office, consider that enough crimes are prosecuted, are politically left-leaning, younger, highly educated, and of above average social class.
+:::
+
+`Pina-Sánchez, J. and Plesnicar, M. (2022). Public confidence in the slovenian state prosecutors’ office. SocArXiv. https://osf.io/preprints/socarxiv/z3fqx_v1`
+
+------------------------------------------------------------------------
+
+### Public Knowledge of Sentencing Practice and Trends
+
+[![](https://img.shields.io/badge/Report-Sentencing%20Academy-blue)](https://www.sentencingacademy.org.uk/wp-content/uploads/2023/08/Public-Knowledge-of-Sentencing-Practice-and-Trends.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This report describes findings from a survey of the general public conducted in 2021. The research contributes to the well-established and still growing literature on public opinion and sentencing. Unlike most surveys, however, the primary focus here is upon what the public know about sentencing: the knowledge which underpins their attitudes. Specifically, public estimates of custody rates and average prison sentence lengths were compared to the latest sentencing statistics. In addition, several questions tested respondents’ knowledge of changes in the use of imprisonment over the period 1996-2021. Sentencing practices have become more severe in recent years, as reflected in increases in the use of imprisonment and in average custodial sentence lengths. One aim of the survey was to determine whether the public was aware of this trend.
+:::
+
+`Roberts, J. V., Bild, J., Pina-Sánchez, and Hough, M. (2022). Public knowledge of sentencing practice and trends. Sentencing Academy`
+
+------------------------------------------------------------------------

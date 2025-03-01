@@ -7,7 +7,7 @@ project:
 
 website:
   title: ""
-  google-analytics: "G-S2928KYNDE"  
+  google-analytics: "G-08NDRH85G1"  
   navbar:
     left:
       - href: index.qmd
@@ -30,10 +30,32 @@ website:
         menu:
         - href: sentencing.qmd
           text: Sentencing
+#        - href: sentencing_consistency.qmd
+#          text: '   Sentencing: Consistency'          
+#        - href: sentencing_punitiveness.qmd
+#          text: '   Sentencing: Punitiveness'
+#        - href: sentencing_guidelines.qmd
+#          text: '   Sentencing: Guidelines'             
+#        - href: sentencing_factors.qmd
+#          text: '   Sentencing: Legal Factors' 
+#        - href: sentencing_extralegal.qmd
+#          text: '   Sentencing: Extra-legal Factors'           
+#        - href: sentencing_opinion.qmd        
+#          text: '   Sentencing: Public Opinion'            
         - href: disparities.qmd
           text: Disparities
+#        - href: disparities_sentencing.qmd
+#          text: '   Disparities: Sentencing'
+#        - href: disparities_justice.qmd
+#          text: '   Disparities: Criminal Justice'          
         - href: measurement.qmd
           text: Measurement
+#        - href: measurement_crime.qmd
+#          text: '   Measurement: Crime Data'
+#        - href: measurement_retrospective.qmd
+#          text: '   Measurement: Retrospective Data'
+#        - href: measurement_other.qmd
+#          text: '   Measurement: Other'          
         - href: crime.qmd
           text: Causes of Crime
         - href: procedural.qmd
@@ -44,6 +66,12 @@ website:
           text: Meta Science          
         - href: failed.qmd
           text: Failed Projects
+      - href: presentations.qmd
+        text: Presentations           
+      - href: impact.qmd
+        text: Impact   
+      - href: service.qmd
+        text: Service         
       - href: outreach.qmd
         text: Outreach          
       - href: rants.qmd

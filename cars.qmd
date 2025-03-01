@@ -2,10 +2,23 @@
 title: "Car Dependency"
 ---
 
-I am currently working on a series of projects exploring the links between motor traffic and criminality, an area of study that [Dr. Thiago Oliveira](https://www.thiagoroliveira.com/) has famously coined as *Carminology*.
+I am currently working on a series of projects exploring the links between motor traffic and crime.
 
-As part of a team led by [Prof. Henry Yeomans](https://essl.leeds.ac.uk/law/staff/245/professor-henry-yeomans) I'm working on a project investigating the causes behind the observed decline in drunk driving offences in the UK in the last few decades. For this project we are using historical documents and conducting a representative survey of the British population. The project is funded by the *Interdisciplinary Network for Time* from the [Horizons Institute](https://www.leeds.ac.uk/horizons-institute/doc/challenge-theme-networks) at the University of Leeds.
+As part of a team led by [Prof Henry Yeomans](https://essl.leeds.ac.uk/law/staff/245/professor-henry-yeomans) I'm working on a project investigating the causes behind the observed decline in drink driving offences in the UK in the last few decades. For this project we are using historical documents and conducting a representative survey of the British population. The project is funded by the *Interdisciplinary Network for Time* from the [Horizons Institute](https://www.leeds.ac.uk/horizons-institute/doc/challenge-theme-networks) at the University of Leeds.
 
-I am also working with [Dr Toby Davies](https://essl.leeds.ac.uk/law/staff/2554/dr-toby-davies) on a couple of studies estimating the efffect of motor traffic on street crime. For this, we are using open data on road characteristics and longitudinal survey data from Understanding Society. These are the [slides](static/LTN_CCJS.pdf) from a work in progress seminar, and below is the main theoretical framework we are using.
+I am also scoping a couple of systematic reviews of the literature to assess: i) the similar behavioural consequences between fear of crime and within-neighbourhood traffic, and ii) whether fear of crime or fear of cars has been the largest contributing factor to the reduction in children independent mobility over the last five decades.
 
-![Direct and indirect effects of motor traffic on anti-social behaviour](images/DAG_cars.png)
+------------------------------------------------------------------------
+
+### Exploring the effect of motor traffic on street crime
+
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Traffic-and-Street-Crime_15thAugust2025.pdf)\
+[![](https://img.shields.io/badge/Code-Quarto-blue)](static/Traffic-and-Street-Crime_15thAugust2025.txt)
+
+::: {.callout-note collapse="true" title="Abstract"}
+ Traffic impacts street safety in multiple, often under-recognised ways. In addition to their polluting effect and the obvious risk they pose to pedestrians, we hypothesise that heavy motor traffic may also be associated with increased street-level crime. We elaborate this argument drawing from a wide range of well established crime theories. We explore our proposition using longitudinal data from Understanding Crime, and two-way fixed effects models. We find that perceptions of crime are higher in neighbourhoods affected by heavy motor traffic. More importantly, we find that these two phenomena are associated across time, suggesting a likely causal effect. Lastly, we note that the causal effect of motor traffic on street crime is likely mediated by collective efficacy; i.e. traffic erodes community ties, which in turn make informal surveillance less effective.
+:::
+
+`Pina-Sánchez, J., and Davies, T. (2025). Exploring the effect of motor traffic on street crime. Crimrxiv. https://doi.org/`
+
+------------------------------------------------------------------------
