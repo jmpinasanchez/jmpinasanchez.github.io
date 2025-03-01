@@ -21,7 +21,7 @@ Crime data are problematic: Crimes that are never reported undermine its validit
 
 ### Exploring the Impact of Measurement Error in Police Recorded Crime Rates through Sensitivity Analysis
 
-[![](https://img.shields.io/badge/Article-Crime Science-blue)](https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-023-00192-5)
+[![](https://img.shields.io/badge/Article-Crime%20Science-blue)](https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-023-00192-5)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 It is well known that police recorded crime data is susceptible to substantial measurement error. However, despite its limitations, police data is widely used in regression models exploring the causes and effects of crime, which can lead to different types of bias. Here, we introduce a new R package (‘rcme’: Recounting Crime with Measurement Error) that can be used to facilitate sensitivity assessments of the impact of measurement error in analyses using police recorded crime rates across a wide range of settings. To demonstrate the potential of such sensitivity analysis, we explore the robustness of the effect of collective efficacy on criminal damage across Greater London’s neighbourhoods. We show how the crime reduction effect attributed to collective efficacy appears robust, even when most criminal damage incidents are not recorded by the police, and if we accept that under-recording rates are moderately affected by collective efficacy.
@@ -33,7 +33,7 @@ It is well known that police recorded crime data is susceptible to substantial m
 
 ### The Impact of Measurement Error in Models Using Police Recorded Crime Rates
 
-[![](https://img.shields.io/badge/Article-Journal of  Quantitative Criminology-blue)](https://link.springer.com/article/10.1007/s10940-022-09557-6)
+[![](https://img.shields.io/badge/Article-Journal%20of%20Quantitative%20Criminology-blue)](https://link.springer.com/article/10.1007/s10940-022-09557-6)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 *Objectives*: Assess the extent to which measurement error in police recorded crime rates impact the estimates of regression models exploring the causes and consequences of crime.\
@@ -42,39 +42,49 @@ It is well known that police recorded crime data is susceptible to substantial m
 *Conclusions*: The validity of a large share of the evidence base exploring the effects and consequences of crime is put into question. In interpreting findings from the literature relying on regression models and police recorded crime rates, we urge researchers to consider the biasing effects shown here. Future studies should also anticipate the impact in their findings and employ sensitivity analysis if the expected measurement error induced bias is non-negligible.
 :::
 
-`Pina-Sánchez, J., Buil-Gil, D., Brunton-Smith, I., and Cernat, A. (2022). The
-impact of measurement error in models using police recorded crime rates. Journal
-of Quantitative Criminology, 39(4):975–1002. https://doi.org/10.1007/s10940-022-09557-6`
+`Pina-Sánchez, J., Buil-Gil, D., Brunton-Smith, I., and Cernat, A. (2022). The impact of measurement error in models using police recorded crime rates. Journal of Quantitative Criminology, 39(4):975–1002. https://doi.org/10.1007/s10940-022-09557-6`
 
 ------------------------------------------------------------------------
 
-### Estimating Crime in Place 
+### Estimating Crime in Place
 
 *Moving beyond Residence Location*
 
-[![](https://img.shields.io/badge/Article-Crime & Delinquency-blue)](https://journals.sagepub.com/doi/full/10.1177/00111287211064779)
+[![](https://img.shields.io/badge/Article-Crime%20&%20Delinquency-blue)](https://journals.sagepub.com/doi/full/10.1177/00111287211064779)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 We assess if asking victims about the places where crimes happen leads to estimates of “crime in place” with better measurement properties. We analyze data from the Barcelona Victimization Survey (2015–2020) aggregated in 73 neighborhoods using longitudinal quasi-simplex models and criterion validity to estimate the quality of four types of survey-based measures of crime. The distribution of survey-based offense location estimates, as opposed to victim residence estimates, is highly similar to police-recorded crime statistics, and there is little trade off in terms of the reliability and validity of offense location and victim residence measures. Estimates of crimes reported to the police show a better validity, but their reliability is lower and capture fewer crimes.
 :::
 
-`Cernat, A., Buil-Gil, D., Brunton-Smith, I., Pina-Sánchez, J., and Murrià-Sangenís, M.
-(2022). Estimating crime in place: Moving beyond residence location. Crime & Delinquency,
-68(11):2061–2091. https://doi.org/10.1177/00111287211064779`
+`Cernat, A., Buil-Gil, D., Brunton-Smith, I., Pina-Sánchez, J., and Murrià-Sangenís, M. (2022). Estimating crime in place: Moving beyond residence location. Crime & Delinquency, 68(11):2061–2091. https://doi.org/10.1177/00111287211064779`
 
 ------------------------------------------------------------------------
 
-### Comparing Measurements of Violent Crime in Local Communities 
+### Comparing Measurements of Violent Crime in Local Communities
 
 *A Case Study in Islington, London*
 
-[![](https://img.shields.io/badge/Article-Police, Practice and Research-blue)](https://www.tandfonline.com/doi/full/10.1080/15614263.2022.2047047)
+[![](https://img.shields.io/badge/Article-Police,%20Practice%20and%20Research-blue)](https://www.tandfonline.com/doi/full/10.1080/15614263.2022.2047047)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Police-recorded crime data are prone to measurement error, affecting our understanding of the nature of crime. Research has responded to this problem using data from surveys and emergency services. These data sources are not error-free, and data from different sources are not always easily comparable. This study compares violent crime data recorded by police, ambulance services, two surveys and computer simulations in Islington, London. Different data sources show remarkably different results. However, crime estimates become more similar, but still show different distributions, when crime rates are calculated using workday population as the denominator and log-transformed. Normalising crime rates by workday population controls for the fact that some data sources reflect offences’ location while others refer to victims’ residence, and log-transforming rates mitigates the biasing effect associated with some multiplicative forms of measurement error. Comparing multiple data sources allows for more accurate descriptions of the prevalence and distribution of crime.
 :::
 
-`Buil-Gil, D., Brunton-Smith, I., Pina-Sánchez, J., and Cernat, A. (2022). Comparing measurements of crime in local communities: A case study in Islington, London. Police Practice and Research, 23(4):489–506. https://doi.org/10.1080/15614263.2022.2047047 `
+`Buil-Gil, D., Brunton-Smith, I., Pina-Sánchez, J., and Cernat, A. (2022). Comparing measurements of crime in local communities: A case study in Islington, London. Police Practice and Research, 23(4):489–506. https://doi.org/10.1080/15614263.2022.2047047`
+
+------------------------------------------------------------------------
+
+### Adjusting for Measurement Error in Retrospectively Reported Work Histories 
+
+*An Analysis Using Swedish Register Data*
+
+[![](https://img.shields.io/badge/Article-Journal of Official Statistics-blue)](https://journals.sagepub.com/doi/abs/10.2478/jos-2019-0010)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We use work histories retrospectively reported and matched to register data from the Swedish unemployment office to assess: 1) the prevalence of measurement error in reported spells of unemployment; 2) the impact of using such spells as the response variable of an exponential model; and 3) strategies for the adjustment of the measurement error. Due to the omission or misclassification of spells in work histories we cannot carry out typical adjustments for memory failures based on multiplicative models. Instead we suggest an adjustment method based on a mixture Bayesian model capable of differentiating between misdated spells and those for which the observed and true durations are unrelated. This adjustment is applied in two manners, one assuming access to a validation subsample and another relying on a strong prior for the mixture mechanism. Both solutions demonstrate a substantial reduction in the vast biases observed in the regression coefficients of the exponential model when survey data is used.
+:::
+
+`Pina-Sánchez, J., Koskinen, J., and Plewis, I. (2019). Adjusting for measurement error in retrospectively reported work histories: An analysis using Swedish register data. Journal of Official Statistics, 35(1):203–229. https://doi.org/10.2478/jos-2019-0010`
 
 ------------------------------------------------------------------------
 
