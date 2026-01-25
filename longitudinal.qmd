@@ -2,5 +2,5 @@
 title: "Métodos Longitudinales"
 ---
 
-These are the slides for an introduction to longitudinal data analysis - en español - that I delivered as part of a research method series at the *Universidad Miguel Hernández* - Elche (Spain).  
--   [Lecture](static/crimina_disenos-longitudinales.pdf)
+These are the slides for an introduction to longitudinal data analysis - en español - that I delivered as part of a research method series at the *Universidad Miguel Hernández* - Elche (Spain).\
+- [Lecture](static/crimina_disenos-longitudinales.pdf)

@@ -1,0 +1,8 @@
+---
+title: "Introducción al Análisis Cuantitativo de Sentencias"
+---
+
+Short course introducing quantitative sentencing research - en español - delivered at *Universidad de Salamanca* (Spain).\
+- [Lecture](https://jmpinasanchez.github.io/presentations/Salamanca_2026/Salamanca_2026.html)\
+- [Practical](https://jmpinasanchez.github.io/static/Quantitative_sentencing.pdf)\
+- [Data](https://sentencingcouncil.org.uk/research-data/our-research-and-analysis/sentencing-council-courts-data/offence-specific-data-collections/)

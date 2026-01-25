@@ -64,5 +64,77 @@
   },
   "longitudinal.qmd": {
     "longitudinal.html": "0c104430"
+  },
+  "consistency.qmd": {
+    "consistency.html": "5fe705ba"
+  },
+  "factors.qmd": {
+    "factors.html": "3618d4b2"
+  },
+  "guidelines.qmd": {
+    "guidelines.html": "7f976e3d"
+  },
+  "opinion.qmd": {
+    "opinion.html": "9a6dbc81"
+  },
+  "punitiveness.qmd": {
+    "punitiveness.html": "a1cfcd01"
+  },
+  "comparative.qmd": {
+    "comparative.html": "dd544c4e"
+  },
+  "extralegal.qmd": {
+    "extralegal.html": "a8629a16"
+  },
+  "impact.qmd": {
+    "impact.html": "6b8e5fcd"
+  },
+  "service.qmd": {
+    "service.html": "ec68e31f"
+  },
+  "sentencing_consistency.qmd": {
+    "sentencing_consistency.html": "0038696a"
+  },
+  "disparities_justice.qmd": {
+    "disparities_justice.html": "6092f20e"
+  },
+  "disparities_sentencing.qmd": {
+    "disparities_sentencing.html": "d502ea81"
+  },
+  "measurement_crime.qmd": {
+    "measurement_crime.html": "2af6c7b9"
+  },
+  "measurement_other.qmd": {
+    "measurement_other.html": "a2295c7a"
+  },
+  "measurement_retrospective.qmd": {
+    "measurement_retrospective.html": "d00a1e59"
+  },
+  "sentencing_extralegal.qmd": {
+    "sentencing_extralegal.html": "dc47c834"
+  },
+  "sentencing_factors.qmd": {
+    "sentencing_factors.html": "dad30025"
+  },
+  "sentencing_guidelines.qmd": {
+    "sentencing_guidelines.html": "b48dcb94"
+  },
+  "sentencing_opinion.qmd": {
+    "sentencing_opinion.html": "192fdfad"
+  },
+  "sentencing_punitiveness.qmd": {
+    "sentencing_punitiveness.html": "49fd34e8"
+  },
+  "presentations.qmd": {
+    "presentations.html": "c6d6c706"
+  },
+  "presentations/Prague_2025/Prague_2025.qmd": {
+    "Prague_2025.html": "a07203d3"
+  },
+  "presentations/Salamanca_2026/Salamanca_2026.qmd": {
+    "Salamanca_2026.html": "a15ebf5c"
+  },
+  "sentencias.qmd": {
+    "sentencias.html": "425621e7"
   }
 }
