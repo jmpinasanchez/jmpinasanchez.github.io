@@ -7,7 +7,7 @@ project:
 
 website:
   title: ""
-  google-analytics: "G-S2928KYNDE"  
+  google-analytics: "G-08NDRH85G1"  
   navbar:
     left:
       - href: index.qmd
@@ -26,6 +26,8 @@ website:
           text: Expert Elicitation Techniques          
         - href: longitudinal.qmd
           text: Métodos Longitudinales
+        - href: sentencias.qmd
+          text: Análisis de Sentencias         
       - text: Research
         menu:
         - href: sentencing.qmd
@@ -39,11 +41,15 @@ website:
         - href: procedural.qmd
           text: Procedural Justice
         - href: cars.qmd
-          text: Car Dependency
+          text: Cars & Crime
         - href: meta.qmd
           text: Meta Science          
         - href: failed.qmd
           text: Failed Projects
+      - href: impact.qmd
+        text: Impact   
+      - href: service.qmd
+        text: Service         
       - href: outreach.qmd
         text: Outreach          
       - href: rants.qmd

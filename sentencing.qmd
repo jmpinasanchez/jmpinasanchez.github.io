@@ -2,7 +2,36 @@
 title: "Sentencing"
 ---
 
-I've been working on judicial decision-making (sentencing) since I went to do a short internship at the Sentencing Council for England and Wales as part of my ESRC PhD, back in 2012. I've mainly focuse on the estimation of between court consistency, [disparities](https://jmpinasanchez.github.io/disparities.html), sentence severity, individualisation, the impact of sentencing guidelines, the effect of aggravating/mitigating factors, and trends in public opinion.
+I have been exploring sentencing decisions since 2012, when I joined the Sentencing Council for England and Wales as an intern as part of my ESRC PhD. Most of that work focuses on the estimation of between court consistency, disparities, punitiveness, the impact of sentencing guidelines, the effect of aggravating/mitigating factors, and trends in public opinion.
+
+------------------------------------------------------------------------
+
+### From Principles to Populism
+
+*Sentencing in England and Wales*
+
+[![](https://img.shields.io/badge/Preprint-Crime%20&%20Justice-blue)](static/55003.revised2.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The creation of sentencing councils and the introduction of guidelines have made sentencing in the United Kingdom more transparent, predictable, and democratic. The systems in England and Wales, Scotland, and Northern Ireland share common elements, but important differences exist, principally concerning guideline structures. Those in England and Wales are the most comprehensive. They are largely descriptive, reproducing rather than changing judicial practice, and have failed to prevent three problems: increases in sentence severity, prison overcrowding, and political interference. Prison sentence lengths have increased significantly and use of community orders has declined. Despite the existence of independent sentencing councils in England and Wales and Scotland, politics continue to shape policy and sentencing practice. The government in England and Wales in 2025 commissioned a review of sentencing and introduced legislation to implement proposed changes, including creation of a statutory presumption against imposition of short prison sentences. If implemented as specified in the legislation, courts will, with some limited exceptions, have to find that “exceptional circumstances” exist before imposing a prison sentence of 12 months or less.
+:::
+
+`Roberts, J. and Pina-Sánchez, J. (2026). Principles to Populism: Sentencing in England and Wales. Crime & Justice, 55.`
+
+------------------------------------------------------------------------
+
+### Measuring Sentencing Inflation in England and Wales
+
+[![](https://img.shields.io/badge/Report-Sentencing%20Academy-blue)](https://www.sentencingacademy.org.uk/measuring-sentence-inflation-in-england-and-wales/)
+
+::: {.callout-note collapse="true" title="Abstract"}
+In a previous research bulletin by the Sentencing Academy Pina-Sánchez et al. (2023) documented a significant increase in sentence severity in England and Wales over the last two decades. However, the extent to which this increase in sentence severity is due to a genuine process of ‘sentence inflation’ was unclear. The changing nature of crime might have affected the offence mix processed through our criminal courts. It is possible that the cases sentenced by the courts have become more serious over the period in question. To the extent that this has occurred it would constitute ‘explainable’ or natural inflation. If the cases sentenced are more serious, sentence severity should reflect this changing pattern.\
+The analysis relates two indices. One – the Imprisonment Index – measures sentence severity by combining the custody rate and Average Custodial Sentence Length (ACSL). The second index measures the seriousness of cases appearing for sentencing.\
+We estimate that since 2005, sentence severity has increased by 62%, while the seriousness of crimes processed through courts has increased by only 8%. This means that 87% of the increased sentence severity over the period was due to changes in sentencing practice, or as we term it, ‘sentence inflation’. Put differently, we estimate that sentencing in England and Wales is today 54% more punitive than in 2005. This is the first analysis to provide an estimate of the overall degree of sentence inflation in this or any other jurisdiction.\
+Our analysis reveals that sentence inflation has been far from uniform. Whereas no discernible pattern can be detected for drug offences, or public order offences, sentence severity for offences involving violence or weapons related offences has doubled since 2005. Sentence severity for fraud offences has tripled.
+:::
+
+`Pina-Sánchez, J., Roberts, J., and Bild, J. (2025). Measuring sentencing inflation in England and Wales. Sentencing Academy. https://www.sentencingacademy.org.uk/measuring-sentence-inflation-in-england-and-wales/`
 
 ------------------------------------------------------------------------
 
@@ -10,8 +39,8 @@ I've been working on judicial decision-making (sentencing) since I went to do a 
 
 *An Application of Bayesian Model Averaging to Theft Offences Sentenced in the England and Wales Magistrates*
 
-[![Preprint](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/2c1pvzvd/release/5)\
-[![Chapter](https://img.shields.io/badge/Chapter-HTML-blue)](https://www.elgaronline.com/edcollchap/book/9781035309320/book-part-9781035309320-43.xml)
+[![](https://img.shields.io/badge/Chapter-Research%20Handbook%20on%20Judicial%20Politics-blue)](https://www.elgaronline.com/edcollchap/book/9781035309320/book-part-9781035309320-43.xml)\
+[![](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/2c1pvzvd/release/5)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 In order to identify the case characteristics considered by judges in their sentencing deliberations, researchers have relied heavily on regression modelling techniques. In most instances, the sample of sentences available is many times larger than the number of case characteristics recorded, providing enough degrees of freedom to estimate the effect of these case characteristics adequately. However, when the number of case characteristics recorded is too large, or the samples are too small, regression models can overfit the data. Here, we demonstrate how, in such settings, Bayesian methods such as spike-and-slab models can be used to select the most consequential case characteristics in a principled and reliable way. The potential of this approach is illustrated using a sample of 2,116 sentences imposed in the magistrates’ courts in England and Wales on shoplifters. For this small sample, we reliably estimated twenty case characteristics predicting custody decisions. This highlights the high degree of discretion afforded to sentencers in England and Wales. We also found that offender-related factors (such as the offender’s previous convictions, and caring responsibilities), appeared to be far more important than characteristics defining the offence (e.g., value of goods stolen or lasting effect of offence on victim). This questions the widely held belief that sentencing in England and Wales is based around the principle of proportionality.
@@ -21,43 +50,97 @@ In order to identify the case characteristics considered by judges in their sent
 
 ------------------------------------------------------------------------
 
+### Sentencing Trends in England and Wales (2002-2022)
+
+[![](https://img.shields.io/badge/Report-Sentencing%20Academy-blue)](https://www.sentencingacademy.org.uk/sentencing-trends-in-england-and-wales-2002-2022/)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This data bulletin explores sentencing trends in England and Wales from 2002 to 2022 and addresses this key question: How has the severity of sentencing changed over the past 20 years? It is the first of a series from the Sentencing Academy.\
+There are three categories of offence in England and Wales. More serious crimes are indictable only, which can be dealt with only by the Crown Court. Other offences are either ‘triable either way’, resolved either by the Crown Court or by magistrates’ courts, or summary, heard only in magistrates’ courts. Indictable only offences account for a small minority (about 1% in 2022) of all cases sentenced. Triable either way and summary only represent the remaining 16% and 83% respectively.1 Analyses are presented here for all offences and then separately for summary offences, as well as for indictable and triable either way offences combined. We first document changes in the use of all sanctions over the period 2002-2022. Then we focus on the principal disposals, and in particular on sentences of imprisonment.\
+Despite fairly stable police-recorded crime rates over this period, the prison population in England and Wales has increased by almost 20% since 2002. Several explanations may account for this increase, including: more serious crimes being sentenced; an increase in the volume of repeat offenders; and more offenders being recalled to prison for breaching their licence conditions.\
+This bulletin explores one potential explanation, namely that sentencing has become harsher over the period. An increase in sentence severity may arise from a higher imprisonment rate, a decline in the use of less severe punishments such as the community order, or a combination of both trends. In addition, there may have been an increase in the length of prison sentences imposed. Any such changes would increase the prison population.
+:::
+
+`Pina-Sánchez, J., Crellin, L., Bild, J., Roberts, J., and Hough, M. (2023). Sentencing trends in England and Wales (2002-2022). Sentencing Academy. https://www.sentencingacademy.org.uk/sentencing-trends-in-england-and-wales-2002-2022/`
+
+------------------------------------------------------------------------
+
 ### What Is the Value of Judicial Experience?
 
 *Exploring Judge Trajectories Using Longitudinal Data*
 
-[![Article](https://img.shields.io/badge/Article-Justice%20Quarterly-blue)](https://www.tandfonline.com/doi/full/10.1080/07418825.2022.2051585#abstract)\
+[![](https://img.shields.io/badge/Article-Justice%20Quarterly-blue)](https://www.tandfonline.com/doi/full/10.1080/07418825.2022.2051585#abstract)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Drapal.2022.What%20is%20the%20Value%20of%20Judicial%20Experience_Exploring%20Judge%20Trajectories%20Using%20Longitudinal%20Data.pdf)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Judicial experience is considered essential for the proper functioning of the sentencing system. We investigate how it influences judicial decisions and its role in reducing sentencing disparity. To do so, we analyze all Czech criminal decisions imposed in 2007–2017 using data that includes judge identifiers. This unique feature of our data enables us to measure judges’ experience directly, as the number of criminal cases processed, and to assess patterns in between-judge disparities longitudinally over the course of judges’ careers. We find that experienced judges impose more prison sentences, decide fewer cases via shortened procedure and find fewer defendants guilty. In addition, as judges become more experienced, between-judge disparities reduce across all the outcomes considered. Experience is thus an instrumental factor affecting judicial decisions throughout the criminal process, and one that contributes to greater consistency.
 :::
 
-`Drápal, J. and Pina-Sánchez, J. (2023). What is the value of judicial experience? exploring judge trajectories using longitudinal data. Justice Quarterly, 40(2):211–240. https://doi.org/10.1080/07418825.2022.2051585`
+`Drápal, J., and Pina-Sánchez, J. (2023). What is the value of judicial experience? exploring judge trajectories using longitudinal data. Justice Quarterly, 40(2):211–240. https://doi.org/10.1080/07418825.2022.2051585`
+
+------------------------------------------------------------------------
+
+### Public Knowledge of Sentencing Practice and Trends
+
+[![](https://img.shields.io/badge/Report-Sentencing%20Academy-blue)](https://www.sentencingacademy.org.uk/wp-content/uploads/2023/08/Public-Knowledge-of-Sentencing-Practice-and-Trends.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This report describes findings from a survey of the general public conducted in 2021. The research contributes to the well-established and still growing literature on public opinion and sentencing. Unlike most surveys, however, the primary focus here is upon what the public know about sentencing: the knowledge which underpins their attitudes. Specifically, public estimates of custody rates and average prison sentence lengths were compared to the latest sentencing statistics. In addition, several questions tested respondents’ knowledge of changes in the use of imprisonment over the period 1996-2021. Sentencing practices have become more severe in recent years, as reflected in increases in the use of imprisonment and in average custodial sentence lengths. One aim of the survey was to determine whether the public was aware of this trend.
+:::
+
+`Roberts, J. V., Bild, J., Pina-Sánchez, and Hough, M. (2022). Public knowledge of sentencing practice and trends. Sentencing Academy`
 
 ------------------------------------------------------------------------
 
 ### Sentence Reductions for a Guilty Plea
 
-*The impact of the revised guideline on rates of pleas and ‘cracked trials’*
+*The Impact of the Revised Guideline on Rates of Pleas and ‘Cracked Trials’*
 
-[![Article](https://img.shields.io/badge/Article-The%20Journal%20of%20Criminal%20Law-blue)](https://journals.sagepub.com/doi/full/10.1177/00220183211041912)\
+[![](https://img.shields.io/badge/Article-The%20Journal%20of%20Criminal%20Law-blue)](https://journals.sagepub.com/doi/full/10.1177/00220183211041912)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Roberts.2021.Sentence%20reductions%20for%20a%20guilty%20plea.pdf)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 In 2017, the Sentencing Council introduced a revised guideline for plea-based sentence reductions. The revisions were designed to provide greater certainty and to accelerate the timing of guilty pleas. Late pleas resulting in ‘cracked trials’ have long been a problem in the court system. The guideline was not intended to change the rate of defendants who plead guilty, but rather to increase the percentage of pleas entered early in the criminal process. This brief article reports findings from an analysis of data from the Crown Court before and after the introduction of the revised sentencing guideline. Findings reveal that the overall guilty plea remained stable over the period 2014–2019. The guideline appears to have had no effect on the timing of guilty pleas entered, and in fact the percentage of ‘cracked’ trials rose in the post-guideline period.
 :::
 
-`Roberts, J. V. and Pina-Sánchez, J. (2022). Sentence reductions for a guilty plea: The impact of the revised guideline on rates of pleas and ‘cracked trials’. The Journal of Criminal Law, 86(5):327–335. https://doi.org/10.1177/00220183211041912`
+`Roberts, J. V., and Pina-Sánchez, J. (2022). Sentence reductions for a guilty plea: The impact of the revised guideline on rates of pleas and ‘cracked trials’. The Journal of Criminal Law, 86(5):327–335. https://doi.org/10.1177/00220183211041912`
 
 ------------------------------------------------------------------------
 
-### Enhancing the Measurement of Sentence Severity through Expert Knowledge Elicitation
+### Methodological Challenges of Comparative Sentencing Research
 
-[![Article](https://img.shields.io/badge/Article-Journal%20of%20Legal%20Research%20Methodology-blue)](https://www.northumbriajournals.co.uk/index.php/jlrm/article/view/1241)\
+[![](https://img.shields.io/badge/Report-Scottish%20Sentencing%20Council-blue)](https://www.scottishsentencingcouncil.org.uk/media/nvniyfjn/20220519-research-comparing-sentencing-final-as-published.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The Scottish Sentencing Council commissioned the University of Strathclyde in November 2021 to examine methodological issues in comparative sentencing research. The research team, led by Prof Cyrus Tata (University of Strathclyde), was asked to review and report on the evidence on the issues in comparing sentences ‘across jurisdictions and modalities.’\
+This report addresses questions arising in relation to any comparison of sanctions across jurisdictions. Ultimately, the goal is to contribute not only to more evidence-based guideline development, but to improve knowledge about the opportunities and challenges involved in making valid inter-jurisdictional comparisons and how this can facilitate greater public understanding and confidence in sentencing. While this report covers key issues and highlight relevant research, comparative sentencing is a vast topic. Therefore, our scope here must be focused. To do this we primarily draw on a single comparative jurisdiction with Scotland: England and Wales. It should be noted that there are other jurisdictions where useful comparative insights might be sought. However, each new comparator requires careful consideration of its distinct features. Moreover, in some cases, there will be greater differences in legal structures that render comparisons even more challenging.
+:::
+
+`Gormley, J., Roberts, J., Pina-Sánchez, J., Tata, C., and Veiga, A. (2022). Methodological challenges of comparative sentencing research. Scottish Sentencing Council. https://www.scottishsentencingcouncil.org.uk/media/nvniyfjn/20220519-research-comparing-sentencing-final-as-published.pdf`
+
+------------------------------------------------------------------------
+
+### Public Confidence in the Slovenian State Prosecutors’ Office
+
+[![](https://img.shields.io/badge/Preprint-SocArXiv-blue)](https://osf.io/preprints/socarxiv/z3fqx_v1)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This report presents results from a representative survey exploring attitudes of the Slovenian general public towards the work undertaken by the State Prosecutors’ Office. We found that a majority of participants (about six in ten) think that courts are currently too lenient, while more than nine in ten think that the State Prosecutors’ Office does not prosecute enough crimes to deter crime effectively. Slightly less than half of participants find the State Prosecutors’ Office to be trustworthy, independent, efficient, transparent, or express confidence in its work. Such perceptions were more positive for participants who would classify themselves as informed regarding the work of the State Prosecutor’s Office, consider that enough crimes are prosecuted, are politically left-leaning, younger, highly educated, and of above average social class.
+:::
+
+`Pina-Sánchez, J., and Plesnicar, M. (2022). Public confidence in the slovenian state prosecutors’ office. SocArXiv. https://osf.io/preprints/socarxiv/z3fqx_v1`
+
+------------------------------------------------------------------------
+
+### Enhancing the Measurement of Sentence Severity Through Expert Knowledge Elicitation
+
+[![](https://img.shields.io/badge/Article-Journal%20of%20Legal%20Research%20Methodology-blue)](https://www.northumbriajournals.co.uk/index.php/jlrm/article/view/1241)\
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Quantitative research on judicial decision-making faces the methodological challenge of analysing disposal types that are measured in different units (e.g. money for fines, days for custodial sentences). To overcome this problem a wide range of scales of sentence severity have been suggested in the literature. One particular group of severity scales that has achieved high validity and reliability are those based on Thurstone’s pairwise comparisons. However, this method invokes a series of simplifying assumptions, one of them being that the range of severity covered by different disposal types is constant. We undertook an expert elicitation workshop to assess the validity of that assumption. Responses from the six criminal law practitioners and researchers that participated in our workshop unanimously pointed at severity ranges being highly variable across disposal types (e.g. much wider severity ranges were identified for suspended custodial sentences than for fines). We used this information to re-specify Thurstone’s model allowing for unequal variances. As a result, we obtained a new, more robust, scale of sentence severity.
 :::
 
-`Pina-Sánchez, J. and Gosling, J. P. (2022). Enhancing the measurement of sentence severity through expert knowledge elicitation. Journal of Legal Research Methodology, 2(1):26–45. https://doi.org/10.19164/jlrm.v2i1.1241`
+`Pina-Sánchez, J., and Gosling, J. P. (2022). Enhancing the measurement of sentence severity through expert knowledge elicitation. Journal of Legal Research Methodology, 2(1):26–45. https://doi.org/10.19164/jlrm.v2i1.1241`
 
 ------------------------------------------------------------------------
 
@@ -65,7 +148,7 @@ Quantitative research on judicial decision-making faces the methodological chall
 
 *How Drinking and Social Context Impact Sentencing of Violence*
 
-[![Article](https://img.shields.io/badge/Article-Criminology%20&%20Criminal%20Justice-blue)](https://journals.sagepub.com/doi/10.1177/1748895820972160)\
+[![](https://img.shields.io/badge/Article-Criminology%20&%20Criminal%20Justice-blue)](https://journals.sagepub.com/doi/10.1177/1748895820972160)\
 
 ::: {.callout-note collapse="true" title="Abstract"}
 The controversial effect of intoxication on sentencing outcomes has received renewed attention with a series of new empirical studies. However, these studies have relied on survey data that conflate alcohol and drug intoxication and miss pertinent contextual features of the offence. This article explores how alcohol intoxication, and its social context, impact sentence outcomes for violent offences. To do so, the probability of custodial sentence severity is modelled using multilevel Cox regression using data from online sentence transcripts. Findings contribute insights into how punishment is shaped by not only the presence of alcohol intoxication in offending but also in which contexts by highlighting the significant punitive effects of reference to concomitant drug use, the defendant drinking together with the victim and if the offence occurred in a private setting. This helps clarify complex considerations taken into account by sentencers when processing cases and the need for clearer guidance.
@@ -75,9 +158,39 @@ The controversial effect of intoxication on sentencing outcomes has received ren
 
 ------------------------------------------------------------------------
 
+### The Impact of Three Guidelines on Consistency in Sentencing
+
+[![](https://img.shields.io/badge/Report-The%20Sentencing%20Council%20for%20England%20and%20Wales-blue)](https://www.sentencingcouncil.org.uk/wp-content/uploads/The-impact-of-three-guidelines-on-consistency-in-sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+A methodology to measure consistency of approach to sentencing was developed and applied to data covering three Sentencing Council guidelines, to understand whether these guidelines have achieved the Council’s aim of promoting greater consistency in sentencing.\
+The analysis found that for domestic burglary and supply/ possession with intent to supply a controlled drug, there is some evidence of an increase in consistency following the introduction of these guidelines. However, for theft from a shop or stall, no increase in consistency was observed.\
+When looking at specific guideline factors, it was found that the majority of the factors tested were associated with consistent sentencing. A small number were found to have been associated with inconsistent sentencing, including several factors related to the use of or addiction to alcohol/ drugs, and whether the offender had any previous convictions. A number of possible reasons were given for these inconsistencies; however, more research would be needed to understand this further.\
+The Council will consider how this research can assist when developing and evaluating future sentencing guidelines.
+:::
+
+`Isaac, A., Pina-Sánchez, J., and Varela, A. (2021). The impact of three guidelines on consistency in sentencing. Sentencing Council for England and Wales. https://www.sentencingcouncil.org.uk/wp-content/uploads/The-impact-of-three-guidelines-on-consistency-in-sentencing.pdf`
+
+------------------------------------------------------------------------
+
+### Re-assessing the Consistency of Sentencing Decisions in Cases of Assault
+
+*Allowing for Within Court Inconsistencies*
+
+[![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/60/6/1438/5843314?redirectedFrom=fulltext)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/BruntonSmith.2020.Reassessing%20the%20Consistency%20of%20Sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Empirical research has repeatedly focused on the potential existence of sentencing disparities. In particular, a growing number of studies have used multilevel models to quantify the extent that ‘similar’ offences are treated alike in different courts. This reliance on multilevel models has resulted in a natural focus on differences in the mean sentence awarded between courts, with the amount of within-group variability generally assumed to be the same in each court. In this paper, we show how multilevel models can be extended by allowing the magnitude of within-court differences to be different in each court. This provides a natural framework to connect between-court disparities with the sentencing differences that are thought to originate between judges operating within the same court, particularly in the absence of more fine-grained sentencing data about the judge residing in each case. Focusing specifically on cases of assault sentenced in 2011, we show that there are substantial differences in the range of sentences awarded in different courts, with the range almost twice as large in some courts. We also find that it is those courts that appear to show the traits of more homogeneous sentencing that sentence more harshly and that offences involving the presence of a weapon or evidence of good character and/or exemplary conduct were associated with higher levels of internal consistency.
+:::
+
+`Brunton-Smith, I., Pina-Sánchez, J., and Guangquan, L. (2020). Re-assessing the consistency of sentencing decisions in cases of assault: Allowing for within court inconsistencies. The British Journal of Criminology, 60(6): 1438–1459. https://doi.org/10.1093/bjc/azaa030`
+
+------------------------------------------------------------------------
+
 ### Mind the Step
 
-*A More Insightful and Robust Analysis of the Sentencing Process in England and Wales under the New Sentencing Guidelines*
+*A More Insightful and Robust Analysis of the Sentencing Process in England and Wales Under the New Sentencing Guidelines*
 
 [![Article](https://img.shields.io/badge/Article-Criminology%20&%20Criminal%20Justice-blue)](https://journals.sagepub.com/doi/abs/10.1177/1748895818811891)\
 [![](https://img.shields.io/badge/Preprint-PDF-blue)](static/1748895818811891.pdf)
@@ -107,29 +220,16 @@ Empirical research has repeatedly focused on the potential existence of sentenci
 
 ### Tackling Selection Bias in Sentencing Data Analysis
 
-*A new approach based on a scale of severity*
+*A New Approach Based on a Scale of Severity*
 
-[![](https://img.shields.io/badge/Article-Quality%20&%20Quantity-blue)](https://link.springer.com/article/10.1007/s11135-020-00973-z)
+[![](https://img.shields.io/badge/Article-Quality%20&%20Quantity-blue)](https://link.springer.com/article/10.1007/s11135-020-00973-z)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/PinaSanchez.2020.TacklingSelectionBiasInSentenc.pdf)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 For reasons of methodological convenience statistical models analysing judicial decisions tend to focus on the duration of custodial sentences. These types of sentences are however quite rare (7% of the total in England and Wales), which generates a serious problem of selection bias. Typical adjustments employed in the literature, such as Tobit models, are based on questionable assumptions and are incapable to discriminate between different types of non-custodial sentences (such as discharges, fines, community orders, or suspended sentences). Here we implement an original approach to model custodial and non-custodial sentence outcomes simultaneously avoiding problems of selection bias while making the most of the information recorded for each of them. This is achieved by employing Pina-Sánchez et al. (Br J Criminol 59:979–1001, 2019) scale of sentence severity as the outcome variable of a Bayesian regression model. A sample of 7242 theft offences sentenced in the Crown Court is used to further illustrate: (a) the pervasiveness of selection bias in studies restricted to custodial sentences, which leads us to question the external validity of previous studies in the literature limited to custodial sentence length; and (b) the inadequacy of Tobit models and similar methods used in the literature to adjust for such bias.
 :::
 
-`Pina-Sánchez, J. and Gosling, J. P. (2020). Tackling selection bias in sentencing data analysis: A new approach based on a scale of severity. Quality & Quantity, 54:1047–1073. https://doi.org/10.1007/s11135-020-00973-z`
-
-------------------------------------------------------------------------
-
-### Sentencing Gender?
-
-*Investigating the Extent and Origin of Sentencing Gender Disparities in the Crown Court*
-
-[![](https://img.shields.io/badge/Article-Criminal%20Law%20Review-blue)](static/JosePSLyndonH%20Article%20final.pdf)
-
-::: {.callout-note collapse="true" title="Abstract"}
-We explore the presence of gender sentencing disparities using large samples of assault, burglary and drugs offences from the Crown Court Sentencing Survey. We find significantly harsher sentences imposed on male offenders even after controlling for most case characteristics, including mitigating factors such as “caring responsibilities”. Specifically, the odds ratios of receiving a custodial sentence for offences of assault, burglary and drugs committed by a man as opposed to a woman are 2.84, 1.89 and 2.72. To put it in context, with the exception of “intent to commit serious harm”, the gender effect was stronger than any other “harm and culpability” factor applicable to assault offences. These disparities do not seem to stem primarily from differential interpretations of offender dangerousness. It is possible that they might be due to lower rates of reoffending amongst female offenders, or more probably to the higher punitive effect of custodial sentences on women. What seems clear is that sentencing is not gender neutral. If gender-specific sentencing guidelines are to be developed in the future it would be important that the noted disparities are taken in consideration.
-:::
-
-`Pina-Sánchez, J. and Harris, L. (2020). Sentencing Gender? Investigating the Extent and Origin of Sentencing Gender Disparities in the Crown Court. Criminal Law Review, 1:3–28`
+`Pina-Sánchez, J., and Gosling, J. P. (2020). Tackling selection bias in sentencing data analysis: A new approach based on a scale of severity. Quality & Quantity, 54:1047–1073. https://doi.org/10.1007/s11135-020-00973-z`
 
 ------------------------------------------------------------------------
 
@@ -144,15 +244,27 @@ We explore the presence of gender sentencing disparities using large samples of 
 Although it has long been acknowledged that heuristics influence judicial decision making, researchers have yet to explore how sentencing guidelines might interact with heuristics to shape sentencing decisions. This article contributes to addressing this gap in the literature in three ways: first, by considering how heuristics might help produce the phenomenon of sentence clustering, in which a significant proportion of sentences are concentrated around a small number of outcomes; second, by reflecting on the role of sentencing guidelines as a feature of the environment within which sentencing decisions are made; and third, by analysing the guidelines from Minnesota and from England and Wales, theorizing how their content might interact with heuristics to make clustering more or less likely. Ultimately, we argue that sentencing guidelines likely affect the role played by heuristics in shaping sentencing decisions and, consequently, that their design should be informed by research evidence from the decision sciences.
 :::
 
-`Marder, I. and Pina-Sánchez, J. (2020). Nudge the judge? Theorising the interaction between heuristics, sentencing guidelines and sentence clustering. Criminology & Criminal Justice, 20(4):399–415. https://doi.org/10.1177/1748895818818869`
+`Marder, I., and Pina-Sánchez, J. (2020). Nudge the judge? Theorising the interaction between heuristics, sentencing guidelines and sentence clustering. Criminology & Criminal Justice, 20(4):399–415. https://doi.org/10.1177/1748895818818869`
 
 ------------------------------------------------------------------------
 
-### Exploring the Origin of Sentencing Disparities in the Crown Court 
+### Victim Personal Statements in England and Wales
+
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/2SNVPS.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+In England and Wales, victims provide input at sentencing through the Victim Personal Statement (VPS) scheme, which marked 20 years of operation in 2020.1 The VPS documents the impact of the crime upon the victim and their family. Police and victim agencies have a duty to inform crime victims of the entitlement to make a VPS. The VPS scheme is universal and encompasses all victims. Yet how many victims are offered a VPS by police (or victims' services personnel), and how many actually submit a statement for the purposes of sentencing? Until now, only partial answers have been available to these questions. Gaps in data are responsible for this lack of knowledge. During the first decade of the VPS regime the principal source of information was the Witnesses and Victims Survey ('WAVES'). Unhelpfully, the government discontinued this survey in 2010. The result is that over the past decade the only data available has come from convenience samples, or surveys in which victims self-select themselves.
+:::
+
+`Roberts, J. V., and Pina-Sánchez, J. (2020). Victim personal statements in England and Wales. Current Sentencing Practice News`
+
+------------------------------------------------------------------------
+
+### Exploring the Origin of Sentencing Disparities in the Crown Court
 
 *Using Text Mining Techniques to Differentiate between Court and Judge Disparities*
 
-[![](https://img.shields.io/badge/Article-Social Science Research-blue)](https://www.sciencedirect.com/science/article/abs/pii/S0049089X18308731)
+[![](https://img.shields.io/badge/Article-Social%20Science%20Research-blue)](https://www.sciencedirect.com/science/article/abs/pii/S0049089X18308731)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Research on sentence consistency in England and Wales has focused on disparities between courts, with differences between judges generally ignored. This is largely due to the limitations in official data. Using text mining techniques from Crown Court sentence records available online we generate a sample of 7,212 violent and sexual offences where both court and judge are captured. Multilevel time-to-event analyses of sentence length demonstrate that most disparities originate at the judge, not the court-level. Two important implications follow: i) the extent of sentencing consistency in England and Wales has been underestimated; and ii) the importance attributed to the location in which sentences are passed – in England and Wales and elsewhere - needs to be revisited. Further analysis of the judge level disparities identifies judicial rotation across courts as a practice conducive of sentence consistency, which suggests that sentencing guidelines could be complemented with other, less intrusive, changes in judicial practice to promote consistency.
@@ -162,12 +274,12 @@ Research on sentence consistency in England and Wales has focused on disparities
 
 ------------------------------------------------------------------------
 
-### Have the England and Wales Guidelines Influenced Sentence Severity? 
+### Have the England and Wales Guidelines Influenced Sentence Severity?
 
 *An Empirical Analysis Using a Scale of Sentence Severity and Time-series Analyses*
 
-[![](https://img.shields.io/badge/Article-The British Journal of Criminology-blue)](https://academic.oup.com/bjc/article-abstract/59/4/979/5366297?redirectedFrom=fulltext)  
-[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Have the Guidelines Affected Severity.pdf)
+[![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/59/4/979/5366297?redirectedFrom=fulltext)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Have%20the%20Guidelines%20Affected%20Severity.pdf)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Sentence severity has increased in England and Wales in recent years. The causes of the increase remain unclear. One possible explanation relates to the introduction of sentencing guidelines, which seem to coincide in time with the increase in sentence severity. To date, investigations of this hypothesis have been limited to simple exploratory analyses or to specific offences. We use a new scale of sentence severity—developed using Thurstone scaling and the participation of 21 magistrates—and time-series modelling to explore whether a causal effect can be attributed to seven different guidelines. We corroborate the existence of an increase in sentence severity; however, we do not find conclusive evidence pointing at the guidelines having caused it.
@@ -177,11 +289,11 @@ Sentence severity has increased in England and Wales in recent years. The causes
 
 ------------------------------------------------------------------------
 
-### Have the England and Wales Guidelines Influenced Sentence Severity? 
+### Does the weather influence sentencing?
 
-*An Empirical Analysis Using a Scale of Sentence Severity and Time-series Analyses*
+*Empirical evidence from Czech data*
 
-[![](https://img.shields.io/badge/Article-International Journal of Law Crime and Justice-blue)](https://www.sciencedirect.com/science/article/abs/pii/S1756061618301952)  
+[![](https://img.shields.io/badge/Article-International%20Journal%20of%20Law%20Crime%20and%20Justice-blue)](https://www.sciencedirect.com/science/article/abs/pii/S1756061618301952)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 *Purpose*: Sentencing has been shown to be influenced by different extralegal factors. Following psychological research into the various effects the weather can have on mood and two studies claiming finding an influence of weather on sentencing, we examine the extent to which the weather may influence sentencing.\
@@ -194,7 +306,144 @@ Sentence severity has increased in England and Wales in recent years. The causes
 
 ------------------------------------------------------------------------
 
+### Exploring the Origin of Sentencing Disparities in the Crown Court
 
+*Using Text Mining Techniques to Differentiate Between Court and Judge Disparities*
 
+[![](https://img.shields.io/badge/Article-Social%20Science%20Research-blue)](https://www.sciencedirect.com/science/article/abs/pii/S0049089X18308731)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Pina.2019.Exploring%20the%20Origin%20of%20Sentencing%20Disparities%20in%20the%20Crown%20Court.pdf)
 
+::: {.callout-note collapse="true" title="Abstract"}
+Research on sentence consistency in England and Wales has focused on disparities between courts, with differences between judges generally ignored. This is largely due to the limitations in official data. Using text mining techniques from Crown Court sentence records available online we generate a sample of 7,212 violent and sexual offences where both court and judge are captured. Multilevel time-to-event analyses of sentence length demonstrate that most disparities originate at the judge, not the court-level. Two important implications follow: i) the extent of sentencing consistency in England and Wales has been underestimated; and ii) the importance attributed to the location in which sentences are passed – in England and Wales and elsewhere - needs to be revisited. Further analysis of the judge level disparities identifies judicial rotation across courts as a practice conducive of sentence consistency, which suggests that sentencing guidelines could be complemented with other, less intrusive, changes in judicial practice to promote consistency.
+:::
 
+`Pina-Sánchez, J., Grech, D., Brunton-Smith, I., and Sferopoulos, D. (2019). Exploring the origin of sentencing disparities in the Crown Court: Using text mining techniques to differentiate between court and judge disparities. Social Science Research, 84:1–13. https://doi.org/10.1016/j.ssresearch.2019.102343`
+
+------------------------------------------------------------------------
+
+### Individualisation at Sentencing
+
+*The Effects of Guidelines and ‘Preferred’ Numbers*
+
+[![](https://img.shields.io/badge/Article-Criminal%20Law%20Review-blue)](static/Roberts.2018.Individualisation%20at%20Sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Over a decade after the introduction of sentencing guidelines in England and Wales, little is known about their effects on consistency and individualisation. Limited research has addressed the issue of consistency, and no research has explored another key concept, namely individualisation. This is regrettable since one criticism of guidelines is that they undermine the principle of individualisation at sentencing, and this critique is examined here. The article explores two potential threats to individualisation, using sentence length data from the Crown Court Sentencing Survey. One threat may arise if a guideline constrains judges to sentence within a restricted range, leading to a less individualised approach to sentencing. The second is more fundamental, and consists of the tendency to favour some sentence lengths over others—a preference for certain “round” numbers. The article reports an analysis of custodial sentences for assault offences. Results indicate that sentence lengths for assault offences are affected by a preference for certain numbers—a tendency first observed by Francis Galton in the 19th century. On a more positive note, we find no evidence that the sentencing guidelines for assault and burglary introduced in 2011 have diminished the degree of individualisation in sentencing. We also find that courts report taking a larger number of sentencing factors into account under the new guidelines, further evidence that the guidelines have not undermined individualisation.
+:::
+
+`Roberts, J. V., Pina-Sánchez, J., and Marder, I. (2018). Individualisation at sentencing: The effects of guidelines and ‘preferred’ numbers. Criminal Law Review, 2:123–136`
+
+------------------------------------------------------------------------
+
+### Location and Sentencing
+
+*To What Extent Do contextual Factors Explain Between Court Disparities?*
+
+[![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/58/3/529/3862711?redirectedFrom=fulltext)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Pina.2017.Location%20and%20Sentencing.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This article investigates the presence of unwarranted between court disparities in England and Wales, examining whether they can be explained by non-legal contextual factors such as the organisation of the court and socio-economic composition of the area. In contrast with previous literature, we emphasise the importance of controlling for a wide range of legally relevant case characteristics. The findings reveal that some preliminary startling trends, such as more severe sentencing in courts located in neighbourhoods with high proportions of Muslim residents, are in fact accounted for by differences in the cases reviewed across courts. These findings call into question the validity of previous studies exploring the influence of the context on sentencing that did not adequately control for legal factors.
+:::
+
+`Pina-Sánchez, J., and Grech, D. (2017). Location and sentencing: To what extent do contextual factors explain between court disparities? The British Journal of Criminology, 58(3):529–549. https://doi.org/10.1093/bjc/azx033`
+
+------------------------------------------------------------------------
+
+### Exploring the Punitive Surge
+
+*Crown Court Sentencing Practices Before and After the 2011 English Riots*
+
+[![](https://img.shields.io/badge/Article-Criminology%20&%20Criminal%20Justice-blue)](https://journals.sagepub.com/doi/abs/10.1177/1748895816671167)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/PinaSanchez.2016.Exploring%20the%20Punitive%20Surge.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The English summer riots of 2011 resulted in the criminal justice system having to process an unprecedented number of offenders in a short timeframe. This study explores sentencing practice in the wake of the riots using the 2011 Crown Court Sentencing Survey. A multilevel model was implemented to specify the probability of receiving a custodial sentence for offences of commercial burglary. This model allows exploring differences in sentencing before and after the riots. An increased probability of receiving a custodial sentence in the post-riot period was identified. An increase in variability was also detected, changing from a state of almost perfect consistency to one in which substantial variation was observed between courts. Custodial rates for burglary increased to a level associated with more serious offences, thereby undermining the principle of proportionality. This, as well as the increased dispersion between courts, challenges other principles such as legal certainty and transparency.
+:::
+
+`Pina-Sánchez, J., Lightowlers, C., and Roberts, J. V. (2016). Exploring the punitive surge: Crown Court sentencing practices before and after the 2011 English riots. Criminology & Criminal Justice, 17(3):319–339. https://doi.org/10.1177/1748895816671167`
+
+------------------------------------------------------------------------
+
+### Refining the Measurement of Consistency in Sentencing
+
+*A Methodological Review*
+
+[![](https://img.shields.io/badge/Article-International%20Journal%20of%20Law,%20Crime%20and%20Justice-blue)](https://www.sciencedirect.com/science/article/abs/pii/S1756061615000579)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/1-s2.0-S1756061615000579-main.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The importance of improving consistency in sentencing has been underscored by institutional reforms in a number of jurisdictions. However, the effectiveness of these policy changes has not been clearly measured. To a certain extent this is due to the methodological confusion reflected by the multiplicity of methods that have been used in the study of consistency in sentencing. Here we review and categorise all of the quantitative methods that have been used to measure consistency in the literature. Our classification differentiates methods based on characteristics such as their robustness, the type of data they require, or whether they are amenable to comparisons in time or across jurisdictions. In this way the paper has a twofold contribution: it simplifies the implementation of future empirical analyses on consistency and facilitates their critical interpretation.
+:::
+
+`Pina-Sánchez, J., and Linacre, R. (2016). Refining the measurement of consistency in sentencing: A methodological review. International Journal of Law, Crime and Justice, 44:68–87. https://doi.org/10.1016/j.ijlcj.2015.06.001`
+
+------------------------------------------------------------------------
+
+### Defining and Measuring Consistency in Sentencing
+
+[![](https://img.shields.io/badge/Chapter-Exploring%20Sentencing%20Practice%20in%20England%20and%20Wales-blue)](https://link.springer.com/chapter/10.1057/9781137390400_5)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Defining%20and%20measuring%20consistency%20in%20sentencing_proof.pdf)
+
+`Pina-Sánchez, J. (2015). Defining and measuring consistency in sentencing. In: Roberts, J., editor, Exploring Sentencing Practice in England and Wales, pages 76–92. Springer. https://doi.org/10.1057/9781137390400_5`
+
+------------------------------------------------------------------------
+
+### The Role of Previous Convictions at Sentencing in the Crown Court
+
+*Some New Answers to an Old Question*
+
+[![](https://img.shields.io/badge/Article-Criminal%20Law%20Review-blue)](static/Roberts.2015.Previous%20Convictions.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Most offenders appearing for sentencing have a criminal record. Despite the prevalence of previous convictions, little is known about their impact on sentence outcomes, and in particular the decision to imprison. How should previous convictions affect sentence outcomes? Competing theoretical models exist. Previous convictions may simply disentitle repeat offenders to first offender mitigation and then fail to aggravate (progressive loss of mitigation). Alternatively, prior convictions may be used to continuously increase the severity of sentence (cumulative sentencing). Until now, due to limitations of the sentencing statistics, it has been impossible to determine which model underpins sentencing practices. The Crown Court Sentencing Survey ( CCSS) provides a more adequate source of data. Sentencers complete a return noting the factors taken into account at sentencing, including the number of prior convictions. This article reports new data from the CCCS which demonstrate that for most offences, courts continue to apply the principle of the progressive loss of mitigation. Once this mitigation is lost, there is little further increase in severity as measured by the custody rate, although some variation in the effect of previous convictions does emerge between offences.
+:::
+
+`Roberts, J. V., and Pina-Sánchez, J. (2014). The role of previous convictions at sentencing in the Crown Court: Some new answers to an old question. Criminal Law Review, 8:575–588`
+
+------------------------------------------------------------------------
+
+### Enhancing Consistency in Sentencing
+
+*Exploring the Effects of Guidelines in England and Wales*
+
+[![](https://img.shields.io/badge/Article-Journal%20of%20Quantitative%20Criminology-blue)](https://link.springer.com/article/10.1007/s10940-014-9221-x)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/10.1007_s10940-014-9221-x.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+*Objectives*: The development and application of methods to assess consistency in sentencing before and after the 2011 England and Wales assault guideline came into force.\
+*Methods*: We use the Crown Court Sentencing Survey to compare the goodness of fit of two regression analyses of sentence length on a set of legal factors before and after the assault guideline came into force. We then monitor the dispersion of residuals from these regressions models across time. Finally, we compare the variance in sentence length of equivalent types of offences using exact matching.\
+*Results*: We find that legal factors can explain a greater portion of variability in sentencing after the guideline was implemented. Furthermore, we detect that the unexplained variability in sentencing decreases steadily during 2011, while results from exact matching point to a statistically significant average reduction in the variance of sentence length amongst same types of offences.\
+*Conclusions*: We demonstrate the relevance of two new methods that can be used to produce more robust assessments regarding the evolution of consistency in sentencing, even in situations when only observational non-hierarchical data is available. The application of these methods showed an improvement in consistency during 2011 in England and Wales, although this positive effect cannot be conclusively ascribed to the implementation of the new assault guideline.
+:::
+
+`Pina-Sánchez, J., and Linacre, R. (2014). Enhancing consistency in sentencing: Exploring the effects of guidelines in England and Wales. Journal of Quantitative Criminology, 30(4):731–748. https://doi.org/10.1007/s10940-014-9221-x`
+
+------------------------------------------------------------------------
+
+### An Empirical Analysis of the Determinants of Guilty Plea Discount
+
+[![](https://img.shields.io/badge/Working%20Paper-Cathie%20Marsh%20Centre%20for%20Census%20and%20Survey%20Research-blue)](https://hummedia.manchester.ac.uk/institutes/cmist/archive-publications/reports/2013-04-Guilty_Plea_Report.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+In this report, I assess the application of the 2007 Sentencing Guidelines Council guideline, Reductions for a Guilty Plea, empirically using data collected on the Sentencing Council’s Crown Court Sentencing Survey in the year 2011. I begin by using an exploratory analysis to observe the relationship between the level of discount applied and the stage at which the guilty plea was entered. I then consider the possible impact of other factors taken into account when sentencing on the reduction applied for a guilty plea. For this, I specify different models for discrete data to regress the level of discount on a broad set of explanatory variables. Results point towards a substantial degree of agreement between the recommendations provided in the 2007 guideline and the actual level of discount received by offenders who plead guilty. In particular, the stage based approach recommended in the 2007 guideline was found to be the major factor determining the level of discount applied. However, the results also show there to be a number of departures from the guideline, such as: a) a high proportion of cases where the reduction given was higher than the maximum recommended level of 33%, with these anomalies concentrated in specific Courts; b) the presence of particular aggravating factors, on average, leading to lower levels of discount after controlling for the stage when the guilty plea was entered; and c) the presence of the mitigating factor remorse, on average, having a positive significant effect on the level of discount.
+:::
+
+`Pina-Sánchez, J. (2013). An Empirical Analysis of the Determinants of Guilty Plea Discount. Cathie Marsh Centre for Census and Survey Research - Working Papers Series`
+
+------------------------------------------------------------------------
+
+### Sentence Consistency in England and Wales
+
+*Evidence from the Crown Court Sentencing Survey*
+
+[![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/53/6/1118/415099)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/bjc.azt040.full.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We assess the use of sentencing guidelines for assault issued in England and Wales, and the consistency with which they are applied by judges in the Crown Court. We use data from the Crown Court Sentencing Survey (CCSS), which records data on legal factors considered in the sentencing guidelines. This gives us access to a wide range of explanatory variables, allowing us to produce more robust findings about consistency in sentencing. We first employ a standard regression model to determine how guideline factors affect sentence outcomes empirically. Second, a random slopes multilevel model is used to analyse whether these factors have been consistently applied across different Crown Court centres. Our results point to a substantial degree of consistency in sentencing.
+:::
+
+`Pina-Sánchez, J., and Linacre, R. (2013). Sentence consistency in England and Wales evidence from the Crown Court Sentencing Survey. The British Journal of Criminology, 53(6): 1118–1138`
+
+------------------------------------------------------------------------

@@ -2,7 +2,24 @@
 title: "Causes of Crime"
 ---
 
-I've collaborated with several Criminilogy colleagues in studies exploring trends and correlates of crime. At the moment I am working with [Dr. David Buil-Gil](https://builgil.com/) and [Prof. Ian Brunton-Smith](https://www.surrey.ac.uk/people/ian-brunton-smith) in a study re-estimating the association between collective efficacy and street crime after taking into account differential under-recording in police statistics.
+------------------------------------------------------------------------
+
+### The Association between Mobility and Crime in England and Wales
+
+[![](https://img.shields.io/badge/Article-Crime%20Science-blue)](https://link.springer.com/article/10.1186/s40163-026-00291-z#citeas)
+
+::: {.callout-note collapse="true" title="Abstract"}
+*Purpose*: This study provides the first national-level longitudinal analysis directly linking mobility data to police-recorded crime across local authorities in England and Wales, while controlling for stable structural differences between places. Its purpose is to examine how changes in human mobility are associated with changes in crime, taking advantage of the disruption in mobility caused by the COVID-19 pandemic.
+
+*Methods*: Negative binomial regression models were applied across 328 local authorities from March 2020 to October 2022, with area fixed effects, to assess how mobility across different activity spaces relates to police-recorded crime while accounting for unobserved, time-invariant local characteristics.
+
+*Results*: The exploratory and modelling analyses showed that the mobility-crime relationship varied considerably by offence type and across local authorities. Increased residential mobility was consistently associated with lower levels of property, violent, and public order crimes, while mobility around retail, grocery, transit, and workplace areas was generally associated with higher crime once stable local differences were controlled. Sensitivity analyses suggested the results are robust to plausible levels of unobserved confounding.
+
+*Conclusion*: The impact of mobility on crime during and after the pandemic in England and Wales was not uniform but was shaped by local conditions and time-invariant characteristics. The findings underline the need for place-specific approaches in crime prevention and suggest that mobility-related interventions should be tailored to the structural and social context of each area.
+:::
+
+`Seyidoglu, H., Pina-Sánchez, J., Malleson, N., and Farrell, G. (2026). The impact of mobility
+on crime in England & Wales during and after the COVID-19 pandemic. Crime Science, 15(22):1-16 https://doi.org/10.1186/s40163-026-00291-z`
 
 ------------------------------------------------------------------------
 
@@ -20,14 +37,12 @@ This study of recorded crime trends in England & Wales spans three and a half ye
 
 ### The Role of Deprivation and Alcohol Availability in Shaping Trends in Violent Crime
 
-[![](https://img.shields.io/badge/Article-European Journal of Criminology-blue)](https://journals.sagepub.com/doi/10.1177/14773708211036081)
+[![](https://img.shields.io/badge/Article-European%20Journal%20of%20Criminology-blue)](https://journals.sagepub.com/doi/10.1177/14773708211036081)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 It is well known that both deprivation and alcohol availability are associated with violent crime. However, less is known about whether the former moderates the latter. Pioneering the linkage of novel alcohol availability measures derived from consumer data with police data and an index of deprivation, we examine inequalities in violent crime across small-level geography (LSOAs) for the whole of England. Our findings confirmed a recent upward trend in recorded violent crime in England between 2011 and 2018 and substantial between-area variability in recorded violent crime, as well as an increase in violent crime inequality across LSOAs during the period of analysis. Violent crime was higher in areas with increased deprivation and alcohol availability, especially in the form of on-licensed premises. On-licence availability, in the form of pubs, bars and nightclubs, explained variability in recorded violent crime more so when compared with off-licence availability. A positive interaction effect between alcohol availability (in the form of on-licensed premises) and deprivation showed how deprivation amplified the impact of alcohol availability, with more deprived areas having a stronger impact of on-licence availability on violent crime. Deprivation is thus an important contextual factor when considering rates and the social ecology of violence. Our findings suggest a need to respond to the disproportionate impact of violence on areas with higher levels of deprivation and availability of on-licensed premises.
 :::
 
-`Lightowlers, C., Pina-Sánchez, J., and McLaughlin, F. (2023). The role of deprivation and
-alcohol availability in shaping trends in violent crime. European Journal of Criminology,
-20(2):738–757. https://doi.org/10.1177/14773708211036081`
+`Lightowlers, C., Pina-Sánchez, J., and McLaughlin, F. (2023). The role of deprivation and alcohol availability in shaping trends in violent crime. European Journal of Criminology, 20(2):738–757. https://doi.org/10.1177/14773708211036081`
 
 ------------------------------------------------------------------------

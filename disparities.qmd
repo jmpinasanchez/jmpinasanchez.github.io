@@ -2,7 +2,47 @@
 title: "Disparities"
 ---
 
-Most of my work on disparities has focused on gender and ethnic disparities in sentencing in England and Wales. More recently I have been involved in projects commissioned by the Scottish Sentencing Council, the Crown Prosecution Service, and Bedfordshire Police exploring ethnic disparities in sentencing, charge, and stop and search decisions.
+Most of my work on disparities has focused on gender and ethnic disparities in [sentencing]((https://jmpinasanchez.github.io/sentencing.html)) in England and Wales. More recently I have been involved in projects commissioned by the Scottish Sentencing Council, the Crown Prosecution Service, and Bedfordshire Police exploring ethnic disparities in sentencing, but also across the criminal justice system.
+
+------------------------------------------------------------------------
+
+### Exploring unwarranted disparities in sentencing in Scotland
+
+[![](https://img.shields.io/badge/Report-Scottish%20Sentencing%20Council-blue)](https://www.scottishsentencingcouncil.org.uk/news-and-media/news/council-releases-report-exploring-unwarranted-disparities)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The research, conducted by academics from the Universities of Strathclyde, Glasgow, Surrey and Leeds, focusses on the consistency of sentencing in Scottish courts. The report examines unwarranted disparities and how they can be reduced, while also highlighting the need to develop new sources of in-depth and meaningful data on sentencing patterns. The authors found that high quality data is essential to: the promotion of consistency in sentencing; the informed development of sentencing policy; and efforts to inform public knowledge and awareness of (and so confidence in) sentencing and the independent judiciary.
+:::
+
+`Tata, C., Gormley, J., Hamilton, M., and Pina-Sánchez, J. (2026). Exploring unwarranted disparities in sentencing in Scotland. Scottish Sentencing Council`
+
+------------------------------------------------------------------------
+
+### Widening the lens
+
+*Exploring ethnic disparities in sentencing in the Magistrates’ and Crown Courts.*
+
+[![](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/9a70adbm/release/1)(under review at Criminology & Criminal Justice)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The presence of ethnic disparities in sentencing poses a serious challenge to the fairness and legitimacy of the criminal justice system. Previous research on this topic has examined only the Crown Court, which accounts for a small minority of sentences, leaving the magistrates’ court absent from view. This study extends the analysis to include the magistrates’ court for the first time and introduces a spatial dimension to assess variation between courts. We find that ethnic disparities are also present in magistrates’ courts and that, on average, their magnitude is similar to those previously identified in the Crown Court. Crucially, however, the specific offence groups where ethnic disparities are present differ from the Crown Court. We also find that disparities are not uniform across court locations: some courts in certain parts of the jurisdiction exhibit pronounced disparities, while others show none. This is particularly so in the magistrates’ courts. Taken together, these findings caution against system wide reforms based solely on Crown Court evidence and suggest the need for tailored offence-specific and court-level interventions.
+:::
+
+`Guilfoyle, E., Pina-Sánchez, J., Morales, A., and Geneletti, S. Widening the lens: Exploring ethnic disparities in sentencing in the Magistrates’ and Crown Courts. Crimrxiv`
+
+------------------------------------------------------------------------
+
+### Estimating Discrimination in Sentencing
+
+*Distinguishing between Good and Bad Controls*
+
+[![](https://img.shields.io/badge/Article-European%20Journal%20of%20Empirical%20Legal%20Studies-blue)](https://publicera.kb.se/ejels/article/view/53977)
+
+::: {.callout-note collapse="true" title="Abstract"}
+To minimise confounding bias and disentangle warranted from unwarranted disparities, researchers examining sentencing discrimination have traditionally sought to control for as many legal factors as possible. However, over the past decade, a growing number of scholars have questioned this strategy, noting that many legal factors are themselves subject to judicial discretion and that controlling for them can introduce post-treatment bias. Here, we use directed acyclic graphs (DAGs) to provide a formal and comprehensive assessment of the different types of bias that may arise from different choices of controls. In addition, we propose a new modelling framework to facilitate the selection of controls and reflect the model uncertainty created by the trade-off inherent in judicially-defined legal factors and other factors with a similar dual causal role. We apply this framework to examine race disparities in US federal courts and gender disparities in the England and Wales magistrates’ court. We find substantial model uncertainty for gender disparities and for race disparities affecting Hispanic offenders, rendering estimates of the latter inconclusive. Disparities against black offenders are more consistent and — under specific conditions — could be interpreted as evidence of direct discrimination.
+:::
+
+`Pina-Sánchez, J., Hamilton, M., and Tennant, P. (2025). Estimating discrimi- nation in sentencing: Distinguishing between good and bad controls. European Journal of Empirical Legal Studies, 2(3):1–33. https://doi.org/10.62355/ejels.53977`
 
 ------------------------------------------------------------------------
 
@@ -10,27 +50,27 @@ Most of my work on disparities has focused on gender and ethnic disparities in s
 
 *Review of Recent Findings*
 
-[![](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/js8s1mt8/release/1) Under review at the Journal of Legal Research Methodology
+[![](https://img.shields.io/badge/Article-Journal%20of%20Legal%20Research%20Methodology-blue)](https://www.northumbriajournals.co.uk/index.php/jlrm/article/view/1661)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Following the 2017 Lammy Review, research into ethnic disparities in sentencing in England and Wales has intensified. This article reviews the main findings from recent studies, focusing on the robustness of evidence, areas where disparities are most prevalent, gaps in the literature, and potential solutions. Ethnic disparities are less severe and more offence-specific than previously reported. There are no substantial differences in custodial sentence length, while for the probability of receiving a custodial sentence, disparities are concentrated primarily among drug offences. However, such disparities cannot be fully explained by statistical bias, suggesting a degree of sentencing discrimination. Sentencing disparities appear consistent across most minority groups. However, intersectional analyses reveal nuanced patterns; for instance, white male offenders require over 50% longer criminal records than black male offenders before crossing the custody threshold, while no significant differences are observed between black and white female offenders. Notably, socioeconomic factors, such as area deprivation, do not seem directly linked to ethnic disparities, although deprivation independently influences sentencing outcomes. Several gaps remain in the literature. Multivariate analyses focused on magistrates’ courts, where most sentences are imposed, are lacking. Qualitative research is also needed to explore disparities in areas like drug offences, male ethnic minority offenders, and assessments of mitigating factors. Current efforts to mitigate disparities should be expanded to include more structural solutions, such as increasing funding for legal aid, improving the quality of pre-sentence reports, and ensuring community services for addiction, mental health, and employment are accessible to ethnic minority groups.
 :::
 
-`Pina-Sánchez, J., & Guilfoyle, E. (2025). Ethnic Disparities in Sentencing in England and Wales: Review of Recent Findings. CrimRxiv. https://doi.org/10.21428/cb6ab371.86fb306c`
+`Pina-Sánchez, J., and Guilfoyle, E. (2025). Ethnic Disparities in Sentencing in England and Wales: Review of Recent Findings. Journal of Legal Research Methodology, 4(1):26–52. https://doi.org/10.19164/jlrm.v4i1.1661`
 
 ------------------------------------------------------------------------
 
-### Modelling Unwarranted Disparities in Sentencing
+### Intersectional Disparities in Sentencing
 
-*Distinguishing between Good and Bad Controls*
+*An Application of MAIHDA to the US Federal Courts*
 
-[![](https://img.shields.io/badge/Preprint-SocArXiv-blue)](https://osf.io/preprints/socarxiv/ymzsv_v1) Under review at the Journal of Quantitative Criminology
+[![](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/9pmllz74/release/1)
 
 ::: {.callout-note collapse="true" title="Abstract"}
-To minimise confounding bias and facilitate the identification of unwarranted disparities, sentencing researchers have traditionally sought to control for as many legal factors as possible. In this article we challenge such approach. Using causal graphs we show how controlling for commonly used variables in the sentencing literature can introduce bias. Instead, we propose a new modelling framework that clarifies which types of controls are necessary to identify different definitions of sentencing disparities. We apply this framework to the estimation of race disparities in the US federal courts and gender disparities in the England and Wales magistrates’ court. We find that the model uncertainty associated to the choice of controls is substantial for gender disparities and for race disparities affecting Hispanic offenders, rendering estimates of the latter inconclusive. Disparities against black offenders are more consistent, although, they are not strong enough to be seen as definitive evidence of racial discrimination.
+Numerous studies emphasise the importance of adopting an intersectional perspective to examine unwarranted disparities in the criminal justice system. However, traditional methods, such as interaction effects, often result in overfitted models. Consequently, most studies focus on disparities across broad groups of offenders, neglecting the wider range of unique experiences that result from the intersection of multiple socio-demographic characteristics. Here, we use a new modelling approach, the multilevel analysis of individual heterogeneity and discriminant accuracy (MAIHDA), to explore the presence of intersectional disparities in sentencing that arise from the combination of offenders’ gender, race, level of education, and citizenship. Our findings indicate that these socio-demographic factors alone explain up to 19% of the variability in imprisonment decisions and 14% of the variability in sentence length within US Federal Courts. Additionally, we find that standard models ignoring intersectional disparities fail to account for up to 20% of the unwarranted disparities detected. These findings highlight the importance of placing intersectionality at the centre of the study of sentencing disparities and demonstrate the potential of MAIHDA to do so more comprehensively than previously possible.
 :::
 
-`Pina-Sánchez, J., Hamilton, M., & Tennant, P. W. (2024). Modelling unwarranted disparities in sentencing: Distinguishing between good and bad controls. Center for Open Science. https://doi.org/10.31235/osf.io/ymzsv`
+`Pina-Sánchez, J., and Tura, F. (2025). Intersectional disparities in sentencing: An application of MAIHDA to Federal Courts data. In: Welch, K., editor, Research Handbook on Race, Crime, and Justice. Edward Elgar`
 
 ------------------------------------------------------------------------
 
@@ -42,7 +82,7 @@ To minimise confounding bias and facilitate the identification of unwarranted di
 In the examination of sentencing disparities, hypotheses related to social class have been relatively overlooked compared to explanations centered on offenders' ethnicity. This oversight is regrettable as both factors often intertwine. In this study, we investigate the mediating and moderating effects between offenders' residential area deprivation and their ethnic background using administrative data encompassing all offences processed through the England and Wales Crown Court. Our findings reveal the following: (i) substantial ethnic disparities among drug offenders, but mostly non-existent across other offence categories; (ii) area deprivation does not explain away the observed ethnic disparities, but pronounced area disparities are found for breach and assault offenses, wherein offenders living in deprived areas are penalized compared to their more affluent counterparts; and (iii) ethnicity and area deprivation interact, but only for breach offenses.
 :::
 
-`Pina‐Sánchez, J., Morales, A., Guilfoyle, E., Veiga, A., & Geneletti, S. (2025). Testing the interrelationship between area deprivation and ethnic disparities in sentencing. Analyses of Social Issues and Public Policy, 25(1), XX-XX. https://doi.org/10.1111/asap.12446`
+`Pina‐Sánchez, J., Morales, A., Guilfoyle, E., Veiga, A., and Geneletti, S. (2025). Testing the interrelationship between area deprivation and ethnic disparities in sentencing. Analyses of Social Issues and Public Policy, 25(1), XX-XX. https://doi.org/10.1111/asap.12446`
 
 ------------------------------------------------------------------------
 
@@ -56,7 +96,7 @@ In the examination of sentencing disparities, hypotheses related to social class
 There is little understanding of how documented ethnic disparities in sentencing outcomes in England and Wales come to be and, consequently, how to address them. We argue that disparities in sentence outcomes could stem from how cases are constructed. We hypothesize that case characteristics determined through a high degree of judicial discretion and an assessment of the offender have a high risk of being racially determined, and therefore, operate as precursors of ethnic disparities in sentencing. We test this using Crown Court Sentencing Survey and Court Proceedings data. We identify three sentencing factors (remorse, good character and ability to rehabilitate) clearly favouring White offenders. We contextualize their operation and argue that all three should be classified as racially determined and sources of ethnic disparity. We conclude by setting out targeted policy solutions.
 :::
 
-`Guilfoyle, E., & Pina-Sánchez, J. (2024). Racially determined case characteristics: Exploring disparities in the use of sentencing factors in England and Wales. The British Journal of Criminology. https://doi.org/10.1093/bjc/azae039`
+`Guilfoyle, E., and Pina-Sánchez, J. (2024). Racially determined case characteristics: Exploring disparities in the use of sentencing factors in England and Wales. The British Journal of Criminology, 65(2):241-260. https://doi.org/10.1093/bjc/azae039`
 
 ------------------------------------------------------------------------
 
@@ -98,11 +138,11 @@ Strong evidence of racial and ethnic disparities has been documented in recent g
 
 ------------------------------------------------------------------------
 
-### Does the Crown Court Discriminate Against Muslim-named Offenders? 
+### Does the Crown Court Discriminate Against Muslim-named Offenders?
 
 *A Novel Investigation Based on Text Mining Techniques*
 
-[![](https://img.shields.io/badge/Article-The British Journal of Criminology-blue)](https://academic.oup.com/bjc/article-abstract/59/3/718/5239583?redirectedFrom=fulltext)
+[![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article-abstract/59/3/718/5239583?redirectedFrom=fulltext)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Most research in sentencing discrimination in the United Kingdom has relied on aggregate analyses comparing disparities by ethnic group. These studies fail to consider differences in the individual characteristics of the cases processed. To circumvent the lack of official data, we scraped sentence records stored in a commercial website, from which a sample of 8,437 offenders sentenced to custody in the Crown Court from 2007 to 2017 was generated. Using the names of the offenders, we have been able to classify 8.6 per cent of our sample as having a traditional Muslim name. We find that Muslim-named offenders received sentences 9.8 per cent longer than the rest of the sample. However, this difference disappeared once we accounted for the type of offence and other key case characteristics.
@@ -112,19 +152,16 @@ Most research in sentencing discrimination in the United Kingdom has relied on a
 
 ------------------------------------------------------------------------
 
-### Individualisation at Sentencing 
+### Sentencing Gender?
 
-*The Effects of Guidelines and ‘Preferred’ Numbers*
+*Investigating the Extent and Origin of Sentencing Gender Disparities in the Crown Court*
 
-[![](https://img.shields.io/badge/Article-Criminal Law Review-blue)](static/Roberts.2018.Individualisation at Sentencing.pdf)
+[![](https://img.shields.io/badge/Article-Criminal%20Law%20Review-blue)](static/JosePSLyndonH%20Article%20final.pdf)
 
 ::: {.callout-note collapse="true" title="Abstract"}
-Over a decade after the introduction of sentencing guidelines in England and Wales, little is known about their effects on consistency and individualisation. Limited research has addressed the issue of consistency, and no research has explored another key concept, namely individualisation. This is regrettable since one criticism of guidelines is that they undermine the principle of individualisation at sentencing, and this critique is examined here. The article explores two potential threats to individualisation, using sentence length data from the Crown Court Sentencing Survey. One threat may arise if a guideline constrains judges to sentence within a restricted range, leading to a less individualised approach to sentencing. The second is more fundamental, and consists of the tendency to favour some sentence lengths over others—a preference for certain “round” numbers. The article reports an analysis of custodial sentences for assault offences. Results indicate that sentence lengths for assault offences are affected by a preference for certain numbers—a tendency first observed by Francis Galton in the 19th century. On a more positive note, we find no evidence that the sentencing guidelines for assault and burglary introduced in 2011 have diminished the degree of individualisation in sentencing. We also find that courts report taking a larger number of sentencing factors into account under the new guidelines, further evidence that the guidelines have not undermined individualisation.
+We explore the presence of gender sentencing disparities using large samples of assault, burglary and drugs offences from the Crown Court Sentencing Survey. We find significantly harsher sentences imposed on male offenders even after controlling for most case characteristics, including mitigating factors such as “caring responsibilities”. Specifically, the odds ratios of receiving a custodial sentence for offences of assault, burglary and drugs committed by a man as opposed to a woman are 2.84, 1.89 and 2.72. To put it in context, with the exception of “intent to commit serious harm”, the gender effect was stronger than any other “harm and culpability” factor applicable to assault offences. These disparities do not seem to stem primarily from differential interpretations of offender dangerousness. It is possible that they might be due to lower rates of reoffending amongst female offenders, or more probably to the higher punitive effect of custodial sentences on women. What seems clear is that sentencing is not gender neutral. If gender-specific sentencing guidelines are to be developed in the future it would be important that the noted disparities are taken in consideration.
 :::
 
-`Roberts, J. V., Pina-Sánchez, J., and Marder, I. (2018). Individualisation at sentencing: The effects of guidelines and ‘preferred’ numbers. Criminal Law Review, 2:123–136`
+`Pina-Sánchez, J., and Harris, L. (2020). Sentencing Gender? Investigating the Extent and Origin of Sentencing Gender Disparities in the Crown Court. Criminal Law Review, 1:3–28`
 
 ------------------------------------------------------------------------
-
-
-

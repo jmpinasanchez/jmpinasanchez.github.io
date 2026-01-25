@@ -2,14 +2,53 @@
 title: "Measurement"
 ---
 
-During my thesis I explored the prevalence of measurement error in retrospective survey data, and the effectiveness of different adjustment methods in adjusting for it. As a member of the [Recounting Crime](https://recountingcrime.wordpress.com/) project I was able to apply this measurement error framework to study the 'dark figure' of crime. Recently, I've been involved in a study led by [Dr. David Buil-Gil](https://builgil.com/) exploring the reliability of cross-national data on homicides.
+During my thesis I explored the prevalence of measurement error in retrospective survey data, and the effectiveness of different adjustment methods in adjusting for it. As a member of the [Recounting Crime](https://recountingcrime.wordpress.com/) project I was able to apply this measurement error framework to study the 'dark figure' of crime.
+
+------------------------------------------------------------------------
+
+### Beyond Good and Bad Controls: 
+
+*Endogenous Legal Factors in Sentencing Research*
+
+::: {.callout-note collapse="true" title="Abstract"}
+Observational studies of institutional decision-making often rely on explanatory variables that are themselves partly constructed through the process under investigation. In sentencing research, many legal factors are defined by the judge and may therefore act simultaneously as confounders and mediators. Controlling for them may introduce post-treatment bias, whereas omitting them may reintroduce confounding bias. We propose overcoming this impasse by conceptualising judicially-defined legal factors as variables affected by measurement error. Using a model of racial disparities in the U.S. Federal Courts, we demonstrate how Bayesian measurement error adjustments can be used as a sensitivity-analysis framework to quantify uncertainty arising from judicial disagreement and judicial prejudice. We show that even modest levels of uncertainty in discretionary legal factors can generate substantial and unpredictable bias, including attenuation of disparity estimates even when measurement errors are entirely random and unrelated to race.
+:::
+
+`Pina-Sánchez, J. and Uhl, A. Beyond good and bad controls: Endogenous legal factors in sentencing research`
+
+------------------------------------------------------------------------
+
+### Simulating Area-Level Population Outcomes:
+
+*Should We Use Multilevel Regression and Poststratification Over Spatial Microsimulation?*
+
+[![](https://img.shields.io/badge/Article-Geographical%20Analysis-blue)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/gean.70049)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Estimating unknown outcomes at small-area population level is a routine task in spatial analysis. We demonstrate how multilevel regression and poststratification (MRP), widely used in political polling, overcomes some deficiencies in spatial microsimulation (SPM), the de facto approach in quantitative geography. Using individual-level data from the Health Survey for England and population-level data from the 2021 UK Census, we evaluate MRP and SPM at estimating two known health outcomes that occur with high and low frequency in the population. With few SPM constraints, covariates in MRP, there are only slight differences in estimation between the two approaches. With more constraints, extreme errors in the SPM estimates begin to accumulate, and these are particularly pronounced for the low-frequency outcome. Additionally, where uncertainty ranges from MRP posteriors begin to widen we find they map to absolute errors, providing a useful validity check when the true population distribution is unknown. This is the first direct comparison of MRP and SPM for small-area estimation. Alongside metrics for evaluating estimates, we highlight the value of non-compositional area-level variables that may constrain outcomes or capture varying processes over spatial units, and of a principled approach to model specification and uncertainty quantification—both central to MRP practice.
+:::
+
+`Beecham, R., Clark, S. and Pina-Sánchez, J. (2026). Simulating Area-Level Population Outcomes: Should We Use Multilevel Regression and Poststratification Over Spatial Microsimulation?. Geographical Analysis, 5(83). https://doi.org/10.1007/s11205-025-03802-8`
+
+------------------------------------------------------------------------
+
+### The Effect of Counting Rules on Cross-National Comparisons of Homicide
+
+[![](https://img.shields.io/badge/Article-Social%20Indicators%20Research-blue)](https://link.springer.com/article/10.1007/s11205-025-03802-8)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/azae018.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Cross-national crime comparisons often rely on police-recorded data. Most frequently, such comparisons focus on homicide, as it is expected to be the crime type least likely to go undetected. This study examines how different statistical counting rules and legal definitions employed across European countries affect the reliability of cross-national homicide comparisons. We analyze homicide data from 41 European countries (1998-2022) obtained from Eurostat and compare them with three sources of vital statistics from the World Health Organization and the Institute for Health Metrics and Evaluation. We assess correspondence rates between police-recorded homicides and vital records descriptively and graphically to identify cross-national and temporal variations. Additionally, we estimate within-between models to quantify the impact of statistical counting rules and legal definitions on cross-national homicide comparisons. Statistical counting rules and legal definitions for homicide vary widely across countries, shaping the likelihood of homicides being recorded in police statistics and compromising cross-national comparability. Countries that record data when crimes are first reported to the police have approximately 13-15% higher homicide counts than those using process-based or output-based systems. Additionally, broader definitions of homicide (e.g., those including terrorism-related deaths) are associated with higher recorded homicide. National counting rules and legal definitions substantially impact the reliability of cross-national homicide comparisons based on police data. This challenge is likely even greater in regions with less standardized counting rules and legal frameworks or for crime types more susceptible to under-recording, posing a significant challenge for comparative criminological research, international policy benchmarking, and resource allocation decisions.
+:::
+
+`Buil-Gil, D., Pina-Sánchez, J., and Aebi, M.F. (2025). The Effect of Counting Rules on Cross-National Comparisons of Homicide. Social Indicators Research, 181(44). https://doi.org/10.1007/s11205-025-03802-8`
 
 ------------------------------------------------------------------------
 
 ### Estimating the Reliability of Crime Data in Geographic Areas
 
 [![](https://img.shields.io/badge/Article-The%20British%20Journal%20of%20Criminology-blue)](https://academic.oup.com/bjc/article/64/6/1347/7688422)\
-[![](https://img.shields.io/badge/Article-PDF-blue)](static/azae018.pdf)
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](https://www.crimrxiv.com/pub/g4p1or1g/release/1)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 Crime data are problematic: Crimes that are never reported undermine its validity and differences in police recording practices affect its reliability. However, the true extent of these problems is not well known, with existing studies suffering from a number of methodological limitations. We examine the quality of police recorded crime data and survey-based crime estimates recorded in England and Wales using a robust latent trait model that effectively represents the competing sources of error. We find that whilst crime rates derived from police data systematically underestimate the true extent of crime, they are substantially more reliable than estimates from survey data. Reliability is lower for violence and criminal damage and is getting worse over time.
@@ -19,7 +58,7 @@ Crime data are problematic: Crimes that are never reported undermine its validit
 
 ------------------------------------------------------------------------
 
-### Exploring the Impact of Measurement Error in Police Recorded Crime Rates through Sensitivity Analysis
+### Exploring the Impact of Measurement Error in Police Recorded Crime Rates Through Sensitivity Analysis
 
 [![](https://img.shields.io/badge/Article-Crime%20Science-blue)](https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-023-00192-5)
 
@@ -31,9 +70,37 @@ It is well known that police recorded crime data is susceptible to substantial m
 
 ------------------------------------------------------------------------
 
+### Measuring Crime in Place
+
+*Distinguishing Between Area Victimisation and Area Offences*
+
+[![](https://img.shields.io/badge/Article-Significance-blue)](static/SIGN%2020(5)_2_5_Features_BruntonSmith_MeasuringCrime.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Crime data is essential to the running of a safe society. But are we measuring crime in the best way? Ian Brunton-Smith, Alexandru Cernat, David Buil-Gil and Jose Pina-Sánchez explore how the current system could be improved.
+:::
+
+`Brunton-Smith, I., Cernat, I., Buil-Gil, D., and Pina-Sánchez, J. (2023). Measuring crime in place: Distinguishing between area victimization versus area offences. Significance. 20(5), 30-33. https://doi.org/10.1093/jrssig/qmad078`
+
+------------------------------------------------------------------------
+
+### Using Synthetic Crime Data to Understand Patterns of Police Under-counting at the Local Level
+
+[![](https://img.shields.io/badge/Chapter-The%20Crime%20Data%20Handbook-blue)](https://www.degruyter.com/document/doi/10.56687/9781529232073-009/html?srsltid=AfmBOop72wIzoFnuwXGYUDtcIfIs4fU7QFq7G6IfC-l-qNiwh-JmL8P8)\
+[![](https://img.shields.io/badge/Preprint-CrimRxiv-blue)](https://www.crimrxiv.com/pub/2j7s2j6z/release/1)
+
+::: {.callout-note collapse="true" title="Abstract"}
+It is widely known that police recorded crime data provides only a partial picture of the true extent of crimes, with surveys identifying a large number of ‘hidden’ victims. Often referred to as the dark figure of crime, this gap between police records and ‘true’ level of crime has been attributed to a range of influences, including an unwillingness for some victims to report their experiences to the police, coupled with selectivity in police recording practices and errors in the translation of police records into official statistics. Studies have also demonstrated the potentially severe implications of failing to account for these hidden crimes for the veracity of models of crime data. Comparing police records against victim surveys presents us with a potential framework to generate corrected model estimates. But to date we know little about the nature of under-reporting and recording at the local area level, with victim surveys generally only suitable for regional or broad police force-level comparisons. In this chapter we explore a novel solution to this problem, using a synthetic population dataset to examine the extent to which police recording practices vary systematically across England and Wales. Designed to match the UK population on basic demographics as measured by the census, and with each resident given a victimization profile derived from the Crime Survey for England and Wales, this synthetic population enables an examination of the extent of crime undercounting at a range of spatial scales.
+:::
+
+`Brunton-Smith, I., Buil-Gil, D., Pina-Sánchez, J., Cernat, A., and Moretti, A. (2023). Using synthetic crime data to understand patterns of police under-counting at the local level. In: Huey, L. and Buil-Gil, D., editors, The Crime Data Handbook. Bristol University Press. https://doi.org/10.56687/9781529232073-009`
+
+------------------------------------------------------------------------
+
 ### The Impact of Measurement Error in Models Using Police Recorded Crime Rates
 
-[![](https://img.shields.io/badge/Article-Journal%20of%20Quantitative%20Criminology-blue)](https://link.springer.com/article/10.1007/s10940-022-09557-6)
+[![](https://img.shields.io/badge/Article-Journal%20of%20Quantitative%20Criminology-blue)](https://link.springer.com/article/10.1007/s10940-022-09557-6)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/The%20Impact%20of%20Measurement%20Error%20in%20Regression%20Models.pdf)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 *Objectives*: Assess the extent to which measurement error in police recorded crime rates impact the estimates of regression models exploring the causes and consequences of crime.\
@@ -48,7 +115,7 @@ It is well known that police recorded crime data is susceptible to substantial m
 
 ### Estimating Crime in Place
 
-*Moving beyond Residence Location*
+*Moving Beyond Residence Location*
 
 [![](https://img.shields.io/badge/Article-Crime%20&%20Delinquency-blue)](https://journals.sagepub.com/doi/full/10.1177/00111287211064779)
 
@@ -74,11 +141,11 @@ Police-recorded crime data are prone to measurement error, affecting our underst
 
 ------------------------------------------------------------------------
 
-### Adjusting for Measurement Error in Retrospectively Reported Work Histories 
+### Adjusting for Measurement Error in Retrospectively Reported Work Histories
 
 *An Analysis Using Swedish Register Data*
 
-[![](https://img.shields.io/badge/Article-Journal of Official Statistics-blue)](https://journals.sagepub.com/doi/abs/10.2478/jos-2019-0010)
+[![](https://img.shields.io/badge/Article-Journal%20of%20Official%20Statistics-blue)](https://journals.sagepub.com/doi/abs/10.2478/jos-2019-0010)
 
 ::: {.callout-note collapse="true" title="Abstract"}
 We use work histories retrospectively reported and matched to register data from the Swedish unemployment office to assess: 1) the prevalence of measurement error in reported spells of unemployment; 2) the impact of using such spells as the response variable of an exponential model; and 3) strategies for the adjustment of the measurement error. Due to the omission or misclassification of spells in work histories we cannot carry out typical adjustments for memory failures based on multiplicative models. Instead we suggest an adjustment method based on a mixture Bayesian model capable of differentiating between misdated spells and those for which the observed and true durations are unrelated. This adjustment is applied in two manners, one assuming access to a validation subsample and another relying on a strong prior for the mixture mechanism. Both solutions demonstrate a substantial reduction in the vast biases observed in the regression coefficients of the exponential model when survey data is used.
@@ -88,5 +155,66 @@ We use work histories retrospectively reported and matched to register data from
 
 ------------------------------------------------------------------------
 
+### Adjusting for Measurement Error in Retrospectively Reported Work Histories
 
+*An Analysis Using Swedish Register Data*
 
+[![](https://img.shields.io/badge/Article-Journal%20of%20Official%20Statistics-blue)](https://journals.sagepub.com/doi/abs/10.2478/jos-2019-0010)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We use work histories retrospectively reported and matched to register data from the Swedish unemployment office to assess: 1) the prevalence of measurement error in reported spells of unemployment; 2) the impact of using such spells as the response variable of an exponential model; and 3) strategies for the adjustment of the measurement error. Due to the omission or misclassification of spells in work histories we cannot carry out typical adjustments for memory failures based on multiplicative models. Instead we suggest an adjustment method based on a mixture Bayesian model capable of differentiating between misdated spells and those for which the observed and true durations are unrelated. This adjustment is applied in two manners, one assuming access to a validation subsample and another relying on a strong prior for the mixture mechanism. Both solutions demonstrate a substantial reduction in the vast biases observed in the regression coefficients of the exponential model when survey data is used.
+:::
+
+`Pina-Sánchez, J., Koskinen, J., and Plewis, I. (2019). Adjusting for measurement error in retrospectively reported work histories: An analysis using Swedish register data. Journal of Official Statistics, 35(1):203–229. https://doi.org/10.2478/jos-2019-0010`
+
+------------------------------------------------------------------------
+
+### Adjustment of Recall Errors in Duration Data Using SIMEX
+
+[![](https://img.shields.io/badge/Article-Advances%20in%20Methodology%20and%20Statistics-blue)](https://mz.mf.uni-lj.si/index.php/ams/article/view/mz-2016-13-1-3)
+
+::: {.callout-note collapse="true" title="Abstract"}
+It is widely accepted that due to memory failures retrospective survey questions tend to be prone to measurement error. However, the proportion of studies using such data that attempt to adjust for the measurement problem is shockingly low. Arguably, to a great extent this is due to both the complexity of the methods available and the need to access a subsample containing either a gold standard or replicated values. Here I suggest the implementation of a version of SIMEX capable of adjusting for the types of multiplicative measurement errors associated with memory failures in the retrospective report of durations of life-course events. SIMEX is a method relatively simple to implement and it does not require the use of replicated or validation data so long as the error process can be adequately specified. To assess the effectiveness of the method I use simulated data. I create twelve scenarios based on the combinations of three outcome models (linear, logit and Poisson) and four types of multiplicative errors (non-systematic, systematic negative, systematic positive and heteroscedastic) affecting one of the explanatory variables. I show that SIMEX can be satisfactorily implemented in each of these scenarios. Furthermore, the method can also achieve partial adjustments even in scenarios where the actual distribution and prevalence of the measurement error differs substantially from what is assumed in the adjustment, which makes it an interesting sensitivity tool in those cases where all that is known about the error process is reduced to an educated guess.
+:::
+
+`Pina-Sánchez, J. (2016). Adjustment of recall errors in duration data using SIMEX. Advances in Methodology and Statistics, 13(1):27–58. https://doi.org/10.51936/cspz2183`
+
+------------------------------------------------------------------------
+
+### Measurement Error in Retrospective Work Histories
+
+[![](https://img.shields.io/badge/Article-Survey%20Research%20Methods-blue)](https://ojs.ub.uni-konstanz.de/srm/article/view/5144)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Measurement error in retrospective reports of work status has been difficult to quantify in the past. Issues of confidentiality have made access to datasets linking survey responses to a valid administrative source very problematic. This study uses a Swedish register of unemployment as a benchmark against which responses from two survey questions are compared and hence the presence of measurement error elucidated. We carry out separate analyses for the different forms that measurement error in retrospective reports of unemployment can take: miscounting of the number of spells of unemployment, mismeasuring duration in unemployment, and misdating starts of spells and misclassification of status. The prevalence of measurement error for different social categories and interview formats is also examined, leading to a better understanding of the error-generating mechanisms that interact when interviewees are asked to produce retrospective reports of past work status.
+:::
+
+`Pina-Sánchez, J., Koskinen, J., and Plewis, I. (2014). Measurement error in retrospective work histories. Survey Research Methods, 8(1):43–55. https://doi.org/10.18148/srm/2014.v8i1.5144`
+
+------------------------------------------------------------------------
+
+### Decentralization as a Multifaceted Concept
+
+*A More Encompassing Index Using Bayesian Statistics*
+
+[![](https://img.shields.io/badge/Article-Revista%20Española%20de%20Ciencia%20Política-blue)](https://recyt.fecyt.es/index.php/recp/article/view/37611)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Most measures of political decentralization seem to capture only specific facets of the concept. In particular, the excessive dependence on fiscal indicators has often been criticized since they seem unable to assess the degree of autonomy exerted by subnational governments. On the other hand, efforts directed at developing more encompassing indexes have had to rely on the aggregation of items developed by experts, a process that is prone to idiosyncratic errors. In this paper I propose the development of a measurement framework using a Bayesian factor analysis model for mixed ordinal and continuous outcomes. This model can efficiently combine multiple measures of decentralization regardless of their level of measurement, and in this way make use of both the rigour of fiscal indicators and the wider coverage of qualitative indi-cators. Applying this model to a set of 14 indicators I elaborate a more encompassing index of decen-tralization for 33 OECD countries. In order to illustrate the importance of using non-partial measures of decentralization, I use this index to replicate parts of De Mello and Barenstein (2001) exploratory analysis regarding the relationship between decentralization and corruption, showing that such relationship is practically non-existent.
+:::
+
+`Pina-Sánchez, J. (2014). Decentralization as a multifaceted concept: A more encompassing index using Bayesian statistics. Revista Española de Ciencia Política, 34:9–34`
+
+------------------------------------------------------------------------
+
+### Implications of Retrospective Measurement Error in Event History Analysis
+
+[![](https://img.shields.io/badge/Article-Metodología%20de%20Encuestas-blue)](static/1032-1126-1-PB-1.pdf)
+
+::: {.callout-note collapse="true" title="Abstract"}
+It is commonly accepted that the use of retrospective questions in surveys makes interviewees face harder cognitive challenges and therefore leads to less precise measures than questions asking about current states. In this paper we evaluate the effect of using data derived from retrospective questions as the response variable in different event history analysis models: an accelerated life Weibull, an accelerated life exponential, a proportional hazards Cox, and a proportional odds logit. The impact of measurement error is assessed by a comparison of the estimates obtained when the models are specified using durations of unemployment derived from a retrospective question against those obtained using validation data derived from a register of unemployment. Results show large attenuation effects in all the regression coefficients. Furthermore, these effects are relatively similar across models
+:::
+
+`Pina-Sánchez, J., Koskinen, J., and Plewis, I. (2013). Implications of retrospective measurement error in event history analysis. Metodología de Encuestas, 15:5–25`
+
+------------------------------------------------------------------------

@@ -2,38 +2,300 @@
 title: "Outreach"
 ---
 
-Stepping away from my desk to share research findings is the best part of my job. Here are some recent outreach and impact activities I've been involved in.
+Stepping away from my desk to share research findings is my favourite part of the job. Below are some highlights from my outreach activities.
 
 ------------------------------------------------------------------------
 
-### Introduction to Measurement Error
+### 2026 Cars & Crime Symposium
 
-In this first clip of the new 7X7 methods spotlight series from the [Social Research Methods centre](https://socialresearchmethods.leeds.ac.uk/) at the University of Leeds, I provide a broad introduction to measurement error and the methods available to adjust for it.
+Following the success of the [2025 Cars & Crime Symposium](https://essl.leeds.ac.uk/law/news/article/2276/the-cars-and-crime-symposium), and thanks to funding from the new Faculty of Environment & Social Sciences at the University of Leeds, we held a repeat symposium in July 2026. Here is the [programme](static/Programme%20and%20abstracts_29June.pdf), and some of the papers presented:
+
+\-[Securing car-centric cities: An ecological reconstruction of ‘Designing out crime’](static/Securing%20car-centric%20cities-DRAFT.pdf)
+
+\-[Sentencing motonormatively](static/Goldrosen_SentencingMotonormatively_20260716.pdf)
+
+\-[The road violence toll of urban sprawl: A registered report of collisions with cyclists and pedestrians in England and Wales](static/Registered_report_The_road_violence_toll_of_sprawls_9thJuly.pdf)
+
+\-[Does the fear-victimisation paradox apply to the context of road violence?](static/Registered_report_Road_violence_victimisation_and_perceptions_of_safety_Revised_30thJune.pdf)
+
+\-[Testing the effect of motor traffic on fear of crime](static/TYP_ACE_Application_form_Cars_and_Crime_1stJulyb.pdf)
+
+\-[In defence of walkability as a crime prevention strategy](https://onlinelibrary.wiley.com/doi/full/10.1111/hojo.70049)
+
+------------------------------------------------------------------------
+
+### The Last Show with David Cooper - Car Traffic and Neighborhood Crime
+
+Following publication from our article in Kriminologie, Toby Davies and I joined David Cooper to [talk](https://dcs-cached.megaphone.fm/CORU3150766634.mp3?key=00c3fe97e77ab15b993e49dc1166722c&request_event_id=d8e4bf07-2f06-47f3-a961-a5050db313b8&session_id=d8e4bf07-2f06-47f3-a961-a5050db313b8&timetoken=1783503032_3230BB01520FEF0ECD5C1872CFF6EF33) about the different ways traffic leads to street crime.
+
+------------------------------------------------------------------------
+
+### University of Leeds Research News - Cutting traffic cuts vandalism, burglary and violence
+
+The University of Leeds [interviewed](https://www.leeds.ac.uk/news/article/5987/cutting-traffic-cuts-vandalism-burglary-and-violence-research-shows) Toby Davies and me to discuss the release of our article '[Exploring the Effect of Motor Traffic on Street Crime](https://www.kriminologie.de/index.php/krimoj/article/view/502)'. We also wrote a short article summarising our findings for [The Conversation](https://theconversation.com/does-traffic-drive-street-crime-our-study-investigated-284977).
+
+------------------------------------------------------------------------
+
+### British Society of Criminology's - Criminal Justice Statistics Network Symposium 2026
+
+I was asked to deliver the keynote talk for the BSC's Criminal Justice Statistics Network Annual Symposium on the topic of 'The Changing Landscape of Criminal Justice Data'. My talk was entitled 'Our collective role in Improving the Evidence Base: Examples from Sentencing Research in England and Wales'; where I delved into how government data transformed sentencing research in England & Wales, how it did not, and what else we (academics) can do to help besides bemoaning data limitations. Slides available [here](static/BSC%20Criminal%20Justice%20Statistics.pdf).
+
+------------------------------------------------------------------------
+
+### Times Radio - Two-Tier Policing
+
+In June 2026 I [spoke](static/Henry%20Bonsu_Times%20Radio.mp3) to Henry Bonsu about the preposterous claim that White British are discriminated against by the criminal justice system.
+
+I was back on [Henry Bonsu's show](static/HB%20DISCO%20EDITED%200207.mp3) on the 2nd of July to discuss the article from The Telegraph ["Prosecutors must 'consider unconscious bias' before charging minorities"](https://www.telegraph.co.uk/news/2026/07/02/prosecutors-consider-unconscious-bias-charging-minorities/).
+
+------------------------------------------------------------------------
+
+### Ministry of Justice - Data Quality Week
+
+David Buil-Gil and I were invited to give a talk about measurement in police statistics for the Ministry of Justice Data Quality Week. David provided an [introduction](static/Part1_MoJ_recountingcrime.ppt) to the topic, while I covered the [formal definition](static/Part2_MoJ_Introduction%20to%20Measurement%20Error.pdf) of measurement error and how to use our R package RCME to explore the [impact](static/Part3_MoJ_Measurement%20Error%20in%20Crime%20Rates.pdf) of measurement error in regression models relying on police recorded crime rates.
+
+------------------------------------------------------------------------
+
+### Las Sentencias Penales como Objeto de Investigación Criminólogica
+
+In November 2025 I was invited to participate in a webinar on sentencing research organised by the [Universitat Oberta de Catalunya](https://www.youtube.com/live/94S9Al_ZA5o). My part starts at minute 56.
+
+{{< video https://www.youtube.com/watch?v=94S9Al_ZA5o >}}
+
+------------------------------------------------------------------------
+
+### UCL - Quantitative Social Science & Centre for Longitudinal Studies Seminar Series
+
+In October 2025 I was invited to present my work on [Exploring the effect of motor traffic on street crime](static/cars-and-crime_14thoctober2025.htm) at the UCL Quantitative Social Science & Centre for Longitudinal Studies Seminar Series.
+
+------------------------------------------------------------------------
+
+### 2025 Annual Conference of the Society of Legal Scholars
+
+[What is the external validity of sentencing research? A multi-level meta-analysis of race and gender disparities](static/SLS_2025.pdf)
+
+------------------------------------------------------------------------
+
+### 2025 Annual Conference of the White Rose Social Sciences DTP
+
+I was invited to give a talk at the 2025 Annual Conference of the White Rose Social Sciences DTP on the broad topic of careful research, which I approached exploring the research question: [Can we establish the presence of discrimination in sentencing?](static/WRDTP_2025%20Conference_16thJune.html)
+
+------------------------------------------------------------------------
+
+### ECR Sentrix Project - Decision-making Architecture in Sentencing
+
+In the spring of 2025 was invited by Mojca Plesnicar to contribute to the workshop organised by the ECR Sentrix Project on Decision-making Architecture in Sentencing by choosing one example from my research touching on that topic. I went for a combination of papers showing how consistency and individualisation are not mutually exclusive goals. [Beyond Guidelines: How Judicial Interaction Promotes Consistency in Sentencing](static/Abstract_Bled%20talk.pdf)
+
+------------------------------------------------------------------------
+
+### Charles University - Research Seminars in Law, Economics and Empirics
+
+In the spring of 2025 I was invited by Jakub Drápal to give a talk for his Research Seminars in Law, Economics and Empirics at Charles University Prague. [Estimating Discrimination in Sentencing: Distinguishing between Good and Bad Controls](https://jmpinasanchez.github.io/presentations/Prague_2025/Prague_2025.html)
+
+------------------------------------------------------------------------
+
+### BBC AntiSocial - Two-Tier Justice
+
+In April 2025 I got a chance to discuss some of the evidence about unwarranted disparities in sentencing in the latest episode of [BBC Four AntiSocial](https://www.bbc.co.uk/sounds/play/m0029zfq). My part starts at minute 29.
+
+------------------------------------------------------------------------
+
+### LSE Politics & Policy Blog
+
+In March 2025 I co-authored a blogpost with Dr Eoin Guilfoyle about [Ethnic disparities in sentencing and the perception of fairness](https://blogs.lse.ac.uk/politicsandpolicy/ethnic-disparities-in-sentencing-and-the-perception-of-fairness/), where we contributed to the discussions around the Sentencing Council [revised guideline on the imposition of community and custodial sentences](https://www.sentencingcouncil.org.uk/overarching-guides/magistrates-court/item/imposition-of-community-and-custodial-sentences/).
+
+------------------------------------------------------------------------
+
+### Methods Spotlight Series
+
+For this first clip of our new 7X7 methods spotlight series at the Leeds [Social Research Methods centre](https://socialresearchmethods.leeds.ac.uk/), I provide a broad introduction to measurement error and the methods available to adjust for it.
 
 {{< video https://www.youtube.com/watch?v=DlJ5gtW94Eg >}}
 
 ------------------------------------------------------------------------
 
-### Estimating Ethnic Disparities in Sentencing
+### Faculty of Social Sciences Inaugural Lecture Series
 
-*Methodological Challenges and a Path Forward*
-
-In January 2025 I was invited to participate in the Faculty of Social Sciences Inaugural Lecture Series 2024/25 at the University of Leeds ([slides](https://rpubs.com/jmpinasanchez/inaugural)).
+In January 2025 I was invited to participate in the Faculty of Social Sciences Inaugural Lecture Series 2024/25 at the University of Leeds. I took this opportunity to highlight the importance of research methods and open research practices using my work on ethnic disparities in sentencing as an example. The slides of my talk are available [here](https://rpubs.com/jmpinasanchez/inaugural), and a summary of the event [here](https://essl.leeds.ac.uk/education-social-sciences-law/news/article/2113/professor-jose-pina-s-nchez-delivers-fifth-faculty-inaugural-lecture).
 
 ------------------------------------------------------------------------
 
-### Estimating Ethnic Disparities in Sentencing in England & Wales
+### N8 Research Partnership - Fostering Collaboration and Community at the University of Leeds
 
-*Taking Stock and Moving Forward*
-
-In November 2024 we organised a symposium to discuss the latest evidence of ethnic disparities in sentencing, bringing together policy-makers, sentencers, practitioners, and researchers from government, the civil sector and academia ([program](static/Symposium_14thNov2024_anonymised.pdf)). This event marked the end of our [ESRC project](https://essl.leeds.ac.uk/law/dir-record/research-projects/1215/disproportionality-exploring-the-nature-of-ethnic-disparities-in-sentencing-through-causal-inference).
+In December 2024 I was [interviewed](https://www.n8research.org.uk/fostering-collaboration-and-community-at-the-university-of-leeds-with-professor-jose-pina-sanchez-2/) by the consortium of northern universities (N8 Research Partnership) to discuss some of the initiatives I had led as Co-director of the Social Research Methods Centre fo foster a nurturing and healthy research culture at the University of Leeds.
 
 ------------------------------------------------------------------------
 
-### The Need for an Empirical Revolution in Criminal Justice Research:
+### LSE - Symposium on Ethnic Disparities in Sentencing
 
-*Examples from Research on Sentencing Disparities*
+In November 2024 I organised a symposium to discuss the latest evidence of ethnic disparities in sentencing, bringing together policy-makers, sentencers, practitioners, and researchers from government, the civil sector and academia ([program](static/Symposium_14thNov2024_anonymised.pdf)). This event marked the end of our [ESRC project](https://essl.leeds.ac.uk/law/dir-record/research-projects/1215/disproportionality-exploring-the-nature-of-ethnic-disparities-in-sentencing-through-causal-inference).
 
-In September 2024 I was invited to give a keynote talk ([slides](static/Northumbria.pdf)) at the Northumbria University [Empirical Research Methods Conference](https://www.northumbria.ac.uk/about-us/news-events/events/2024/09/empirical-research-methods-conference-2024/).
+------------------------------------------------------------------------
+
+### University of Manchester - 'Crim Cafe' Seminars
+
+In October 2024 I was invited to present preliminary findings from my paper 'What Is the External Validity of Sentencing Research? A multi-level meta-analysis of offenders’ race and gender, at the Crim Cafe seminar series in the University of Manchester. The slides from my talk are available [here](static/Manchester.pdf)
+
+------------------------------------------------------------------------
+
+### Northumbria University - Empirical Research Methods Conference
+
+In September 2024 I was invited to give a keynote talk ([slides](static/Northumbria.pdf)) at the [Empirical Research Methods Conference](https://www.northumbria.ac.uk/about-us/news-events/events/2024/09/empirical-research-methods-conference-2024/) held at Northumbria University. I took this opportunity to make the case for *'An Empirical Revolution in Criminal Justice Research'*.
+
+------------------------------------------------------------------------
+
+### Ministry of Justice - Splink & Data First Seminar
+
+In April 2024 I was invited to give a talk to the Data First team at the Ministry of Justice, where I illustrated how their efforts to make administrative data available to researchers are contributing to a more robust evidence base in sentencing research. Slides are available [here](static/Data%20First.pdf)
+
+------------------------------------------------------------------------
+
+### Turing Institute - Causal Inference Interest Group
+
+In March 2024 I was invited to present my paper *'Modelling unwarranted disparities in sentencing: Distinguishing between bad and good controls'* at the Causal Inference Interest Group from the Turing Institute. Slides are available [here](static/Turing.pdf)
+
+------------------------------------------------------------------------
+
+### EROS - Case Level Sentencing Data in Europe
+
+In January 2024 I co-organised an online workshop through the Empirical Research on Sentencing Network. Through this workshop we sought to explore what type of sentencing data is made openly available across different jurisdictions in Europe. The program of the event is available [here](https://empiricalresearchonsentencing.wordpress.com/wp-content/uploads/2024/01/workshop_eros_0.1.pdf), together with some of the presentations delivered on the day ([here](https://empiricalresearchonsentencing.wordpress.com/presentations/)), and my own description of the limited data available in England & Wales ([here](https://empiricalresearchonsentencing.wordpress.com/wp-content/uploads/2024/01/eros_comparative-sentencing_ew.pdf)).
+
+------------------------------------------------------------------------
+
+### Institute for Mathematical Innovation
+
+In November 2023 I was invited to participate as a theme leader in the [Maths for Justice Virtual Study Group](https://imibath.ac.uk/2023/05/27/maths-for-justice-virtual-study-group/) organised by The Virtual Forum for Knowledge Exchange in the Mathematical Sciences (V-KEMS) and the Institute for Mathematical Innovation (IMI). In this three-day online event I presented the methodological challenges faced in the estimation of disparities in sentencing ([slides](static/Theme%202_Sentencing%20questions.pdf)). The result of the workshop was published as a [preprint](https://www.cambridge.org/engage/miir/article-details/65ba1a669138d231611ae68a) in the journal Mathematics in Industry Report
+
+`Smith, A., Hutton, J., Kamperis, S., Lee, W. T., and Pina-S´anchez, J. (2024). Disparities in criminal justice decision-making - VSG Maths for Justice (group B) report. Mathematics in Industry Reports. 10.33774/miir-2024-hcm7c`
+
+------------------------------------------------------------------------
+
+### University of Girona - Seminari d'Investigacions Criminològiques Concepción Arenal
+
+In May 2023 I was invited to participate in the international seminar series of the School of Law at the University of Girona. In my talk I challenged the view of individualisation and consistency as mutually exclusive sentencing principles. I pointed at evidence from the England & Wales guidelines as an example where both principles have been promoted simultaneously. Slides (in Spanish) are available [here](static/Girona_22ndMay.pdf).
+
+------------------------------------------------------------------------
+
+### Police of Finland - The Police Blog
+
+[Dr Mika Sutela](https://poliisi.fi/en/social-media-national-police-board/-/asset_publisher/ZzxbvyenrDWn/content/mika-sutela-en?_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ZzxbvyenrDWn_assetEntryId=46976801&redirect=https%3A%2F%2Fpoliisi.fi%2Fen%2Fsocial-media-national-police-board%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ZzxbvyenrDWn%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ZzxbvyenrDWn_viewSingleAsset=true), wrote a blogplost for the Finnish Police '[Measurement errors: a challenge in police crime statistics](https://poliisi.fi/en/-/measurement-errors-a-challenge-in-police-crime-statistics)', describing some of the research that we undertook as part of the [Recounting Crime](https://recountingcrime.wordpress.com/) project.
+
+------------------------------------------------------------------------
+
+### De Monfort University - Contemporary Issues in Sentencing
+
+In September 2022, I was invited to present my work on [ethnic disparities in sentencing](static/Sentencing%20Academy_DMU.pdf) at the Sentencing Academy and De Montfort University panel on [Contemporary Issues in Sentencing](static/Sentencing%20Academy_DMU.pdf).
+
+------------------------------------------------------------------------
+
+### University of Hull - Innovative Methods in Criminology Podcast
+
+Dr David Buil-Gil and I were invited to discuss our work on measurement error in crime data at Prof Iain Brenan [podcast](https://podcasts.apple.com/gb/podcast/measuring-crime-in-small-areas/id1650570504?i=1000602610705) series on Innovative Methods in Criminology.
+
+------------------------------------------------------------------------
+
+### Ministry of Justice - Areas of Research Interest Seminar Series
+
+In September 2022, I was invited to present my paper [Ethnic disparities in sentencing: Warranted or unwarranted?](static/MoJ_Sentencing%20disparities.pdf) at the MoJ Ares of Research Interest Seminar Series.
+
+------------------------------------------------------------------------
+
+### University of Hong Kong - Methods Hub Seminar Series
+
+In September 2022, I was invited to give a talk for the [Methods Hub Seminar Series](https://www.socsc.hku.hk/events/mh/wme/) from the University of Hong Kong, on *'What Is Measurement Error'*.
+
+{{< video https://www.youtube.com/watch?v=r0GxJ7OQri4 >}}
+
+------------------------------------------------------------------------
+
+### CPS Directors and Chief Crown Prosecutors
+
+In January 2022, Dr Sam Lewis and I presented the findings from our study on disparities in decisions of charge to CPS Directors and Chief Crown Prosecutors. Slides are available [here](static/CPS%20presentation_250122.pptx).
+
+------------------------------------------------------------------------
+
+### Universidade de Coimbra - Centro de Estudos Sociais
+
+In July 2021, I was invited to participate in a workshop from Centro de Estudos Sociais of the Universidade de Coimbra, where I presented *The England & Wales Sentencing Guidelines Experience*. Slides are available [here](static/Coimbra.pdf).
+
+------------------------------------------------------------------------
+
+### Universidad Miguel Hernández - PostC Videopodcast
+
+In March 2021 Dr Ana Gómez-Bellvis invited Dr David Buil-Gil and myself to talk about the project Recounting Crime in her [podcast series](https://postc.umh.es/videopodcast/entrevista-a-los-investigadores-del-proyecto-recounting-crime/).
+
+{{< video https://www.youtube.com/watch?v=zqv_R8m2jR8 >}}
+
+------------------------------------------------------------------------
+
+### University of Manchester - UK Data Service Crime Data Workshop
+
+In February 2020, Dr Ana Morales-Gómez invited me to give a talk on *Secondary Data Analysis for Sentencing Research* at the Methods\@Manchester and UK Data Service Workshop on Crime Data. Slides available are [here](static/UKDataService.pdf).
+
+------------------------------------------------------------------------
+
+### University of Exeter - Q-estival (People, Data and Society)
+
+In September 2019, I was invited to participate in the 'Q-estival (People, Data and Society)' organised by the Q-Step Centre at the University of Exeter. During my talk I made the case for *The Need of An Empirical Eevolution in Sentencing Research*. Slides are available [here](static/Exeter.pdf).
+
+------------------------------------------------------------------------
+
+### University of Manchester - NCRM Research Showcase
+
+In June 2019, I was invited to present findings from my project on *Selection Bias in Sentencing Data Analysis* at the [NCRM Research Showcase](static/NCRM%20Research%20Showcase%20programme.pdf), held at the University of Manchester. Slides are available [here](static/NCRM%20showcase.pdf).
+
+------------------------------------------------------------------------
+
+### Universidad Miguel Hernández - Red EMPIRIC
+
+In April 2019, I was invited to participate in a symposium organised by [Red EMPIRIC](https://www.upf.edu/web/empiric/informes) at the Universidad Miguel Hernández, on questions of empirical research in the criminal justice system. The program for the event is available [here](static/Programa%20MetaEmpiriC.pdf) and the slides for my talk on *Posibilidades Metodológicas para Realizar Sentencing en España* [here](static/CRIMINA_corta.pdf.pdf).
+
+------------------------------------------------------------------------
+
+### Interview by The Guardian
+
+I was interviewed by a journalist from The Guardian, who wrote a [news article](https://www.theguardian.com/law/2018/dec/18/offenders-with-muslim-names-not-jailed-for-longer-study-finds) my study, '*Does the Crown Court Discriminate Against Muslim-named Offenders?*', published by The British Journal of Criminology.
+
+------------------------------------------------------------------------
+
+### Ministry of Justice - Analytical Services Seminar Series
+
+In December 2018, I was invited to present findings from my project, '*Tackling selection Bias in Sentencing Data Analysis: A New Approach Based on Mixture Models, Expert Elicitation Techniques, and Bayesian Statistics*', at the Ministry of Justice. Slides are available [here](static/MoJ_presentation.pdf).
+
+------------------------------------------------------------------------
+
+### City Law School & Sentencing Council
+
+In November 2018, I was invited to give a talk at the seminar '*Collaborating to Shape the Future of Sentencing Research - Innovation and Impact*', organised by the Sentencing Council for England and Wales and the City University Law School. The program is available [here](https://www.sentencingcouncil.org.uk/news/item/seminar-collaborating-to-shape-the-future-of-sentencing-research-innovation-and-impact/) and my slides [here](static/Impact.pdf).
+
+------------------------------------------------------------------------
+
+### Universities of Helsinki and Eastern Finland
+
+In January 2018, I was invited to give a talk at the Law & Statistics conference held at the University of Helsinki and at a Law & Society seminar at the University of Eastern Finland. The former was titled '*Exploring Disparities in Sentencing Using Multilevel Modelling: Opportunities and Pitfalls*', the latter was '*Sentencing Disparities in the Crown Court: Look at the Judge Before the Court*'. Slides are available [here](static/Helsinki.pdf) and [here](static/Joensuu.pdf). During my visit, I was also interviewed by a regional newspaper ([Karjalainen](https://www.karjalainen.fi/paikalliset/7543627)), which published a [news piece](images/Karjalainen201824.jpg) about my study - at least, I hope so, as it is in Finnish.
+
+------------------------------------------------------------------------
+
+### Ministry of Justice - Analytical Services Seminar Series
+
+In 2014 I was invited to present findings from '*The Impact of the 2011 Assault Guideline on Sentence Consistency*' at the MoJ Analytical Services Seminar series, and the University of Oxford School of Law Sentencing Seminar. Slides are available [here](static/Impact%20of%20the%202011%20Assault%20Guideline.MoJ.pdf).
+
+------------------------------------------------------------------------
+
+### University of Sussex - School of Economics PhD Seminar
+
+In 2013 I was invited to present my research on '*The Impact of the 2011 Assault Guideline on Sentence Consistency*' at the University of Sussex School of Economics PhD Seminar. This was the first time my research received interest outside my own university, which felt like an important milestone. Slides are available [here](static/Impact%20of%20the%202011%20Assault%20Guideline.E.pptx).
+
+------------------------------------------------------------------------
+
+### Sentencing Council - ESRC PhD Internship
+
+During my PhD, I undertook a six-month internship at the Sentencing Council for England and Wales. During that time, I gave several talks to Council analysts about the methods I was using in my thesis, including [missing data](static/Multiple%20Imputation.pptx) adjustments and [multilevel modelling](static/Multilevel%20Modelling.pptx).
+
+------------------------------------------------------------------------
+
+### University of Manchester - Cathie Marsh Centre for Survey Research
+
+As part of my PhD (2010 to 2014), I gave several presentations on measurement error in survey data at the Cathie Marsh Centre for Survey Research seminar series. For example, I presented '*Measurement Error and Its Implications*' and '*SIMEX and other methods for the adjustment of measurement error*'. Slides are available [here](static/Measurement%20Error%20and%20its%20Implications) and [here](static/SIMEX%20and%20other%20methods%20for%20the%20adjustment%20of%20measurement%20error.pdf).
 
 ------------------------------------------------------------------------
