@@ -1,0 +1,1086 @@
+---
+title: "Exploring the effect of motor traffic on street crime" 
+author: "Jose Pina-Sánchez & Toby Davies"
+#toc: true
+number-sections: true
+#date: today
+format: 
+  pdf:
+    number-sections: true
+    reference-location: margin
+    theme: cosmo
+    mainfont: "Times New Roman"
+    monofont: "Courier New"
+    highlight-style: github
+abstract: |
+ Traffic impacts street safety in multiple, often under-recognised ways. In addition to their polluting effect and the obvious risk they pose to pedestrians, we hypothesise that heavy motor traffic may also be associated with increased street-level crime. We elaborate this argument drawing from a wide range of well established crime theories. We explore our proposition using longitudinal data from Understanding Crime, and two-way fixed effects models. We find that perceptions of crime are higher in neighbourhoods affected by heavy motor traffic. More importantly, we find that these two phenomena are associated across time, suggesting a likely causal effect. Lastly, we note that the causal effect of motor traffic on street crime is likely mediated by collective efficacy; i.e. traffic erodes community ties, which in turn make informal surveillance less effective. 
+
+ \vspace{1\baselineskip}
+
+ **Keywords:**  cars; perceived crime; collective efficacy; physical disorder; neighbourhood safety; crime prevention
+editor: visual
+execute:
+  preserve: none 
+  echo: false
+bibliography: cochistas.bib
+csl: apa-6th-edition.csl
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+library(haven) #to use read_sav
+library(dplyr) #to use left_join and mutate
+library(purrr) #to use reduce
+library(tidyr) #to use pivot_longer
+library(ggplot2)
+library(data.table) #to use as.data.table
+library(mice) #to use mice
+library(miceadds) #to use micombine.cor
+library(knitr)
+library(kableExtra) #to use kbl
+library(simex)
+library(sensemakr) #to use robustness_value
+#The following two functions are used to define the number of decimals to be printed
+f1 <- function(x) {
+  formatC(x, format = "f", digits = 1) 
+}
+f2 <- function(x) {
+  formatC(x, format = "f", digits = 2) 
+}
+f3 <- function(x) {
+  formatC(x, format = "f", digits = 3) 
+}
+#To ensure reproducibility
+set.seed=7
+```
+
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+
+# Acknowledgement {.unnumbered}
+
+We thank participants of the 2025 cars and crime symposium for their helpful comments to a draft version of this article, and to Prof. Sampson for his suggestion to control for time of the interview to minimise exposure to measurement error bias in our findings.
+
+# Introduction
+
+Heavy motor traffic in urban areas has been widely documented as corrosive force, affecting residents' safety, health, and social fabric. Beyond its obvious effect on pedestrian safety [@laverty2021] and its contribution to air pollution [@ciccone1998; @oosterlee1996], motor traffic has been linked to higher stress levels [@jensen2018; @rodriguez-valencia2022], decreased sleep quality [@kim2012], and reduced outdoor physical activity [@jacobsen2009]. Furthermore, heavy traffic can undermine community engagement and perceptions of social order [@gehl2011; @rantakokko2014], while also degrading the built environment and neighbourhood aesthetics [@bayley2004a; @wright2002a].
+
+In this article, we hypothesise another form of harm posed by motor traffic: its contribution to street crime. We propose that increased car usage is not only associated with a rise in motoring offences (e.g., drink driving, speeding) but may also lead to higher levels of non-traffic-related crimes committed in public spaces, including vandalism, theft, and violent crime. That relationship might not seem immediately intuitive, given the lack of a direct causal link between traffic and street crime. Our argument draws on less visible, second-order effects. On one hand, we suggest that many of the well-documented harms caused by motor traffic - such as increased stress, reduced social cohesion, and diminished quality of public space - align closely with conditions identified by established criminological theories as precursors to crime. In addition, we draw on routine activity theory [@cohen1979] to argue that vehicular traffic diminishes guardianship and thereby promotes conditions conducive to crime.
+
+From a sociological perspective, strain theory [@agnew_revised_1985] identifies stress as a key driver of violence and other deviant behaviour. While this is often framed in terms of frustration from blocked personal goals, under Agnew's general strain theory [@agnew1992], the chronic stress induced by motor traffic - affecting residents, pedestrians and drivers - can similarly increase the likelihood of aggressive and antisocial behaviour. More broadly, social disorganisation theories identify the erosion of community ties as a precursor to street crime. This affects specific institutions that transmit prosocial norms through local role models, such as neighbourhood churches or youth organizations where community leaders set behavioural expectations [@bursikjr.1988], and collective efficacy more broadly - i.e. the shared belief among neighbours in their mutual trust and their willingness to intervene to uphold social order [@sampson1997]. Lastly, drawing on broken windows theory [@wilson2011], the physical deterioration caused by heavy traffic - in the form of potholes, noise and litter - can signal neglect. This perceived disorder may further reduce residents’ motivation to maintain order and invite further incivilities and criminal behaviour.
+
+More directly, vehicle traffic also impacts the individuals present in an area, and the interactions between them. This can be seen through the framework of routine activity theory, which posits that, for a direct-contact crime to occur, three elements must converge in space and time: a motivated offender, a suitable target, and the absence of a capable guardian [@cohen1979]. Drawing on this, several approaches have emphasised the key role of guardianship – including informal social control by residents and pedestrians – as an inhibitor of crime [@hollis2011]. The field of Crime Prevention Through Environmental Design (CPTED), for example, is concerned with how the built environment can be designed in a way that discourages crime, with a particular emphasis on fostering informal guardianship [@cozens2005]. Additionally, Newman’s (1972) notion of ‘defensible space’ states that such guardianship is strengthened when the physical environment fosters territoriality, natural surveillance, and a sense of ownership over shared spaces. Critically, these are likely to be undermined when a place is subject to high volumes of vehicular traffic: not only are territoriality and ownership disrupted, but ‘outsiders’ are less likely to stand out and be identified. Passing drivers, though physically present, are typically unable to monitor events at street level or intervene effectively, making their presence functionally negligible as a form of guardianship. In addition, if the presence of vehicular traffic also has the effect of reducing pedestrian activity – as seems likely - this also diminishes the stronger form of social surveillance from local passers-by; referred to by @jacobs1961 as ‘eyes on the street’. For those pedestrians who are present, physical barriers like parked cars and wide roads fragment public spaces and obscure sightlines. In this way, traffic potentially contributes to criminogenic conditions.
+
+Given the multiple ways in which crime theory could be applied to predict the effects of motor traffic on street crime, and the growing prevalence of car dependency in modern life, it is surprising how little attention this topic has received in the field of criminology.[^1] As far as we are aware, only two studies have tested the effect of motor traffic on street crime [@goodman_impact_2021; @goodman2021]. In the first of these, the authors demonstrated that the adoption of Low Traffic Neighbourhoods (LTN) in the London Borough of Waltham Forest led to a 10% reduction in police-recorded crime. Their second study expanded on these findings, showing that London neighbourhoods which implemented LTNs during the COVID-19 pandemic experienced a four-percentage-point greater reduction in assaults and other violent crimes against the person, compared to other areas. There is also evidence pointing to a potential mechanism linking motor traffic and crime via traffic-induced stress. @beland2018 found that after controlling for temporal and spatial heterogeneity, extreme traffic conditions (above the 95th percentile) in Los Angeles were associated with a 9% increase in domestic violence.
+
+[^1]: See notable exceptions in @loader2025a and @loader2025.
+
+In addition, although not directly addressing our research question, it is worth noting a growing body of literature emerging from criminology and geography that examines the relationship between neighbourhood walkability – the extent to which the built environment supports and promotes foot travel [@katz1994; @walkable] - and crime. Over the past decade, six studies [@gilderbloom2015; @foster2016; @dong2017; @cowen2019; @lee2021; @wo2023] have found a positive association between various walkability indices[^2] and police-recorded crimes across different regions in the United States and Australia. These findings have been interpreted as supportive of key principles of routine activity theory and CPTED [@crowe2013]; in this case, however, the focus is on offenders rather than guardianship. Specifically, greater street connectivity has been shown to facilitate offender escape routes and the identification of potential targets [@armitage2011; @hillier2004], while mixed-use neighbourhoods - where amenities tend to be more common - may increase crime opportunities and attract ‘motivated offenders’ \[wo2019\].
+
+[^2]: @gilderbloom2015 found no association between the Walkscore® index (a combination of walking distance to key amenities and public services such as restaurants and schools, with area characteristics such as population and intersection density [@duncan2011]) and crime across Census tracts within Louisville, Kentucky. @dong2017 found no association between street walkability (measured by street density, street intersection density, sidewalk completeness and the percentage of cul-de-sacs) and robbery across Census blocks within Oregon, Portland, but reported a positive relationship with burglary. @cowen2019 found a positive association between walkability (measured by proximity to bike lanes, to public transport, street density, and access to amenities) and aggravated assault and no association with larceny across Census blocks in Miami-Dade County, Florida. @lee2021 reported a positive association of the Walkscore® index and rape, aggravated assault, robbery, larceny, burglary and motor vehicle theft, across city blocks in Los Angeles, California. Lastly, @wo2023 reported a positive association between the index of walkability produced by the @epa2021 (measured by street intersection, proximity to transit stops, and mix of employment and residential types) and robbery, assault, burglary, larceny, and motor vehicle thefts.
+
+Considering that one of the motivations for walkable neighbourhoods is to encourage modal shift away from car travel, this body of research offers useful insights into the relationship between motor traffic and street crime, and alerts us to additional mechanisms that might offset the effect we anticipate. Still, we posit that findings from this body of literature should be interpreted circumspectly, not only due to the different exposures under study (walkable streets and motor traffic), but also because of key methodological limitations. Namely, most walkability studies rely on police-recorded crime data and cross-sectional designs. The former is known to be affected by different forms of measurement error, ranging from recording inconsistencies [@hmic2014], victim's hesitancy to report crimes to the police, to more pernicious forms of artificial variability stemming from police work and governance, such as ad-hoc crack downs and crime targets [@boivin2011]. All these leads to different types of quantitative bias [@levitt1998; @pina-sánchez2023a; @pina-sánchez2023]. For example, the systematic under-reporting of crime is the primary driver of the *dark figure of crime* [@skogan1977], which recent studies have shown to be associated with various measures of social capital [@brunton-smith2024; @weisburd2024], and consequently with the underestimation of the effectiveness of police community interventions.[^3]
+
+[^3]: @foster2016 findings illuminate this point. The authors found a crime reduction effect of walkability when considering self-reported victimisation from residents, which switched to a criminogenic effect when police-recorded crime data was used.
+
+The over-reliance on cross-sectional designs is equally problematic. It is well known that inner city areas are more prone to crime; however, they also attract more people and criminogenic amenities like restaurants, bars and nightlife more generally. However, most studies control for only a few area characteristics such as economic activity, residential density, age and ethnic heterogeneity. As such, findings from this group of studies reflect nothing more than the - adjusted - association between the index of neighbourhood walkability and crime, not its causal effects[^4].
+
+[^4]: @wo2023 relied on longitudinal data but their modelling strategy did not fully exploit it. The authors simply lagged explanatory variables by one year compared to the outcome variable, failing to control for time constant heterogeneity, or explore dynamic effects.
+
+In this study we use longitudinal data from the UK Understanding Society study [@ukdata] to explore how changes in the presence of heavy motor traffic in neighbourhoods affect perceptions of street crime. This longitudinal dimension is key for our identification strategy. It allows us to disentangle within- from between-area variability, and in so doing control for time constant factors that might be confounding the relationship of interest, such as police presence, socio-demographic composition, economic activity, or features of the built environment and other geographic factors. That is, we move the focus of our analysis away from establishing whether criminality is higher in neighbourhoods with higher traffic, to provide a more accurate estimate of the causal effect of motor traffic on street crime.
+
+This is not the only methodological benefit afforded by the use of *Understanding Society*. Since perceptions of street crime in their neighbourhood are directly reported by the interviewee, we do not have to rely on police statistics. Of course, survey data is itself prone to multiple limitations, such as social desirability or acquiescence bias – and indeed the perception of crime will not necessarily reflect its reality. However, the potential confounding effect of these factors will be minimal in our study. This is because, unlike perceptions of crime, the presence of heavy motor traffic in the interviewee's neighbourhood is not part of the questionnaire, but directly recorded by the interviewer, rendering the two measures independent. Hence, any potential bias in the data collection process will not be shared between our key exposure and outcome variables. Lastly, the national scope of the dataset enhances the external validity of our study, especially compared to previous research that has either focused on interventions within specific neighbourhoods or city-wide analyses.
+
+As such, this study provides the first set of estimates for the causal effect of heavy motor traffic on street crime at a national level.
+
+# Data and Analytical Strategy
+
+Some of the modules included in Understanding Society rotate across waves. Questions on perceptions of crime have only been included in waves 3, 6, 9 and 12.[^5] These refer to years 2011/12, 2014/15, 2017/18, and 2020/21. To avoid introducing anomalies from the COVID period - which, among other things, involved the suspension of face-to-face data collection and, consequently, the loss of interviewer-recorded neighbourhood conditions - we focused our study on the first three waves where perceptions of crime have been recorded. Therefore, our window of observation covers the period from 2011 to 2018.
+
+[^5]: Data from Understanding Society can be downloaded from the [UK Data Archive](https://www.data-archive.ac.uk/). The annotated Quarto code integrating our data analysis processes in the manuscript is available here: [jmpinasanchez.github.io/cars.html](jmpinasanchez.github.io/cars.html).
+
+From each of those three waves we selected the following variables:
+
+-   Three dependent variables capturing perceptions of the extent of vandalism, burglary, and violence in the interviewee's area of residence, measured as a 4-point scale ranging from *"very common"* to *"not at all common"*. The exact wording used in the questionnaire is: *"(How common in your area is...) Vandalism and deliberate damage to property?", "Homes broken into?", "People attacked on the streets?"*.
+
+-   One binary exposure variable indicating whether the interviewer judged the street or road closest to the interviewee's residence to be affected by heavy motor traffic.
+
+-   Three potential mediators for the effect of motor traffic on street crime: the interviewee's response to whether neighbours are willing to help each other, and the interviewer's assessment of the presence of litter or junk, and of boarded-up houses or abandoned buildings in the neighbourhood. The last two are binary variables, while the neighbour-help variable is recorded on a 5-point Likert scale ranging from *"strongly agree"* to *"strongly disagree"* and is only available in waves 3 and 6.
+
+-   Three control/stratification variables: the wave of the study, whether the participant had moved to a different address since the last interview, and the time of the day when the interview took place.
+
+-   Ten auxiliary variables: respondents' sex, ethnic group, personal income, level of education, numeric ability, number of days per week spent exercising and walking outside; the number of adults, their own children, and disabled individuals living in the household; and whether the household is in a rural or urban area.
+
+```{r}
+#| label: data-cleaning
+#| cache: true
+#| include: false
+
+#Meta-Data######################################################################
+
+###Exposure###
+#vicini3 - included in waves 3, 6 and 9
+#heavy traffic on street/road
+
+###Controls###
+#addrmov_dv - included in waves 3, 6 and 9
+#This flag variable indicates whether or not the participant has changed postcode 
+#since the previous wave, requiring valid responses to both the current and previous waves 
+#The code is 1 (yes) and 2 (no)
+
+#istrtdathh - included in waves 3, 6 and 9 
+#Individual interview start time (hours) 
+
+###Outcomes###
+#crburg - included in waves 3, 6 and 9
+#(How common in your area is...) Homes broken into?
+#1:Very common, 2: Fairly common, 3: Not very common, 4: Not at all common
+
+#crmugg - included in waves 3, 6 and 9
+#(How common in your area is...) People attacked on the streets?
+#1:Very common, 2: Fairly common, 3: Not very common, 4: Not at all common
+
+#crvand - included in waves 3, 6 and 9
+#(How common in your area is...) Vandalism and deliberate damage to property?
+#1:Very common, 2: Fairly common, 3: Not very common, 4: Not at all common
+
+###Mediators###
+#vicini1 - included in waves 3, 6 and 9
+#boarded houses: abandoned buildings: demolished houses or demolished buildings
+#There is another variable, vicini2, that captures 'trash: litter or junk in street/road'
+
+#vicini2 - included in waves 3, 6 and 9
+#trash: litter or junk in street/road
+
+#nbrcoh2 - included in waves 3 and 6 
+#people willing to help their neighbours
+#1:Strongly agree, 2: Agree, 3: neither agree/disagree, 4: Disagree, 5: Strongly disagree
+
+###Auxiliary data###
+#fibenothr_dv - included in waves 3, 6 and 9
+#Total income from benefits and other sources 
+
+#qfhigh_dv - included in waves 3, 6 and 9
+#Highest educational qualification ever reported 
+
+#ethn_dv - included in waves 3, 6 and 9
+#Ethnic group (derived from multiple sources) 
+
+#sex_dv - included in waves 3, 6 and 9
+#Participants sex
+
+#dvage - included in waves 3, 6 and 9
+#Age
+
+#cgna_dv - only in wave 3
+#Cognitive ability: Numeric ability: Count of items answered correctly
+
+#wday - included in waves 7, 9, 11, 12 and 13
+#Now think about the time you spent walking in the last 7 days. This includes at 
+#work and at home, walking to travel from place to place, and any other walking 
+#that you might do solely for recreation, sport, exercise, or leisure. During the 
+#last 7 days, on how many days did you walk for at least 10 minutes at a time?
+
+#mday - included in waves 7, 9, 11, 12 and 13 
+#Now think about activities which take moderate physical effort that you did in 
+#the last 7 days.
+
+#aidhh - included in waves 3, 6 and 9
+#Is there anyone living with you who is sick, disabled or elderly whom you look after 
+#or give special help to (for example, a sick, disabled or elderly relative, 
+#husband, wife or friend etc)
+
+#nadoecd_dv - included in waves 3, 6 and 9
+#Number of adults aged 14 or older in the household, OECD definition. 
+
+#nchild_dv - included in waves 3, 6 and 9 
+#Number of own children in the household. Includes natural children, adopted children 
+#and stepchildren, under the age of 16.
+
+#urban_dv - included in waves 3, 6 and 9
+#Binary indicator classifying the address as falling into an (1) urban or (2) rural area. 
+#This is derived from the Office for National Statistics Rural and Urban Classification 
+#of Output Areas 2001 (UKDS Study Number 7454).
+
+
+#Importing and Cleaning the Data################################################
+
+###Importing the questionnaires used in each of the three waves###
+#wave 9
+i_hhsamp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/i_hhsamp.sav")
+i_hhsamp = i_hhsamp[, c("i_hidp", "i_vicini3", "i_vicini2", "i_vicini1")]
+i_indresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/i_indresp.sav")
+i_indresp = i_indresp[, c("i_hidp", "pidp", "i_addrmov_dv", "i_nchild_dv", 
+                          "i_urban_dv", "i_fibenothr_dv", "i_qfhigh_dv", "i_ethn_dv", "i_wday", 
+                          "i_dvage", "i_mday", "i_sex_dv", "i_istrtdathh")]
+i = merge(i_hhsamp, i_indresp, by="i_hidp")
+i_hhresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/i_hhresp.sav")
+i_hhresp = i_hhresp[, c("i_hrpid", "i_hidp", "i_crburg", "i_crmugg", "i_crvand", 
+                        "i_nadoecd_dv")]
+i = merge(i, i_hhresp, by="i_hidp")
+i$i_disdif1.1 = NULL
+i = i[, c("i_vicini3", "i_hrpid", "pidp", "i_addrmov_dv", "i_crburg", "i_crmugg",  
+          "i_crvand", "i_vicini2", "i_vicini1", "i_nadoecd_dv", "i_nchild_dv", 
+          "i_urban_dv", "i_fibenothr_dv", "i_qfhigh_dv", "i_ethn_dv", "i_wday", 
+          "i_dvage", "i_mday", "i_sex_dv", "i_istrtdathh")]
+i = i %>% 
+  filter(pidp %in% i_hrpid)
+#wave 8
+h_indresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/h_indresp.sav")
+h = h_indresp[, c("pidp", "h_addrmov_dv")]
+#wave 7
+g_indresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/g_indresp.sav")
+g = g_indresp[, c("pidp", "g_addrmov_dv")]
+#wave 6
+f_hhsamp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/f_hhsamp.sav")
+f_hhsamp = f_hhsamp[, c("f_hidp", "f_vicini3", "f_vicini2", "f_vicini1")]
+f_indresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/f_indresp.sav")
+f_indresp = f_indresp[, c("f_hidp", "pidp", "f_addrmov_dv", "f_nbrcoh2", 
+                          "f_nchild_dv", "f_urban_dv", "f_qfhigh_dv", 
+                          "f_ethn_dv", "f_dvage", "f_fibenothr_dv", "f_sex_dv", 
+                          "f_istrtdathh")]
+f = merge(f_hhsamp, f_indresp, by="f_hidp")
+f_hhresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/f_hhresp.sav")
+f_hhresp = f_hhresp[, c("f_hrpid", "f_hidp", "f_crburg", "f_crmugg", "f_crvand", 
+                        "f_nadoecd_dv")]
+f = merge(f, f_hhresp, by="f_hidp")
+f = f[, c("f_vicini3", "f_hrpid", "pidp", "f_addrmov_dv", "f_crburg", "f_crmugg",  
+          "f_crvand", "f_nbrcoh2", "f_vicini2", "f_vicini1", "f_nadoecd_dv", 
+          "f_nchild_dv", "f_urban_dv", "f_qfhigh_dv", "f_ethn_dv", "f_dvage", 
+          "f_fibenothr_dv", "f_sex_dv", "f_istrtdathh")]
+f = f %>% 
+  filter(pidp %in% f_hrpid)
+#wave 5
+e_indresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/e_indresp.sav")
+e = e_indresp[, c("pidp", "e_addrmov_dv")]
+#wave 4
+d_indresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/d_indresp.sav")
+d = d_indresp[, c("pidp", "d_addrmov_dv")]
+#wave 3
+c_hhsamp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/c_hhsamp.sav")
+c_hhsamp = c_hhsamp[, c("c_hidp", "c_vicini3", "c_vicini2", "c_vicini1")]
+table(c_hhsamp$c_vicini3, useNA="ifany")
+c_indresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/c_indresp.sav")
+c_indresp = c_indresp[, c("c_hidp", "pidp", "c_attacked_dv", "c_nbrcoh2", 
+                          "c_nchild_dv", "c_urban_dv", "c_cgna_dv", "c_qfhigh_dv", 
+                          "c_ethn_dv", "c_dvage", "c_fibenothr_dv", "c_sex_dv", 
+                          "c_istrtdathh")]
+c = merge(c_hhsamp, c_indresp, by="c_hidp")
+table(c$c_vicini3, useNA="ifany")
+c_hhresp = read_sav("UKDA-6614-spss/spss/spss28/ukhls/c_hhresp.sav")
+c_hhresp = c_hhresp[, c("c_hrpid", "c_hidp", "c_crburg", "c_crmugg", "c_crvand", 
+                        "c_nadoecd_dv")]
+table(c$c_crburg, useNA="ifany")
+table(c_hhresp$c_crburg, useNA="ifany")
+c = merge(c, c_hhresp, by="c_hidp")
+length(unique(c$pidp))
+length(unique(c$c_hidp))
+c = c[, c("c_vicini3", "c_hrpid", "pidp", "c_crburg", "c_crmugg",  
+          "c_crvand", "c_nbrcoh2", "c_vicini2", "c_vicini1", "c_nadoecd_dv", "c_nchild_dv", 
+          "c_urban_dv", "c_cgna_dv", "c_qfhigh_dv", "c_ethn_dv", "c_dvage", 
+          "c_fibenothr_dv", "c_sex_dv", "c_istrtdathh")]
+table(c$c_crburg, useNA="ifany")
+c = c %>% 
+  filter(pidp %in% c_hrpid)
+
+###Merging the 3 waves used in this analysis###
+waves = list(c, d, e, f, g, h, i)
+data = reduce(waves, left_join, by = "pidp")
+
+###Removing those who changed their address###
+data2 = data[!( (data$d_addrmov_dv == 1 & !is.na(data$d_addrmov_dv)) |
+                 (data$e_addrmov_dv == 1 & !is.na(data$e_addrmov_dv)) |
+                 (data$f_addrmov_dv == 1 & !is.na(data$f_addrmov_dv)) |
+                 (data$g_addrmov_dv == 1 & !is.na(data$g_addrmov_dv)) |
+                 (data$h_addrmov_dv == 1 & !is.na(data$h_addrmov_dv)) |
+                 (data$i_addrmov_dv == 1 & !is.na(data$i_addrmov_dv)) ), ]
+data2 = data2[, !(names(data) %in% c("d_addrmov_dv", "e_addrmov_dv", "f_addrmov_dv", 
+                                   "g_addrmov_dv", "h_addrmov_dv", "i_addrmov_dv"))]
+
+###Turning wide to long format###
+# Convert the data to a data.table
+dt <- as.data.table(data2)
+# Melt (reshape from wide to long) using data.table
+long_data <- melt(
+  dt, 
+  id.vars = "pidp", 
+  measure.vars = patterns("vicini3", "crburg", "crmugg", 
+                          "crvand", "nbrcoh2", "vicini1", "nadoecd_dv", 
+                          "nchild_dv", "urban_dv", "cgna_dv", "qfhigh_dv", "ethn_dv", 
+                          "sex_dv", "wday", "dvage", "vicini2", "mday", "fibenothr_dv",                                          "istrtdathh"), 
+  variable.name = "wave", 
+  value.name = c("vicini3",  "crburg", "crmugg", 
+                 "crvand", "nbrcoh2", "vicini1", "nadoecd_dv", 
+                 "nchild_dv", "urban_dv", "cgna_dv", "qfhigh_dv", "ethn_dv", 
+                 "sex_dv", "wday", "dvage", "vicini2", "mday", "fibenothr_dv",                                          "istrtdathh"))
+head(long_data)
+length(unique(long_data$pidp))
+
+###Setting missing cases###
+#vicini3
+table(long_data$vicini3, useNA="ifany")
+long_data$vicini3 = ifelse(long_data$vicini3<0, NA, long_data$vicini3)
+table(long_data$vicini3, useNA="ifany")
+#crburg
+table(long_data$crburg, useNA="ifany")
+long_data$crburg= ifelse(long_data$crburg<0, NA, long_data$crburg)
+table(long_data$crburg, useNA="ifany")
+#crmugg
+table(long_data$crmugg, useNA="ifany")
+long_data$crmugg= ifelse(long_data$crmugg<0, NA, long_data$crmugg)
+table(long_data$crmugg, useNA="ifany")
+#crvand
+table(long_data$crvand, useNA="ifany")
+long_data$crvand= ifelse(long_data$crvand<0, NA, long_data$crvand)
+table(long_data$crvand, useNA="ifany")
+#nbrcoh2
+table(long_data$nbrcoh2, useNA="ifany")
+long_data$nbrcoh2= ifelse(long_data$nbrcoh2<0, NA, long_data$nbrcoh2)
+table(long_data$nbrcoh2, useNA="ifany")
+#vicini1
+table(long_data$vicini1, useNA="ifany")
+long_data$vicini1 = ifelse(long_data$vicini1<0, NA, long_data$vicini1)
+table(long_data$vicini1, useNA="ifany")
+#nadoecd_dv
+table(long_data$nadoecd_dv, useNA="ifany")
+#nchild_dv
+table(long_data$nchild_dv, useNA="ifany")
+#urban_dv
+table(long_data$urban_dv, useNA="ifany")
+long_data$urban_dv = ifelse(long_data$urban_dv<0, NA, long_data$urban_dv)
+table(long_data$urban_dv, useNA="ifany")
+long_data$urban_dv = as.character(long_data$urban_dv)
+#cgna_dv
+table(long_data$cgna_dv, useNA="ifany")
+long_data$cgna_dv = ifelse(long_data$cgna_dv<0, NA, long_data$cgna_dv)
+table(long_data$cgna_dv, useNA="ifany")
+#qfhigh_dv
+table(long_data$qfhigh_dv, useNA="ifany")
+long_data$qfhigh_dv = ifelse(long_data$qfhigh_dv<0, NA, long_data$qfhigh_dv)
+table(long_data$qfhigh_dv, useNA="ifany")
+long_data$qfhigh_dv = as.character(long_data$qfhigh_dv)
+#ethn_dv
+table(long_data$ethn_dv, useNA="ifany")
+long_data$ethn_dv = ifelse(long_data$ethn_dv<0, NA, long_data$ethn_dv)
+#I set gypsies as other whites
+long_data$ethn_dv = ifelse(long_data$ethn_dv==3, 4, long_data$ethn_dv) 
+table(long_data$ethn_dv, useNA="ifany")
+long_data$ethn_dv = as.character(long_data$ethn_dv)
+#sex
+table(long_data$sex_dv, useNA="ifany")
+long_data$female = long_data$sex_dv - 1 
+long_data$sex_dv = NULL
+#this is so a value of 1 is female and a 0 is male
+table(long_data$female, useNA="ifany")
+#wday
+table(long_data$wday, useNA="ifany")
+long_data$wday = ifelse(long_data$wday<0, NA, long_data$wday)
+table(long_data$wday, useNA="ifany")
+#dvage
+table(long_data$dvage, useNA="ifany")
+long_data$dvage = ifelse(long_data$dvage<0, NA, long_data$dvage)
+table(long_data$dvage, useNA="ifany")
+#vicini2
+table(long_data$vicini2, useNA="ifany")
+long_data$vicini2 = ifelse(long_data$vicini2<0, NA, long_data$vicini2)
+table(long_data$vicini2, useNA="ifany")
+#mday
+table(long_data$mday, useNA="ifany")
+long_data$mday = ifelse(long_data$mday<0, NA, long_data$mday)
+table(long_data$mday, useNA="ifany")
+#fibenothr_dv
+summary(long_data$fibenothr_dv, useNA="ifany")
+long_data$fibenothr_dv = ifelse(long_data$fibenothr_dv<0, NA, long_data$fibenothr_dv)
+summary(long_data$fibenothr_dv, useNA="ifany")
+
+###Recoding time of the interview so hours with few cases are brought together###
+table(long_data$istrtdathh, useNA="ifany")
+long_data = long_data %>%
+mutate(t_interview = case_when(
+       istrtdathh >= 23 | istrtdathh <= 6 ~ "Night",
+       istrtdathh >= 7  & istrtdathh <= 9 ~ "Morning",
+       istrtdathh >= 10  & istrtdathh <= 14 ~ "Midday",
+       istrtdathh >= 15  & istrtdathh <= 18 ~ "Afternoon",
+       istrtdathh >= 19 & istrtdathh <= 22 ~ "Evening",
+       TRUE ~ as.character(istrtdathh))) 
+long_data$t_interview = factor(long_data$t_interview,
+      levels = c("Morning", "Midday", "Afternoon", "Evening", "Night"))
+table(long_data$t_interview, useNA="ifany")
+long_data$istrtdathh = NULL
+
+###Recoding the likert variables so higher values means more of the thing###
+table(long_data$crburg)
+long_data$crburg = 5-long_data$crburg
+table(long_data$crburg)
+long_data$crmugg = 5-long_data$crmugg
+long_data$crvand = 5-long_data$crvand
+long_data$nbrcoh2 = 6-long_data$nbrcoh2
+
+###Setting the variables in their correct level of measurement###
+long_data$pidp = as.character(long_data$pidp)
+long_data$nadoecd_dv = as.numeric(long_data$nadoecd_dv)
+long_data$nchild_dv = as.numeric(long_data$nchild_dv)
+```
+
+```{r}
+#| label: descriptives1
+#| cache: true
+#| include: false
+
+####Sample size per wave and variable###
+N = long_data %>%
+  group_by(wave) %>%
+  summarise(across(
+    everything(),
+    ~sum(!is.na(.)),
+    .names = "N_{.col}"))
+print(N, width = Inf)
+
+###Descriptives for all three waves, before imputation###
+summary(long_data)
+```
+
+Since perceptions of crime were only asked in the Household Questionnaire, and therefore answered by one person per household, we restrict our sample to participants designed as the household reference person. We also restricted our sample to participants successfully contacted in wave-3. This is so our findings can be interpreted more intuitively by referring to the same cohort of participants. Further, we decided to drop `{r} nrow(data) - nrow(data2)` participants who were known to have changed their address at any point over the seven years considered in our window of observation. As shown in @tbl-attrition, these sampling choices result in a substantial degree of attrition.
+
+To impute missing cases due to attrition and item non-response, we used multiple imputation by chained equations. Specifically, we employed the *mice* package (version 3.18.0) in R [@buuren2011], using predictive mean matching, five imputation sets with a maximum of five iterations, and a set of auxiliary variables that includes all the variables listed above.
+
+```{r}
+#| label: imputation
+#| cache: true
+#| include: false
+
+#Imputting NAs###############################################################
+imp = mice(data = long_data, method = "pmm", m = 5, maxit = 5, cluster = long_data$pidp)
+#The convergence problems refer to questions that were missing in certain waves.
+#Only nbrcoh2 (a mediator) and four other auxiliary variables are affected.
+
+###Stacking all imputations below each other###
+long1 = complete(imp, action='long', include=TRUE) 
+
+###Converting back from a long format into a mids object###
+long2 <- as.mids(long1)
+```
+
+```{r}
+#| label: descriptives2
+#| cache: true
+#| include: false
+
+###Distinguishing between and within variability### 
+long1 = complete(long2, action='long', include=TRUE)
+long1$vicini3_mean = ave(long1$vicini3, long1$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1$vicini3_within = long1$vicini3 - long1$vicini3_mean 
+long1$vicini2_mean = ave(long1$vicini2, long1$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1$vicini2_within = long1$vicini2 - long1$vicini2_mean
+long1$vicini1_mean = ave(long1$vicini1, long1$pidp, FUN = function(x) mean(x, na.rm = TRUE))
+long1$vicini1_within = long1$vicini1 - long1$vicini1_mean 
+long1$nbrcoh2_mean = ave(as.numeric(long1$nbrcoh2), long1$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1$nbrcoh2_within = as.numeric(long1$nbrcoh2) - long1$nbrcoh2_mean 
+long1$crmugg_mean = ave(as.numeric(long1$crmugg), long1$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1$crmugg_within = as.numeric(long1$crmugg) - long1$crmugg_mean 
+long1$crburg_mean = ave(as.numeric(long1$crburg), long1$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1$crburg_within = as.numeric(long1$crburg) - long1$crburg_mean 
+long1$crvand_mean = ave(as.numeric(long1$crvand), long1$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1$crvand_within = as.numeric(long1$crvand) - long1$crvand_mean 
+long2 <- as.mids(long1)
+
+#Creating objects for table 2
+mean_vicini3 = mean(long1$vicini3, na.rm = TRUE)
+mean_crvand = mean(long1$crvand, na.rm = TRUE)
+mean_crburg = mean(long1$crburg, na.rm = TRUE)
+mean_crmugg = mean(long1$crmugg, na.rm = TRUE)
+mean_vicini2 = mean(long1$vicini2, na.rm = TRUE)
+mean_vicini1 = mean(long1$vicini1, na.rm = TRUE)
+mean_nbrcoh2 = mean(long1$nbrcoh2, na.rm = TRUE)
+mean_dvage = mean(long1$dvage, na.rm = TRUE)
+mean_female = mean(long1$female, na.rm = TRUE)
+min_vicini3 = min(long1$vicini3, na.rm = TRUE)
+min_crvand = min(long1$crvand, na.rm = TRUE)
+min_crburg = min(long1$crburg, na.rm = TRUE)
+min_crmugg = min(long1$crmugg, na.rm = TRUE)
+min_vicini2 = min(long1$vicini2, na.rm = TRUE)
+min_vicini1 = min(long1$vicini1, na.rm = TRUE)
+min_nbrcoh2 = min(long1$nbrcoh2, na.rm = TRUE)
+min_dvage = min(long1$dvage, na.rm = TRUE)
+min_female = min(long1$female, na.rm = TRUE)
+max_vicini3 = max(long1$vicini3, na.rm = TRUE)
+max_crvand = max(long1$crvand, na.rm = TRUE)
+max_crburg = max(long1$crburg, na.rm = TRUE)
+max_crmugg = max(long1$crmugg, na.rm = TRUE)
+max_vicini2 = max(long1$vicini2, na.rm = TRUE)
+max_vicini1 = max(long1$vicini1, na.rm = TRUE)
+max_nbrcoh2 = max(long1$nbrcoh2, na.rm = TRUE)
+max_dvage = max(long1$dvage, na.rm = TRUE)
+max_female = max(long1$female, na.rm = TRUE)
+sd_vicini3_between = sd(long1$vicini3_mean, na.rm = TRUE)
+sd_crvand_between = sd(long1$crvand_mean, na.rm = TRUE)
+sd_crburg_between = sd(long1$crburg_mean, na.rm = TRUE)
+sd_crmugg_between = sd(long1$crmugg_mean, na.rm = TRUE)
+sd_vicini2_between = sd(long1$vicini2_mean, na.rm = TRUE)
+sd_vicini1_between = sd(long1$vicini1_mean, na.rm = TRUE)
+sd_nbrcoh2_between = sd(long1$nbrcoh2_mean, na.rm = TRUE)
+sd_vicini3_within = sd(long1$vicini3_within, na.rm = TRUE)
+sd_crvand_within = sd(long1$crvand_within, na.rm = TRUE)
+sd_crburg_within = sd(long1$crburg_within, na.rm = TRUE)
+sd_crmugg_within = sd(long1$crmugg_within, na.rm = TRUE)
+sd_vicini2_within = sd(long1$vicini2_within, na.rm = TRUE)
+sd_vicini1_within = sd(long1$vicini1_within, na.rm = TRUE)
+sd_nbrcoh2_within = sd(long1$nbrcoh2_within, na.rm = TRUE)
+```
+
+@tbl-descriptives shows the main descriptive statistics for the variables used in our models following the imputation process. This include the seven variables used in our models plus the mean age and the proportion of female participants. We can see that the average participant in our study is substantially older (`{r} f1(mean_dvage)` years old) than the UK average (40.7 according to the 2011 UK Census), while the gender ratio in our sample (`{r} f1(mean_female*100)`% female participants) is close to that of the UK population (50.8%). The age discrepancy results from postponing the start of our window of observation to Wave-3, but, more importantly, from restricting our sample to participants selected as the household reference person and to those who did not move between 2011 and 2018. Inevitably, this limits the generalisability of our findings.
+
+```{r}
+#| label: tbl-attrition
+#| tbl-cap: "Sample size and missing cases across waves"
+
+df <- data.frame(
+  Variable = c("traffic", "vandalism", "burglary", "assault", "boarded houses", "litter", 
+               "neighbours help"),
+  N1 = c(N$N_vicini3[1], N$N_crvand[1], N$N_crburg[1], N$N_crmugg[1], N$N_vicini1[1], N$N_vicini2[1], N$N_nbrcoh2[1]),
+  missing1 = c(paste0(f1(100 * (N$N_pidp[1] - N$N_vicini3[1])/N$N_pidp[1]), "%"), paste0(f1(100 * (N$N_pidp[1] - N$N_crvand[1])/N$N_pidp[1]), "%"), paste0(f1(100 * (N$N_pidp[1] - N$N_crburg[1])/N$N_pidp[1]), "%"), paste0(f1(100 * (N$N_pidp[1] - N$N_crmugg[1])/N$N_pidp[1]), "%"), paste0(f1(100 * (N$N_pidp[1] - N$N_vicini1[1])/N$N_pidp[1]), "%"), paste0(f1(100 * (N$N_pidp[1] - N$N_vicini2[1])/N$N_pidp[1]), "%"), paste0(f1(100 * (N$N_pidp[1] - N$N_nbrcoh2[1])/N$N_pidp[1]), "%")),
+  N2 = c(N$N_vicini3[2], N$N_crvand[2], N$N_crburg[2], N$N_crmugg[2], N$N_vicini1[2], N$N_vicini2[2], N$N_nbrcoh2[2]),
+  missing2 = c(paste0(f1(100 * (N$N_pidp[2] - N$N_vicini3[2])/N$N_pidp[2]), "%"), paste0(f1(100 * (N$N_pidp[2] - N$N_crvand[2])/N$N_pidp[2]), "%"), paste0(f1(100 * (N$N_pidp[2] - N$N_crburg[2])/N$N_pidp[2]), "%"), paste0(f1(100 * (N$N_pidp[2] - N$N_crmugg[2])/N$N_pidp[2]), "%"), paste0(f1(100 * (N$N_pidp[2] - N$N_vicini1[2])/N$N_pidp[2]), "%"), paste0(f1(100 * (N$N_pidp[2] - N$N_vicini2[2])/N$N_pidp[2]), "%"), paste0(f1(100 * (N$N_pidp[2] - N$N_nbrcoh2[2])/N$N_pidp[2]), "%")),
+  N3 = c(N$N_vicini3[3], N$N_crvand[3], N$N_crburg[3], N$N_crmugg[3], N$N_vicini1[3], N$N_vicini2[3], N$N_nbrcoh2[3]),
+  missing3 = c(paste0(f1(100 * (N$N_pidp[3] - N$N_vicini3[3])/N$N_pidp[3]), "%"), paste0(f1(100 * (N$N_pidp[3] - N$N_crvand[3])/N$N_pidp[3]), "%"), paste0(f1(100 * (N$N_pidp[3] - N$N_crburg[3])/N$N_pidp[3]), "%"), paste0(f1(100 * (N$N_pidp[3] - N$N_crmugg[3])/N$N_pidp[3]), "%"), paste0(f1(100 * (N$N_pidp[3] - N$N_vicini1[3])/N$N_pidp[3]), "%"), paste0(f1(100 * (N$N_pidp[3] - N$N_vicini2[3])/N$N_pidp[3]), "%"), paste0(f1(100 * (N$N_pidp[3] - N$N_nbrcoh2[3])/N$N_pidp[3]), "%"))
+  )
+
+kbl(df, format = "latex", booktabs = TRUE, linesep = "",
+    align = "lcccccc",
+    col.names = c("", "n", "missing", "n", "missing", "n", "missing")) %>%
+    add_header_above(c(" " = 1, "Wave-3" = 2, "Wave-6" = 2, "Wave-9" = 2))  %>%
+    kable_styling(font_size = 9)
+```
+
+On the other hand, using a wide window of observations provides us with substantial within-subject variability, which exceeds the between-subject variability for both our exposure variable (*traffic*) and our three outcome variables (*vandalism*, *burglary* and *violence*). Had we used a narrower window (e.g., waves 3 and 6 only), our sample would have been younger and less affected by attrition; however, we would not have been able to capture enough changes in road and urban design (e.g., speed limits, speed-bumps, one-way street conversions), behavioural shifts (e.g., a route becoming popular due to sat nav routing), or other environmental changes (e.g., a supermarket opening nearby) within neighbourhoods.
+
+```{r}
+#| label: tbl-descriptives
+#| tbl-cap: "Descriptive statistics after imputation"
+ 
+descriptives <- data.frame(
+  Variable = c("traffic", "vandalism", "burglary", "assault", "boarded houses", 
+               "litter", "neighbours help", "respondent's age", "female respondents"),
+  Mean = c(f2(mean_vicini3), f2(mean_crvand), f2(mean_crburg), f2(mean_crmugg), 
+           f2(mean_vicini1), f2(mean_vicini2), f2(mean_nbrcoh2), f2(mean_dvage), 
+           f2(mean_female)),
+  SD_between = c(f2(sd_vicini3_between), f2(sd_crvand_between), f2(sd_crburg_between), 
+                 f2(sd_crmugg_between), f2(sd_vicini1_between), f2(sd_vicini2_between),                                         f2(sd_nbrcoh2_between),"",""),
+  SD_within = c(f2(sd_vicini3_within), f2(sd_crvand_within), f2(sd_crburg_within), 
+                f2(sd_crmugg_within), f2(sd_vicini1_within), f2(sd_vicini2_within), 
+                f2(sd_nbrcoh2_within), "",""),
+  Min_max = c(
+    paste0("(", min_vicini3, ", ", max_vicini3, ")"),
+    paste0("(", min_crvand, ", ", max_crvand, ")"),
+    paste0("(", min_crburg, ", ", max_crburg, ")"),
+    paste0("(", min_crmugg, ", ", max_crmugg, ")"),
+    paste0("(", min_vicini1, ", ", max_vicini1, ")"),
+    paste0("(", min_vicini2, ", ", max_vicini2, ")"),
+    paste0("(", min_nbrcoh2, ", ", max_nbrcoh2, ")"), 
+    paste0("(", min_dvage, ", ", max_dvage, ")"),
+    paste0("(", min_female, ", ", max_female, ")"))
+)
+kable(descriptives, format = "latex", booktabs = TRUE, linesep = "",
+      align = "lcccc",
+      col.names = c("Variable", "Mean", "SD between", "SD within", "(Min., Max.)")) %>%
+      kable_styling(font_size = 9)
+```
+
+## Identification Strategy
+
+From a modelling perspective, a substantial amount of within-subject variability is essential to employ subject-level fixed effects robustly [@imai2019]. To do so while keeping our models as parsimonious as possible, we centred our variables over their individual means, so we remove between-subject variability, modelling just the within-subject variability. This eliminates all time-constant factors that might be confounding the association between motor traffic and perceptions of crime. Specifically, we can determine that `{r} f2(sd_crvand_between / (sd_crvand_within + sd_crvand_within))`%, `{r} f2(sd_crburg_between / (sd_crburg_within + sd_crburg_within))`% and `{r} f2(sd_crmugg_between / (sd_crmugg_within + sd_crmugg_within))`% of the variability in perceptions of vandalism, burglary and violence reflect between-individual perceptions of their neighbourhood that remain constant across time and are therefore discarded from our models.
+
+To remove the influence of overall crime trends experienced in the UK from 2011 to 2018 we control for the interview wave in our models. In addition, we also control for the time of day at which the interview took place. This serves a double purpose. Traffic varies widely within a day, yet is only measured once per interview, leading to a substantial amount of measurement error in our exposure variable. In addition, it is possible that perceptions of crime might be different at nighttime, which would lead to a form of confounding bias. By controlling for time of the interview we can adjust for those two problems. To do so, we first recode the hour of the day where the interview took place into six relatively homogenous categories (morning, midday, afternoon, evening, and night), according to the relative volume of traffic experienced compared with the daily average, as recorded by the @dft2025. Both wave and time of the interview are included as dummy variables, for a combined total of seven regression coefficients, with wave-3 and a morning interview as reference categories.
+
+We model each crime type separately using linear models. Each of them takes the same mathematical form:
+
+$(Y_{it} - \bar{Y}_i) = \beta_0 + \beta_1 (X_{1it} - \bar{X}_{1i}) + \sum_{t=2}^{7} \beta_k X_{kit} + \epsilon_{it}$
+
+where $Y_{it}$ refers to the perceived level of crime (vandalism, burglary and violence) reported by individual $i$ at time $t$, $\bar{Y}_i$ represents the mean perceived level of crime for person $i$ across the three time points (their personal average), $X_{it1}$ is the binary indicator of traffic in individual $i$'s neighborhood at time $t$, as rated by the interviewer (1 = high, 0 = low), $\bar{X}_i$ is the average traffic rating for individual $i$'s neighbourhood across all three waves. The $\beta_k$ terms represent the regression coefficients for the dummy variables for waves and time of the interview ($X_k$), $\epsilon_{it}$ is the error term, $\beta_0$ is the constant, and crucially, $\beta_1$ is our estimate of interest.
+
+Under the right conditions we expect $\beta_1$ could be interpreted as our target estimand: the average difference in an individual's perception of crime between times when motor traffic in the neighbourhood they live in goes from low to high. Three key assumptions are critical to identify our estimate of interest: the absence of i) confounding factors, ii) measurement error in our exposure, and iii) for the missing data to be missing at random.[^6]
+
+[^6]: We rule out the potential problem of reverse causality, as we do not expect perceptions of street crime to affect traffic. This might be a plausible concern in countries where drivers are frequently targeted in carjackings while waiting at traffic lights, or prone to shootouts while driving through dangerous neighbourhoods, such scenarios are not a significant issue in the UK.
+
+## Robustness Checks
+
+As established, our modelling strategy controls for all time-constant confounders, such as, neighbourhoods' socio-demographic composition, economic activity, public transport networks, or street and urban features that remained stable from 2011 to 2018. However, most of those features will have changed to some extent during that timeframe, even if only across certain neighbourhoods, which will be leading to a degree of confounding bias. For example, neighbourhood gentrification appears to lead to both reductions in crime [@macdonald2020] and motor vehicle use [@chatman2019]. Similarly, public transport hubs are well documented to act as criminogenic spaces [@brantingham1995; @ceccato2014], so when these are shut down - as has been the case during successive austerity policies in the UK - we could expect to see a simultaneous reduction in crime and increase in motor traffic. The presence of such types of time-varying confounders could therefore lead to an augmentation bias in our study and the overestimation of the causal effect of interest.
+
+Controlling for the time of day of the interview will reduce the biasing effect due to traffic assessments being prone to measurement error. However, it would be naive to expect that to solve the problem entirely. Besides time of the day, traffic fluctuates across the day of the week, season of the year, plus - as a subjective assessment and given that the same interviewer is unlikely to visit the same participant across waves - we should also expect a degree of both inter- and intra-rater unreliability.[^7] We could think of all those errors as a form of classical measurement error [@fuller2009], unrelated to either the extent to which neighbourhoods are truly exposed to traffic, and to perceptions of crime. If so, we could expect that the reliability of our exposure will be further reduced as a result of our modelling strategy. Since random errors are entirely concentrated on the time-varying part of our measure, by removing the time-constant variability using fixed effects the signal to noise rate in our exposure will be even lower than in its original form, before it was de-centered [@hill2020].
+
+[^7]: For context, @ogilvie2008 reported a 0.48 inter-rater reliability for traffic volume measured as a 5-point scale in a test-retest study undertaken in Glasgow, through two postal surveys undertaken six months apart between 2005 and 2006.
+
+Lastly, our estimates could be affected by selection bias if the mechanisms behind participants dropping out from the study were somehow related to changing levels of traffic or perceptions of crime in the neighbourhood. The wide range of variables considered as auxiliary data for our multiple imputation process reduce the chance of that type of bias. However, as for the case of unobserved confounders and measurement error, we cannot rule out that this adjustment will remove the presence of selection bias entirely, especially if we consider the large rates of attrition observed in the last wave of our study.
+
+To assess the robustness of our findings to confounding bias we estimate 'robustness values' [@cinelli2020] for the estimate of interest across the three crime types using the R package *sensemakr* (version 0.1.6) [@cinellicarlos2024]. The robustness value reflects the level of association between the hypothetical confounder and perceptions of both motor traffic and crime that would be necessary to render our estimate of interest statistically non-significant.
+
+To assess the potential impact of classical measurement error we use SIMEX [@lederer2006; @cook1994]. Under a simple linear regression model the attenuation bias affecting the slope is equal to the inverse of the reliability ratio of the exposure variable; however, in the context of multiple linear regression that attenuation bias is contingent on the association between the exposure and all other explanatory variables introduced in the model [@carroll2006], which makes it harder to trace that bias out mathematically. SIMEX, on the other hand, is a sensitivity analysis technique which can be used to retrieve the unbiased estimate of interest empirically by: i) reproducing the naive model under increased levels of SIMulated measurement error; ii) deriving the relationship between bias for increased levels of measurement error; and iii) EXtrapolating to a scenario where no measurement error is present. Specifically, we use the R package *simex* (version 1.8) [@ledererwolfgang2019], a quadratic extrapolation function, and reliability ratios of 0.8 and 0.6 for the within-person measure of motor traffic. Based on the sources of measurement error that we cannot eliminate by simply controlling for time of the interview we take 0.8 as a realistic estimate for the reliability ratio in our exposure variable; a 0.6 reliability ratio is also used to consider a potential scenario where we underestimate the extent of the measurement error. Since both multiple imputation and SIMEX are computationally intensive methods, we will only explore the biasing effect in the last of our imputed datasets.[^8]
+
+[^8]: This decision would affect estimates of the measure of uncertainty of the adjusted effect of motor traffic on crime. However, we are not particularly concerned about this problem since the goal of our sensitivity analysis is to explore the magnitude of the potential bias induced by measurement error.
+
+Lastly, to assess the robustness of our findings to selection bias, we replicate our analysis after removing the last wave from our sample. That is, we restrict the window of observation to two waves, which reduces the window of observation to 2011-2015, but in doing so we eliminate the largest part of missing data from our sample (see @tbl-descriptives).
+
+## Mediation Analysis
+
+In the last part of our analysis we undertake a more superficial exploration of some of the mechanisms we theorised as potential mediators of the effect of motor traffic on street crime. A simplified representation of the key mechanisms at play is shown in In Figure \ref{fig:DAG} via a direct acyclical graph. Here, we have included elements from the different crime theories listed in the introduction, which we. Nodes surrounded in dashed lines represent variables that we have not recorded in the dataset and therefore cannot explore. Continuous lines are used for constructs we observed, even if via nothing more than a proxy variable. We have two proxies for social disorganisation - the presence of graffiti and boarded houses in the participant's neighbourhood - and one proxy for collective efficacy - whether neighbours are willing to help each other.
+
+```{=latex}
+\begin{figure}
+  \centering
+  \includegraphics[scale=0.3]{DAG1.png}
+  \caption{Simplified representation of the hypothetical mechanisms connecting motor traffic and walkability to srteet crime}
+  \label{fig:DAG}
+\end{figure}
+```
+
+To test the presence of the mediating effects of social disorganisation and collective efficacy we specify another two sets of models. These will follow the same functional form as our previous models, i.e. linear models focusing on the within-person variability and controlling for wave fixed effects. The first set will simply expand each of the models specifying vandalism, burglary and violence, by including the three proxies for social disorganisation and collective efficacy. The second set of models uses each of those three proxies as outcome variables and motor traffic as key exposure.
+
+# Findings
+
+```{r}
+#| label: models
+#| cache: true
+#| include: false
+
+###Exploratory analysis###
+vars = c("vicini3_mean", "vicini3_within", "crvand", "crburg", "crmugg")
+cor = micombine.cor(long2$data, variables=vars)
+crvand_vicini3_within = cor[19,3]
+crvand_vicini3_mean = cor[18,3]
+crmugg_vicini3_within = cor[17,3]
+crmugg_vicini3_mean = cor[16,3]
+crburg_vicini3_within = cor[14,3]
+crburg_vicini3_mean = cor[13,3]
+
+###Direct effects###
+#crvand
+crvand1 = with(long2, lm(crvand_within ~ vicini3_within + wave + t_interview))
+#crburg
+crburg1 = with(long2, lm(crburg_within ~ vicini3_within + wave + t_interview)) 
+#crmugg
+crmugg1 = with(long2, lm(crmugg_within ~ vicini3_within + wave + t_interview))
+
+###Indirect effects###
+###The first part of the indirect effects###
+#crvand
+crvand2 = with(long2, lm(crvand_within ~ vicini3_within + vicini1_within + 
+                                         vicini2_within + nbrcoh2_within + wave + 
+                                         t_interview))
+#crburg
+crburg2 = with(long2, lm(crburg_within ~ vicini3_within + vicini1_within + 
+                                         vicini2_within + nbrcoh2_within + wave + 
+                                         t_interview))
+#crmugg
+crmugg2 = with(long2, lm(crmugg_within ~ vicini3_within + vicini1_within + 
+                                         vicini2_within + nbrcoh2_within + wave + 
+                                         t_interview))
+
+###The second part of the indirect effects###
+#vicini1
+vicini1 = with(long2, lm(vicini1_within ~ vicini3_within + wave + t_interview))
+#vicini2
+vicini2 = with(long2, lm(vicini2_within ~ vicini3_within + wave + t_interview))
+#nbrcoh2
+nbrcoh2 = with(long2, lm(nbrcoh2_within ~ vicini3_within + wave + t_interview))
+```
+
+Before presenting findings from our models we consider the simpler bivariate correlations between traffic and perceived crime in their original scales, presented in @tbl-correlations. These are all positive and relatively similar across crime types. However, it is worth noting that such correlations are roughly twice as strong for the between - person/neighbourhood - compared to the within measures of traffic. Substantively, this implies that neighbourhoods prone to heavier traffic are also more criminogenic, however, that relationship is largely static, mostly caused by third factors that are time-constant.
+
+@tbl-direct reports the main results from our three models exploring the within-person effect of motor traffic on street crime. As expected, including a control for the wave of the study helps explain some of the variability in changes of perceptions of crime across time, as these reflect the drop in street crime observed in the UK over our timeframe [@ons2025]. The time of day of the interview does not appear to be associated with perceptions of crime, at least not significantly, with the exception of interviews held at night, which are positively but weakly associated with perceptions of vandalism.
+
+```{r}
+#| label: tbl-correlations
+#| tbl-cap: "Pearson correlation coefficients between perceptions of crime and traffic"
+
+df <- data.frame(
+  Variable = c("traffic (between)", "traffic (within)"),
+  Vandalism = c(f2(crvand_vicini3_mean), f2(crvand_vicini3_within)),
+  Burglary = c(f2(crburg_vicini3_mean), f2(crburg_vicini3_within)),
+  Assault = c(f2(crmugg_vicini3_mean), f2(crmugg_vicini3_within))
+  )
+
+kbl(df, format = "latex", booktabs = TRUE, linesep = "",
+    align = "lccc",
+    col.names = c("", "Vandalism", "Burglary", "Assault")) %>%
+    kable_styling(font_size = 9) 
+```
+
+Regarding our estimates of interest we can see that motor traffic had a criminogenic effect on perceptions of crime, across all the three crime types considered. The effect appears to be slightly stronger for vandalism and less so for violence. Specifically, when neighbourhoods go from low to high traffic then perceptions of vandalism, burglary and violence - measured as a 4-point scale - increase by an average `{r} f2(summary(pool(crvand1))$estimate[2])`, `{r} f2(summary(pool(crburg1))$estimate[2])` and `{r} f2(summary(pool(crmugg1))$estimate[2])`, respectively. More intuitively, expressed in relative terms, the change in motor traffic from low to high increases perceptions of crime in `{r} f1(((((summary(pool(crvand1))$estimate[2]) + mean_crvand) / mean_crvand) - 1) * 100)`%, `{r} f1(((((summary(pool(crburg1))$estimate[2]) + mean_crburg) / mean_crburg) - 1) * 100)`% and `{r} f1(((((summary(pool(crmugg1))$estimate[2]) + mean_crmugg) / mean_crmugg) - 1) * 100)`%, on vandalism, burglary and violence.
+
+```{r}
+#| label: tbl-direct
+#| tbl-cap: "Fixed effects models estimating the association between motor traffic and street crime across time"
+
+df <- data.frame(
+  Variable = c("intercept", "\\textbf{traffic (within)}", "wave-6 (ref. wave-3)", "wave-9 (ref. wave-3)", "midday (ref. morning)", "afternoon (ref. morning)", "evening (ref. morning)", "night (ref. morning)"),
+  Vandalism_coef = c(f2(summary(pool(crvand1))$estimate[1]), f2(summary(pool(crvand1))$estimate[2]), f2(summary(pool(crvand1))$estimate[3]), f2(summary(pool(crvand1))$estimate[4]), f2(summary(pool(crvand1))$estimate[5]), f2(summary(pool(crvand1))$estimate[6]), f2(summary(pool(crvand1))$estimate[7]), f2(summary(pool(crvand1))$estimate[8])), 
+  Vandalism_SE = c(f2(summary(pool(crvand1))$std.error[1]), f2(summary(pool(crvand1))$std.error[2]), f2(summary(pool(crvand1))$std.error[3]), f2(summary(pool(crvand1))$std.error[4]), f2(summary(pool(crvand1))$std.error[5]), f2(summary(pool(crvand1))$std.error[6]), f2(summary(pool(crvand1))$std.error[7]), f2(summary(pool(crvand1))$std.error[8])),
+  Burglary_coef = c(f2(summary(pool(crburg1))$estimate[1]), f2(summary(pool(crburg1))$estimate[2]), f2(summary(pool(crburg1))$estimate[3]), f2(summary(pool(crburg1))$estimate[4]), f2(summary(pool(crburg1))$estimate[5]), f2(summary(pool(crburg1))$estimate[6]), f2(summary(pool(crburg1))$estimate[7]), f2(summary(pool(crburg1))$estimate[8])),
+  Burglary_SE = c(f2(summary(pool(crburg1))$std.error[1]), f2(summary(pool(crburg1))$std.error[2]), f2(summary(pool(crburg1))$std.error[3]), f2(summary(pool(crburg1))$std.error[4]), f2(summary(pool(crburg1))$std.error[5]), f2(summary(pool(crburg1))$std.error[6]), f2(summary(pool(crburg1))$std.error[7]), f2(summary(pool(crburg1))$std.error[8])),
+  Assault_coef = c(f2(summary(pool(crmugg1))$estimate[1]), f2(summary(pool(crmugg1))$estimate[2]), f2(summary(pool(crmugg1))$estimate[3]), f2(summary(pool(crmugg1))$estimate[4]), f2(summary(pool(crmugg1))$estimate[5]), f2(summary(pool(crmugg1))$estimate[6]), f2(summary(pool(crmugg1))$estimate[7]), f2(summary(pool(crmugg1))$estimate[8])),
+  Assault_SE = c(f2(summary(pool(crmugg1))$std.error[1]), f2(summary(pool(crmugg1))$std.error[2]), f2(summary(pool(crmugg1))$std.error[3]), f2(summary(pool(crmugg1))$std.error[4]), f2(summary(pool(crmugg1))$std.error[5]), f2(summary(pool(crmugg1))$std.error[6]), f2(summary(pool(crmugg1))$std.error[7]), f2(summary(pool(crmugg1))$std.error[8]))
+  )
+
+kbl(df, format = "latex", booktabs = TRUE, linesep = "",
+    align = "lcccccc",
+    col.names = c("", "Coef.", "SE", "Coef.", "SE", "Coef.", "SE"),
+    escape = FALSE) %>% 
+    add_header_above(c(" " = 1, "Vandalism" = 2, "Burglary" = 2, "Assault" = 2)) %>%
+    kable_styling(font_size = 9) 
+```
+
+```{r}
+#| label: robustness value
+#| include: false
+
+#Vandalism
+rb_crvand = robustness_value(t_statistic = summary(pool(crvand1))[2,4], 
+                             dof = nrow(long_data)-4, q = 1, alpha = 0.05)
+rb_crburg = robustness_value(t_statistic = summary(pool(crburg1))[2,4], 
+                             dof = nrow(long_data)-4, q = 1, alpha = 0.05)
+rb_crmugg = robustness_value(t_statistic = summary(pool(crmugg1))[2,4], 
+                             dof = nrow(long_data)-4, q = 1, alpha = 0.05)
+```
+
+Although statistically significant, these could be interpreted as moderate to small effect sizes. Hence, we cannot rule out they are simply the result of a hypothetical time-variant confounding factor. In fact, the estimated robust values for our three estimates of interest are quite low: `{r} f3(rb_crvand)`, `{r} f3(rb_crburg)` and `{r} f3(rb_crmugg)` for vandalism, burglary and violence. Focusing on the robustness value for burglary, this means that unobserved confounders would need to explain at least `{r} f1(rb_crburg*100)`% of the residual variance both of the treatment (within-neighbourhood changes in motor traffic) and of the outcome (within-person changes in perceptions of burglary) to render the estimated effect statistically non-significant. Therefore, we cannot take our findings to be robust enough to rule out they are entirely due to confounding bias.
+
+```{r}
+#| label: simex
+#| cache: true
+#| include: false
+
+###SIMEX########################################################################
+
+###Focusing on the last of the imputed datasets
+long2_5 = complete(long2, 5)
+
+###Calculating the sd of the error term
+#0.8 reliability
+varX_80 = 0.8 * var(long2_5$vicini3_within)
+varU_80 = var(long2_5$vicini3_within) - varX_80
+sdU_80 = sqrt(varU_80)
+#0.6 reliability
+varX_60 = 0.6 * var(long2_5$vicini3_within)
+varU_60 = var(long2_5$vicini3_within) - varX_60
+sdU_60 = sqrt(varU_60)
+
+###crvand#######################################################################
+crvand_naive = lm(crvand_within ~ vicini3_within + wave, data=long2_5, x=TRUE)
+
+#The simex adjustment
+#0.8 reliability
+crvand_simex_80 = simex(model=crvand_naive, SIMEXvariable="vicini3_within", 
+                        measurement.error=sdU_80, asymptotic=TRUE)
+#0.6 reliability
+crvand_simex_60 = simex(model=crvand_naive, SIMEXvariable="vicini3_within", 
+                        measurement.error=sdU_60, asymptotic=TRUE)
+
+###crburg#######################################################################
+crburg_naive = lm(crburg_within ~ vicini3_within + wave, data=long2_5, x=TRUE)
+
+#The simex adjustment
+#0.8 reliability
+crburg_simex_80 = simex(model=crburg_naive, SIMEXvariable="vicini3_within", 
+                        measurement.error=sdU_80, asymptotic=TRUE)
+#0.6 reliability
+crburg_simex_60 = simex(model=crburg_naive, SIMEXvariable="vicini3_within", 
+                        measurement.error=sdU_60, asymptotic=TRUE)
+
+###crmugg#######################################################################
+crmugg_naive = lm(crmugg_within ~ vicini3_within + wave, data=long2_5, x=TRUE)
+
+#The simex adjustment
+#0.8 reliability
+crmugg_simex_80 = simex(model=crmugg_naive, SIMEXvariable="vicini3_within", 
+                        measurement.error=sdU_80, asymptotic=TRUE)
+#0.6 reliability
+crmugg_simex_60 = simex(model=crmugg_naive, SIMEXvariable="vicini3_within", 
+                        measurement.error=sdU_60, asymptotic=TRUE)
+```
+
+On the other hand, it is most likely that our findings underestimate the true effect of motor traffic on perceptions of crime because of the presence of classical measurement error in the exposure variable. @tbl-simex shows how even under a conservative scenario where the reliability ratio for our measure of changes in traffic across time after accounting for time of the interview is assumed to be 0.8, then we would be underestimating the true effect of motor traffic on street crime by a factor at least equal to `{r} f2(min(c(crvand_simex_80$coefficients[2]/crvand_naive$coefficients[2]), (crburg_simex_80$coefficients[2]/crburg_naive$coefficients[2]), (crmugg_simex_80$coefficients[2]/crmugg_naive$coefficients[2])))`.
+
+```{r}
+#| label: tbl-simex
+#| tbl-cap: "The adjusted effect of motor traffic using SIMEX, a reliability ratio of 0.8 and 0.6, and the last of our imputed datasets"
+
+df <- data.frame(
+  Variable = c("naive estimate", "adjusted (0.8 reliability)", "adjusted (0.6 reliability)"),
+  Vandalism_coef = c(as.numeric(f2(crvand_naive$coefficients[2])),                                                          as.numeric(f2(crvand_simex_80$coefficients[2])),                                                       as.numeric(f2(crvand_simex_60$coefficients[2]))),
+  Vandalism_bias = c("", as.numeric(f2(crvand_simex_80$coefficients[2]/crvand_naive$coefficients[2])),                      as.numeric(f2(crvand_simex_60$coefficients[2]/crvand_naive$coefficients[2]))),
+  Burglary_coef = c(as.numeric(f2(crburg_naive$coefficients[2])), 
+                    as.numeric(f2(crburg_simex_80$coefficients[2])),                                                       as.numeric(f2(crburg_simex_60$coefficients[2]))),
+  Burglary_bias = c("", as.numeric(f2(crburg_simex_80$coefficients[2]/crburg_naive$coefficients[2])),                      as.numeric(f2(crburg_simex_60$coefficients[2]/crburg_naive$coefficients[2]))),
+  Assault_coef = c(as.numeric(f2(crmugg_naive$coefficients[2])), 
+                   as.numeric(f2(crmugg_simex_80$coefficients[2])),                                                       as.numeric(f2(crmugg_simex_60$coefficients[2]))),
+  Assault_bias = c("", as.numeric(f2(crmugg_simex_80$coefficients[2]/crmugg_naive$coefficients[2])),                      as.numeric(f2(crmugg_simex_60$coefficients[2]/crmugg_naive$coefficients[2])))
+  )
+
+kbl(df, format = "latex", booktabs = TRUE, align = "lcccccc",
+    col.names = c("", "Coef.", "Bias", "Coef.", "Bias", "Coef.", "Bias")) %>%
+    add_header_above(c(" " = 1, "Vandalism" = 2, "Burglary" = 2, "Assault" = 2)) %>%
+    kable_styling(font_size = 9) 
+```
+
+```{r}
+#| label: attrition-robustness-checks
+#| cache: true
+#| include: false
+
+#################################################################
+#Replicating the analysis using just waves 3 and 6.
+
+###Merging the 3 waves used in this analysis###
+waves_2w = list(c, d, e, f)
+data_2w = reduce(waves_2w, left_join, by = "pidp")
+
+###Removing those who changed their address###
+data2_2w = data_2w[!( (data_2w$d_addrmov_dv == 1 & !is.na(data_2w$d_addrmov_dv)) |
+                 (data_2w$e_addrmov_dv == 1 & !is.na(data_2w$e_addrmov_dv)) |
+                 (data_2w$f_addrmov_dv == 1 & !is.na(data_2w$f_addrmov_dv)) ), ]
+data2_2w = data2_2w[, !(names(data_2w) %in% c("d_addrmov_dv", "e_addrmov_dv", "f_addrmov_dv"))]
+
+###Turning wide to long format###
+# Convert the data to a data.table
+dt_2w <- as.data.table(data2_2w)
+# Melt (reshape from wide to long) using data.table
+long_data_2w <- melt(
+  dt_2w, 
+  id.vars = "pidp", 
+  measure.vars = patterns("vicini3", "crburg", "crmugg", 
+                          "crvand", "nbrcoh2", "vicini1", "nadoecd_dv", 
+                          "nchild_dv", "urban_dv", "cgna_dv", "qfhigh_dv", "ethn_dv", 
+                          "sex_dv", "dvage", "vicini2", "fibenothr_dv",                                          "istrtdathh"), 
+  variable.name = "wave", 
+  value.name = c("vicini3",  "crburg", "crmugg", 
+                 "crvand", "nbrcoh2", "vicini1", "nadoecd_dv", 
+                 "nchild_dv", "urban_dv", "cgna_dv", "qfhigh_dv", "ethn_dv", 
+                 "sex_dv", "dvage", "vicini2", "fibenothr_dv",                                          "istrtdathh"))
+
+###Setting missing cases###
+#vicini3
+table(long_data_2w$vicini3, useNA="ifany")
+long_data_2w$vicini3 = ifelse(long_data_2w$vicini3<0, NA, long_data_2w$vicini3)
+table(long_data_2w$vicini3, useNA="ifany")
+#crburg
+table(long_data_2w$crburg, useNA="ifany")
+long_data_2w$crburg= ifelse(long_data_2w$crburg<0, NA, long_data_2w$crburg)
+table(long_data_2w$crburg, useNA="ifany")
+#crmugg
+table(long_data_2w$crmugg, useNA="ifany")
+long_data_2w$crmugg= ifelse(long_data_2w$crmugg<0, NA, long_data_2w$crmugg)
+table(long_data_2w$crmugg, useNA="ifany")
+#crvand
+table(long_data_2w$crvand, useNA="ifany")
+long_data_2w$crvand= ifelse(long_data_2w$crvand<0, NA, long_data_2w$crvand)
+table(long_data_2w$crvand, useNA="ifany")
+#nbrcoh2
+table(long_data_2w$nbrcoh2, useNA="ifany")
+long_data_2w$nbrcoh2= ifelse(long_data_2w$nbrcoh2<0, NA, long_data_2w$nbrcoh2)
+table(long_data_2w$nbrcoh2, useNA="ifany")
+#vicini1
+table(long_data_2w$vicini1, useNA="ifany")
+long_data_2w$vicini1 = ifelse(long_data_2w$vicini1<0, NA, long_data_2w$vicini1)
+table(long_data_2w$vicini1, useNA="ifany")
+#nadoecd_dv
+table(long_data_2w$nadoecd_dv, useNA="ifany")
+#nchild_dv
+table(long_data_2w$nchild_dv, useNA="ifany")
+#urban_dv
+table(long_data_2w$urban_dv, useNA="ifany")
+long_data_2w$urban_dv = ifelse(long_data_2w$urban_dv<0, NA, long_data_2w$urban_dv)
+table(long_data_2w$urban_dv, useNA="ifany")
+long_data_2w$urban_dv = as.character(long_data_2w$urban_dv)
+#cgna_dv
+table(long_data_2w$cgna_dv, useNA="ifany")
+long_data_2w$cgna_dv = ifelse(long_data_2w$cgna_dv<0, NA, long_data_2w$cgna_dv)
+table(long_data_2w$cgna_dv, useNA="ifany")
+#qfhigh_dv
+table(long_data_2w$qfhigh_dv, useNA="ifany")
+long_data_2w$qfhigh_dv = ifelse(long_data_2w$qfhigh_dv<0, NA, long_data_2w$qfhigh_dv)
+table(long_data_2w$qfhigh_dv, useNA="ifany")
+long_data_2w$qfhigh_dv = as.character(long_data_2w$qfhigh_dv)
+#ethn_dv
+table(long_data_2w$ethn_dv, useNA="ifany")
+long_data_2w$ethn_dv = ifelse(long_data_2w$ethn_dv<0, NA, long_data_2w$ethn_dv)
+#I set gypsies as other whites
+long_data_2w$ethn_dv = ifelse(long_data_2w$ethn_dv==3, 4, long_data_2w$ethn_dv) 
+table(long_data_2w$ethn_dv, useNA="ifany")
+long_data_2w$ethn_dv = as.character(long_data_2w$ethn_dv)
+#sex
+table(long_data_2w$sex_dv, useNA="ifany")
+long_data_2w$female = long_data_2w$sex_dv - 1 
+long_data_2w$sex_dv = NULL
+#this is so a value of 1 is female and a 0 is male
+table(long_data_2w$female, useNA="ifany")
+#wday
+table(long_data_2w$wday, useNA="ifany")
+long_data_2w$wday = ifelse(long_data_2w$wday<0, NA, long_data_2w$wday)
+table(long_data_2w$wday, useNA="ifany")
+#dvage
+table(long_data_2w$dvage, useNA="ifany")
+long_data_2w$dvage = ifelse(long_data_2w$dvage<0, NA, long_data_2w$dvage)
+table(long_data_2w$dvage, useNA="ifany")
+#vicini2
+table(long_data_2w$vicini2, useNA="ifany")
+long_data_2w$vicini2 = ifelse(long_data_2w$vicini2<0, NA, long_data_2w$vicini2)
+table(long_data_2w$vicini2, useNA="ifany")
+#mday
+table(long_data_2w$mday, useNA="ifany")
+long_data_2w$mday = ifelse(long_data_2w$mday<0, NA, long_data_2w$mday)
+table(long_data_2w$mday, useNA="ifany")
+#fibenothr_dv
+summary(long_data_2w$fibenothr_dv, useNA="ifany")
+long_data_2w$fibenothr_dv = ifelse(long_data_2w$fibenothr_dv<0, NA, long_data_2w$fibenothr_dv)
+summary(long_data_2w$fibenothr_dv, useNA="ifany")
+
+###Recoding time of the interview so hours with few cases are brought together###
+table(long_data_2w$istrtdathh, useNA="ifany")
+long_data_2w = long_data_2w %>%
+mutate(t_interview = case_when(
+       istrtdathh >= 23 | istrtdathh <= 6 ~ "Night",
+       istrtdathh >= 7  & istrtdathh <= 9 ~ "Morning",
+       istrtdathh >= 10  & istrtdathh <= 14 ~ "Midday",
+       istrtdathh >= 15  & istrtdathh <= 18 ~ "Afternoon",
+       istrtdathh >= 19 & istrtdathh <= 22 ~ "Evening",
+       TRUE ~ as.character(istrtdathh))) 
+long_data_2w$t_interview = factor(long_data_2w$t_interview,
+      levels = c("Morning", "Midday", "Afternoon", "Evening", "Night"))
+table(long_data_2w$t_interview, useNA="ifany")
+long_data_2w$istrtdathh = NULL
+
+###Recoding the likert variables so higher values means more of the thing###
+table(long_data_2w$crburg)
+long_data_2w$crburg = 5-long_data_2w$crburg
+table(long_data_2w$crburg)
+long_data_2w$crmugg = 5-long_data_2w$crmugg
+long_data_2w$crvand = 5-long_data_2w$crvand
+long_data_2w$nbrcoh2 = 6-long_data_2w$nbrcoh2
+
+###Setting the variables in their correct level of measurement###
+long_data_2w$pidp = as.character(long_data_2w$pidp)
+long_data_2w$nadoecd_dv = as.numeric(long_data_2w$nadoecd_dv)
+long_data_2w$nchild_dv = as.numeric(long_data_2w$nchild_dv)
+
+#Imputting NAs###############################################################
+imp_2w = mice(data = long_data_2w, method = "pmm", m = 5, maxit = 5, cluster = long_data_2w$pidp)
+
+###Stacking all imputations below each other###
+long1_2w = complete(imp_2w, action='long', include=TRUE) 
+
+###Converting back from a long format into a mids object###
+long2_2w = as.mids(long1_2w)
+
+###Distinguishing between and within variability### 
+long1_2w = complete(long2_2w, action='long', include=TRUE)
+long1_2w$vicini3_mean = ave(long1_2w$vicini3, long1_2w$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1_2w$vicini3_within = long1_2w$vicini3 - long1_2w$vicini3_mean 
+long1_2w$vicini2_mean = ave(long1_2w$vicini2, long1_2w$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1_2w$vicini2_within = long1_2w$vicini2 - long1_2w$vicini2_mean
+long1_2w$vicini1_mean = ave(long1_2w$vicini1, long1_2w$pidp, FUN = function(x) mean(x, na.rm = TRUE))
+long1_2w$vicini1_within = long1_2w$vicini1 - long1_2w$vicini1_mean 
+long1_2w$nbrcoh2_mean = ave(as.numeric(long1_2w$nbrcoh2), long1_2w$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1_2w$nbrcoh2_within = as.numeric(long1_2w$nbrcoh2) - long1_2w$nbrcoh2_mean 
+long1_2w$crmugg_mean = ave(as.numeric(long1_2w$crmugg), long1_2w$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1_2w$crmugg_within = as.numeric(long1_2w$crmugg) - long1_2w$crmugg_mean 
+long1_2w$crburg_mean = ave(as.numeric(long1_2w$crburg), long1_2w$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1_2w$crburg_within = as.numeric(long1_2w$crburg) - long1_2w$crburg_mean 
+long1_2w$crvand_mean = ave(as.numeric(long1_2w$crvand), long1_2w$pidp, FUN = function(x) mean(x, na.rm = TRUE)) 
+long1_2w$crvand_within = as.numeric(long1_2w$crvand) - long1_2w$crvand_mean 
+long2_2w = as.mids(long1_2w)
+
+###Direct effects###
+#crvand
+crvand1_2w = with(long2_2w, lm(crvand_within ~ vicini3_within + wave + t_interview))
+#crburg
+crburg1_2w = with(long2_2w, lm(crburg_within ~ vicini3_within + wave + t_interview)) 
+#crmugg
+crmugg1_2w = with(long2_2w, lm(crmugg_within ~ vicini3_within + wave + t_interview))
+
+```
+
+We can also confirm that our results are robust to the large levels of attrition observed in the last of the study waves considered. Specifically, when we replicate our modelling strategy using just the first two waves in our study - which are markedly less prone to attrition and item non-response - we find similar estimates for the effect of traffic on crime across time. Specifically, for our three models on vandalism, burglary and violence we estimate the within-neighbourhood traffic effect is `{r} f2(summary(pool(crvand1_2w))$estimate[2])`, `{r} f2(summary(pool(crburg1_2w))$estimate[2])`, `{r} f2(summary(pool(crmugg1_2w))$estimate[2])`, which represent `{r} f1(100 * summary(pool(crvand1_2w))$estimate[2] / summary(pool(crvand1))$estimate[2])`%, `{r} f1(100 * summary(pool(crburg1_2w))$estimate[2] / summary(pool(crburg1))$estimate[2])`%, `{r} f1(100 * summary(pool(crmugg1_2w))$estimate[2] / summary(pool(crmugg1))$estimate[2])`% of the effect size we estimated using three waves. These effects remain statistically significant, while their lower size could again be attributed to an even lower reliability of our measure of traffic, the true value of which will not have changed as much as in our main models, given the shorter window of observation used in this robustness test.
+
+```{r}
+#| label: tbl-indirect1
+#| tbl-cap: "Fixed effects models estimating the association between motor traffic with social disorganisation and collective efficacy across time"
+
+df <- data.frame(
+  Variable = c("intercept", "traffic (within)", "wave-6 (ref. wave-3)", "wave-9 (ref. wave-3)", "midday (ref. morning)", "afternoon (ref. morning)", "evening (ref. morning)", "night (ref. morning)"),
+  boarded_coef = c(f3(summary(pool(vicini1))$estimate[1]), f3(summary(pool(vicini1))$estimate[2]),
+                   f3(summary(pool(vicini1))$estimate[3]), f3(summary(pool(vicini1))$estimate[4])),
+  boarded_SE = c(f3(summary(pool(vicini1))$std.error[1]), f3(summary(pool(vicini1))$std.error[2]),
+                 f3(summary(pool(vicini1))$std.error[3]), f3(summary(pool(vicini1))$std.error[4])),
+  litter_coef = c(f3(summary(pool(vicini2))$estimate[1]), f3(summary(pool(vicini2))$estimate[2]),
+                  f3(summary(pool(vicini2))$estimate[3]), f3(summary(pool(vicini2))$estimate[4])),
+  litter_SE = c(f3(summary(pool(vicini2))$std.error[1]), f3(summary(pool(vicini2))$std.error[2]),
+                f3(summary(pool(vicini2))$std.error[3]), f3(summary(pool(vicini2))$std.error[4])),  
+  neighbours_coef = c(f3(summary(pool(nbrcoh2))$estimate[1]), f3(summary(pool(nbrcoh2))$estimate[2]),
+                      f3(summary(pool(nbrcoh2))$estimate[3]), f3(summary(pool(nbrcoh2))$estimate[4])),
+  neighbours_SE = c(f3(summary(pool(nbrcoh2))$std.error[1]), f3(summary(pool(nbrcoh2))$std.error[2]),
+                    f3(summary(pool(nbrcoh2))$std.error[3]), f3(summary(pool(nbrcoh2))$std.error[4]))
+  )
+
+kbl(df, format = "latex", booktabs = TRUE, linesep = "",
+    align = "lcccccc",
+    col.names = c("", "Coef.", "SE", "Coef.", "SE", "Coef.", "SE")) %>%
+  add_header_above(c(" " = 1, "Boarded houses" = 2, "Litter" = 2, "Neighbours help" = 2)) %>%
+    kable_styling(font_size = 9)
+```
+
+```{r}
+#| label: tbl-indirect2
+#| tbl-cap: "Fixed effects models including the conditional association between social disorganisation and collective efficacy with street crime across time"
+
+df <- data.frame(
+  Variable = c("intercept", "traffic (within)", "boarded houses (within)", "litter (within)", "neihbours help (within)", "wave-6 (ref. wave-3)", "wave-9 (ref. wave-3)", "midday (ref. morning)", "afternoon (ref. morning)", "evening (ref. morning)", "night (ref. morning)"),
+  Vandalism_coef = c(f2(summary(pool(crvand2))$estimate[1]), f2(summary(pool(crvand2))$estimate[2]), f2(summary(pool(crvand2))$estimate[3]), f2(summary(pool(crvand2))$estimate[4]), f2(summary(pool(crvand2))$estimate[5]), f2(summary(pool(crvand2))$estimate[6]), f2(summary(pool(crvand2))$estimate[7]), f2(summary(pool(crvand2))$estimate[8]), f2(summary(pool(crvand2))$estimate[9]), f2(summary(pool(crvand2))$estimate[10]), f2(summary(pool(crvand2))$estimate[11])),
+  Vandalism_SE = c(f2(summary(pool(crvand2))$std.error[1]), f2(summary(pool(crvand2))$std.error[2]), f2(summary(pool(crvand2))$std.error[3]), f2(summary(pool(crvand2))$std.error[4]), f2(summary(pool(crvand2))$std.error[5]), f2(summary(pool(crvand2))$std.error[6]), f2(summary(pool(crvand2))$std.error[7]), f2(summary(pool(crvand2))$std.error[8]), f2(summary(pool(crvand2))$std.error[9]), f2(summary(pool(crvand2))$std.error[10]), f2(summary(pool(crvand2))$std.error[11])),
+  Burglary_coef = c(f2(summary(pool(crburg2))$estimate[1]), f2(summary(pool(crburg2))$estimate[2]), f2(summary(pool(crburg2))$estimate[3]), f2(summary(pool(crburg2))$estimate[4]), f2(summary(pool(crburg2))$estimate[5]), f2(summary(pool(crburg2))$estimate[6]), f2(summary(pool(crburg2))$estimate[7]), f2(summary(pool(crburg2))$estimate[8]), f2(summary(pool(crburg2))$estimate[9]), f2(summary(pool(crburg2))$estimate[10]), f2(summary(pool(crburg2))$estimate[11])),
+  Burglary_SE = c(f2(summary(pool(crburg2))$std.error[1]), f2(summary(pool(crburg2))$std.error[2]), f2(summary(pool(crburg2))$std.error[3]), f2(summary(pool(crburg2))$std.error[4]), f2(summary(pool(crburg2))$std.error[5]), f2(summary(pool(crburg2))$std.error[6]), f2(summary(pool(crburg2))$std.error[7]), f2(summary(pool(crburg2))$std.error[8]), f2(summary(pool(crburg2))$std.error[9]), f2(summary(pool(crburg2))$std.error[10]), f2(summary(pool(crburg2))$std.error[11])),
+  Assault_coef = c(f2(summary(pool(crmugg2))$estimate[1]), f2(summary(pool(crmugg2))$estimate[2]), f2(summary(pool(crmugg2))$estimate[3]), f2(summary(pool(crmugg2))$estimate[4]), f2(summary(pool(crmugg2))$estimate[5]), f2(summary(pool(crmugg2))$estimate[6]), f2(summary(pool(crmugg2))$estimate[7]), f2(summary(pool(crmugg2))$estimate[8]), f2(summary(pool(crmugg2))$estimate[9]), f2(summary(pool(crmugg2))$estimate[10]), f2(summary(pool(crmugg2))$estimate[11])),
+  Assault_SE = c(f2(summary(pool(crmugg2))$std.error[1]), f2(summary(pool(crmugg2))$std.error[2]), f2(summary(pool(crmugg2))$std.error[3]), f2(summary(pool(crmugg2))$std.error[4]), f2(summary(pool(crmugg2))$std.error[5]), f2(summary(pool(crmugg2))$std.error[6]), f2(summary(pool(crmugg2))$std.error[7]), f2(summary(pool(crmugg2))$std.error[8]), f2(summary(pool(crmugg2))$std.error[9]), f2(summary(pool(crmugg2))$std.error[10]), f2(summary(pool(crmugg2))$std.error[11]))
+)
+
+kbl(df, format = "latex", booktabs = TRUE, linesep = "",
+    align = "lcccccc",
+    col.names = c("", "Coef.", "SE", "Coef.", "SE", "Coef.", "SE")) %>%
+    add_header_above(c(" " = 1, "Vandalism" = 2, "Burglary" = 2, "Assault" = 2)) %>%
+    kable_styling(font_size = 9)  
+```
+
+Lastly, it appears that the hypothesised mediating path of collective efficacy (Figure \ref{fig:DAG}) is present in our data, although we fail to corroborate the mediating path for disorder, since traffic is not significantly associated with any of our two measures of physical disorder (i.e. presence of graffiti and boarded houses in the participant's neighbourhood). As shown in @tbl-indirect1, motor traffic is negatively associated with collective efficacy, indicating that as traffic increases community ties are eroded [@gehl2011]. Expressed in relative terms we have a `{r} f1(((((summary(pool(nbrcoh2))$estimate[2]) + mean_nbrcoh2) / mean_nbrcoh2) - 1) * 100)`% reduction in collective efficacy when going from low to high traffic, although as we just saw this effect is likely to be an underestimate due to classical errors in our measure of traffic. It is likely this is also why we find the effect of traffic on our measures of physical disorder non-significant.
+
+From @tbl-indirect2 we can derive the second part of the mediating path. As hypothesised, we observe that the presence of litter and boarded house is positively associated with changes in perceptions of crime across time, while collective efficacy is negatively associated. Expressed in relative terms we have: i) neighbourhoods where boarded doors become present in their streets see their residents' perception of vandalism, burglary and violence increased by `{r} f1(((((summary(pool(crvand2))$estimate[3]) + mean_crvand) / mean_crvand) - 1) * 100)`%, `{r} f1(((((summary(pool(crburg2))$estimate[3]) + mean_crburg) / mean_crburg) - 1) * 100)`% and `{r} f1(((((summary(pool(crmugg2))$estimate[3]) + mean_crmugg) / mean_crmugg) - 1) * 100)`%; ii) neighbourhoods transitioning from low to high presence of litter see an increase of `{r} f1(((((summary(pool(crvand2))$estimate[4]) + mean_crvand) / mean_crvand) - 1) * 100)`%, `{r} f1(((((summary(pool(crburg2))$estimate[4]) + mean_crburg) / mean_crburg) - 1) * 100)`% and `{r} f1(((((summary(pool(crmugg2))$estimate[4]) + mean_crmugg) / mean_crmugg) - 1) * 100)`%; while iii) neighbourhoods where perceptions of residents helping each other increase by one standard deviation see a `{r} f1(((((summary(pool(crvand2))$estimate[5]) + mean_crvand) / mean_crvand) - 1) * 100)`%, `{r} f1(((((summary(pool(crburg2))$estimate[5]) + mean_crburg) / mean_crburg) - 1) * 100)`% and `{r} f1(((((summary(pool(crmugg2))$estimate[5]) + mean_crmugg) / mean_crmugg) - 1) * 100)`% reduction in crime.
+
+# Discussion
+
+Cars are at the centre of an often overlooked crime epidemic. In 2024 alone, Criminal Courts in England and Wales sentenced 695,599 motoring offences, accounting for `{r} f1((695599/1149250)*100)`% of all sentences imposed that year [@moj2025a].[^9] Yet, the criminogenic influence of motor vehicles extends well beyond that, indirectly affecting other forms of crime beyond motoring offences. In this study we have uncovered evidence pointing at heavy motor traffic in residential areas leading to an increase in perceptions of street crime. Specifically, we found that a change from low to high traffic leads to an increase of `{r} f1(((((summary(pool(crvand1))$estimate[2]) + mean_crvand) / mean_crvand) - 1) * 100)`%, `{r} f1(((((summary(pool(crburg1))$estimate[2]) + mean_crburg) / mean_crburg) - 1) * 100)`% and `{r} f1(((((summary(pool(crmugg1))$estimate[2]) + mean_crmugg) / mean_crmugg) - 1) * 100)`% in perceived levels of vandalism, burglary, and violence.
+
+[^9]: For context, 20,422 knife crime incidents were recorded in the same jurisdiction and year [@moj2025b]. This figure includes cautions and other disposals that do not involve a criminal sentence.
+
+Unlike for the case of motoring offences - such as dangerous and careless driving, or driving under the influence - the specific mechanisms linking traffic to street crime are tenuous, diverse and interrelated, which complicates their study. Here, we found that collective efficacy - measured as perceptions of neighbours being willing to help each other - is likely to be one such mechanism. This finding is not entirely surprising, given the substantial evidence base demonstrating: i) how traffic through residential areas erodes community ties [@anciaes2022; @gehl2011; @mindell2012]; and ii) the positive effect of collective efficacy on crime prevention [@sampson1997; @sampson1999; @wickes2025]. Here we show those two causal paths being present in the same study.
+
+We also tested, but did not confirm, a mediating effect from physical disorder. In line with broken-windows theory [@wilson2011], we found that measures of physical disorder - such as the presence of graffiti and boarded houses - were positively associated with crime. However, the effect of traffic on these two indicators of physical disorder, although positive, did not reach statistical significance. Beyond these, we also hypothesised additional mechanisms linking cars to street crime, such as stress [@agnew1985; @beland2018], the facilitation of escape routes [@armitage2011], and the erosion of space ownership and territorial control among residents [@newman1976; @newman1997]. A more formal theoretical framework that disentangles the multiple interrelationships between these and other mechanisms connecting traffic to crime is needed to advance this area of research. Such work should help draw researchers' attention to a key vector of harm and criminality that has been largely neglected [@loader2025] and would be instrumental in better informing the modelling strategies of future empirical studies.
+
+Leaving aside the exploration of mediating effects - which invoke particularly strong causal assumptions [@richiardi2013] - we are fairly confident in the robustness of the overall criminogenic effect of traffic reported above. We are particularly confident in the absence of substantial bias stemming from problems of reverse causality, missing data, and measurement error. Indeed, given the inevitable unreliability of subjective measurements of traffic, it is likely that our estimates of the total effect of traffic on crime are conservative.
+
+Key elements of our modelling strategy have also helped minimise the impact of potential confounding. The use of longitudinal data and fixed effects removed all time-constant confounders, while the reliance on independently recorded perceptions of traffic and crime eliminates confounding bias from interviewer effects [@kühne2023], or other mode effects [@keeter2015] present in survey data. Nevertheless, we cannot rule out bias from time-varying confounding factors. We noted how processes of gentrification or urban decay could be biasing our estimates upwards. For example, even though police forces in England and Wales are relatively independent from local authorities, we cannot rule out that reduction in public transport services may have coincided with declining crime enforcement in certain areas.
+
+In this regard, it is useful to place our findings in the context of the only other two studies that have sought to estimate the effect of motor traffic on street crime [@goodman_impact_2021; @goodman2021], which found that low traffic neighbourhoods in London broadly led to a reduction in street crime. These two studies are complementary to ours: their quasi-experimental design offers higher internal validity, whereas our observational approach covers the entire UK, and a wider timeframe, offering greater external validity. Together, this set of findings makes a compelling case for the causal effect of motor traffic on street crime.
+
+From here it follows that crime reduction strategies should contemplate the effect that car usage has on street crime. Specifically, we believe it is of the utmost importance to reconsider crime prevention policies that have overemphasised reducing pedestrian connectivity, such as many of the propositions included by the UK @securedbydesign2023 guide on residential developments. It is possible that street crime - along with other human interactions, good and bad - might be lower in harder to reach areas - however, that effect will be offset to some degree by the fact that residents of those areas will have to rely more on motor vehicles for their transportation, indirectly leading to crime elsewhere.
+
+There is a methodological lesson here. Researchers in evidence-based policing and crime prevention through environmental design (CPTED) - or environmental criminology more broadly - frequently highlight the position of randomised control trials (RCT) at the top of the 'Scientific Methods Scale' [@farrington2003; @sherman1997]. However, in crime prevention research, such trials often focus on relatively small spatial units, such as streets or neighbourhoods, without considering that these units are embedded within larger spatial networks. As a result, they fail to capture potential system-level impacts of interventions. This is not merely a pedantic epistemological critique; it relates directly to a core dimension of @newman1976 concept of defensible space - geographical juxtaposition - the capacity of surrounding spaces to influence the security of adjacent areas. This network-based conceptualisation of risk has been largely neglected in the literature [@cozens2015b; @cozens2015], which is surprising given that the idea of defensible space sits at the core of CPTED theory.
+
+From a broader urban design perspective, our findings suggest that further expansion of low-traffic neighbourhoods and other traffic-calming initiatives - such as the nationwide adoption of 20mph limits in urban areas - could be even more beneficial than previously recognised. Beyond the well-established benefits of reducing collisions and lowering air and noise pollution, decreasing motor traffic also delivers wider community gains, including stronger social cohesion, lower anti-social behaviour and street crime. In their recent estimation of the societal cost of road traffic @anciaes2022 acknowledged but did not quantify potential costs related to crime, possibly due to the dearth of empirical evidence. We hope that this study will help incorporate that additional dimension of harm into future assessments of the societal impacts of motor traffic.
+
+# Conclusion
+
+Using longitudinal data from the UK Understanding Society study we found that the presence of heavy motor traffic in neighbourhoods leads to an increase in perceptions of street crime (vandalism, burglary and violence) amongst their residents. We hypothesised this effect could result from three well known precursors of crime being in turn affected by motor traffic: i) raised stress levels amongst both pedestrians and drivers, ii) a deterioration of aesthetics and perceived disorder in the surrounding built environment, and iii) a withering of community bonds in the neighbourhood. We were able to test and corroborate the last two of those mechanisms.
+
+These findings echo recent calls to place motor traffic at the centre of criminological debate. Beyond academic debates, our findings should also help inform future urban design and crime prevention policy and practice. We provide a new dimension to the rich evidence-base documenting the multiple harm reduction benefits associated to low traffic neighbourhoods and other policies seeking to reduce car usage, further strengthening the case in favour of reducing car dependency in residential areas. Similarly, our findings illustrate how effective crime prevention policy should aim to be more holistic and consider how their interventions could affect choices of transport in their target area and elsewhere across the network.
+
+# References {.unnumbered}

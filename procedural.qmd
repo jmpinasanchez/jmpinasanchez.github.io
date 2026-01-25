@@ -15,23 +15,31 @@ title: "Procedural Justice"
 A growing number of empirical studies has sought to explore differences in the effectiveness of the procedural justice model across people. Much of this new evidence points at the procedural justice association with both legitimacy and compliance being largely invariant. Here we expand the analysis of this procedural justice ‘invariance thesis’ by introducing a novel life-course perspective to the debate. Specifically, we focus on the variability of the procedural justice effect within individuals across time. To do so, we use mixed effects structural equation models and longitudinal data from a sample of 1,354 young offenders in the US reporting perceptions of the police, and a sample of 511 subjects of the Australian general population reporting on the tax authority. We find the procedural justice within-person association with legitimacy to be highly variant across individuals, which can be negative for more than 10% of subjects in the two samples used, while for at least another 11% of participants the relationship is twice as strong as the average or stronger. We also find variability in the within-person association with compliance; however, this is only the case for a specific measure of procedural justice in the sample of young offenders. These results question the ‘invariance thesis’. Compliance, and especially perceptions of institutional legitimacy, cannot be expected to change uniformly across all subgroups of the population in line with their perceptions of the procedural just actions of those institutions.
 :::
 
-`Pina-Sánchez, J. and Brunton-Smith, I. (2021). Are we all equally persuaded by procedural justice? Measuring the ‘invariance thesis’ using longitudinal data and random effects. Journal of Developmental and Life-Course Criminology, 7:449–480. https://doi.org/10.1007/s40865-021-00170-y`
+`Pina-Sánchez, J., and Brunton-Smith, I. (2021). Are we all equally persuaded by procedural justice? Measuring the ‘invariance thesis’ using longitudinal data and random effects. Journal of Developmental and Life-Course Criminology, 7:449–480. https://doi.org/10.1007/s40865-021-00170-y`
 
 ------------------------------------------------------------------------
 
-###  Reassessing the Relationship between Procedural Justice and Police Legitimacy. 
+### Reexaminando el Rol de la Justicia Procedimental como Precursor de Legitimidad Institucional
 
-[![](https://img.shields.io/badge/Article-Law and Human Behavior-blue)](https://psycnet.apa.org/record/2020-78672-003)\
-[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Reassessing the Relationship between Procedural Justice and Legitimacy.pdf)
+[![](https://img.shields.io/badge/Article-PostC%20(Crimen,%20Ciencia,%20Sociedad)-blue)](https://postc.umh.es/minipapers/reexaminando-el-rol-de-la-justicia-procedimental-como-precursor-de-legitimidad-institucional/)
+
+`Pina-Sánchez, J. (2021). Reexaminando el rol de la Justicia Procedimental como precursor de legitimidad institucional. PostC: La PosRevista sobre Crimen, Ciencia y Sociedad de la era PosCovid19, (2). https://postc.umh.es/minipapers/reexaminando-el-rol-de-la-justicia-procedimental-como-precursor-de-legitimidad-institucional/`
+
+------------------------------------------------------------------------
+
+### Reassessing the Relationship Between Procedural Justice and Police Legitimacy.
+
+[![](https://img.shields.io/badge/Article-Law%20and%20Human%20Behavior-blue)](https://psycnet.apa.org/record/2020-78672-003)\
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](static/Reassessing%20the%20Relationship%20between%20Procedural%20Justice%20and%20Legitimacy.pdf)
 
 ::: {.callout-note collapse="true" title="Abstract"}
-*Objective*: A large body of cross-sectional research has identified a positive relationship between perceptions of police procedural justice and legitimacy. Following Tyler’s theoretical framework, studies have often interpreted the observed relationship as evidence of an unequivocal causal connection from procedural justice to legitimacy. Here we reexamined the validity of this conclusion by considering the temporal order of that association and the potential biasing effect of time-invariant third common causes.  
-*Hypotheses*: (a) Past perceptions of police procedural justice would predict future perceptions of legitimacy; (b) Past perceptions of police legitimacy would predict future perceptions of procedural justice; and (c) Perceptions of police procedural justice and legitimacy would be associated as a result of 3rd common causes.  
-*Method*: We fitted random intercepts cross-lagged panel models to 7 waves of a longitudinal sample of 1,354 young offenders (M = 16 years) from the 'Pathways to Desistance' study. This allowed us to explore the directional paths between perceptions of police procedural justice and legitimacy, while controlling for time-invariant participant heterogeneity.    
-*Results*: We did not find evidence of the assumed temporal association; lagged within-participant perceptions of procedural justice rarely predicted within-participant perceptions of legitimacy. We did not find evidence of a reciprocal relationship either. Instead, we detected substantial time-invariant participant heterogeneity, and evidence of legitimacy perceptions being self-reproduced.  
-*Conclusions*: Our findings challenge the internal validity of the commonly reported positive associations between procedural justice and legitimacy reported in studies using cross-sectional data. Most of such association is explained away after considering time-invariant participant heterogeneity and previous perceptions of legitimacy. 
+*Objective*: A large body of cross-sectional research has identified a positive relationship between perceptions of police procedural justice and legitimacy. Following Tyler’s theoretical framework, studies have often interpreted the observed relationship as evidence of an unequivocal causal connection from procedural justice to legitimacy. Here we reexamined the validity of this conclusion by considering the temporal order of that association and the potential biasing effect of time-invariant third common causes.\
+*Hypotheses*: (a) Past perceptions of police procedural justice would predict future perceptions of legitimacy; (b) Past perceptions of police legitimacy would predict future perceptions of procedural justice; and (c) Perceptions of police procedural justice and legitimacy would be associated as a result of 3rd common causes.\
+*Method*: We fitted random intercepts cross-lagged panel models to 7 waves of a longitudinal sample of 1,354 young offenders (M = 16 years) from the 'Pathways to Desistance' study. This allowed us to explore the directional paths between perceptions of police procedural justice and legitimacy, while controlling for time-invariant participant heterogeneity.\
+*Results*: We did not find evidence of the assumed temporal association; lagged within-participant perceptions of procedural justice rarely predicted within-participant perceptions of legitimacy. We did not find evidence of a reciprocal relationship either. Instead, we detected substantial time-invariant participant heterogeneity, and evidence of legitimacy perceptions being self-reproduced.\
+*Conclusions*: Our findings challenge the internal validity of the commonly reported positive associations between procedural justice and legitimacy reported in studies using cross-sectional data. Most of such association is explained away after considering time-invariant participant heterogeneity and previous perceptions of legitimacy.
 :::
 
-`Pina-Sánchez, J. and Brunton-Smith, I. (2020). Reassessing the relationship between procedural justice and police legitimacy. Law & Human Behavior, 44(5):377–393. https://doi.org/10.1037/lhb0000424`
+`Pina-Sánchez, J., and Brunton-Smith, I. (2020). Reassessing the relationship between procedural justice and police legitimacy. Law & Human Behavior, 44(5):377–393. https://doi.org/10.1037/lhb0000424`
 
-
+------------------------------------------------------------------------

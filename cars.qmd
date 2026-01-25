@@ -1,11 +1,158 @@
 ---
-title: "Car Dependency"
+title: "Cars & Crime"
 ---
 
-I am currently working on a series of projects exploring the links between motor traffic and criminality, an area of study that [Dr. Thiago Oliveira](https://www.thiagoroliveira.com/) has famously coined as *Carminology*.
 
-As part of a team led by [Prof. Henry Yeomans](https://essl.leeds.ac.uk/law/staff/245/professor-henry-yeomans) I'm working on a project investigating the causes behind the observed decline in drunk driving offences in the UK in the last few decades. For this project we are using historical documents and conducting a representative survey of the British population. The project is funded by the *Interdisciplinary Network for Time* from the [Horizons Institute](https://www.leeds.ac.uk/horizons-institute/doc/challenge-theme-networks) at the University of Leeds.
+------------------------------------------------------------------------
 
-I am also working with [Dr Toby Davies](https://essl.leeds.ac.uk/law/staff/2554/dr-toby-davies) on a couple of studies estimating the efffect of motor traffic on street crime. For this, we are using open data on road characteristics and longitudinal survey data from Understanding Society. These are the [slides](static/LTN_CCJS.pdf) from a work in progress seminar, and below is the main theoretical framework we are using.
+### Theses on road violence
 
-![Direct and indirect effects of motor traffic on anti-social behaviour](images/DAG_cars.png)
+[![](https://img.shields.io/badge/Blogpost-Howard%20Journal%20of%20Crime%20and%20Justice-blue)](https://onlinelibrary.wiley.com/page/journal/20591101/conversations/road-violence)
+
+::: {.callout-note collapse="true" title="Article"}
+1
+
+Every time someone takes a journey in a car, the lives of others are made worse. Each journey entails harm — to human and non-human life and the environments that support such life. Mostly, that harm is not intended.
+
+2
+
+That harmful object is the focal point of a system, or regime, of automobility — the constellation of technologies, infrastructures, practices, knowledges, ideologies, values, norms, and emotions that make possible, and sustain, the dominance of private cars.
+
+3
+
+People do not see the harm. It is denied and disavowed. When the destructiveness of automobility is pointed out, drivers are baffled, upset, or get angry. ‘Driving is safe if you follow the rules!’.
+
+4
+
+We inhabit a realm of cultural dissonance. Something so ordinary, convenient, and embedded in rhythms of work, play, love and care cannot, surely, be harmful. There are freedoms to be cherished and protected. How can they be implicated in harm-generating lives? The dissonance is micro, part of the situated experience of driving, a matter of affective promises, attachments, investments. It is also macro. People live inside regimes of automobility that they did not invent or choose, and often cannot escape. How else are they supposed to get around?
+
+5
+
+That dissonance infects law. Legal systems struggle to make sense of the chasm between the risks created — and damage inflicted — by two-tonne machines moving at speed through busy, fleshy environments, and the absence of intent. The driver just made a mistake, lost concentration for barely a second. Drivers are good people going about their lives, not criminals. That driver could have been me, or my husband, mother, brother, or daughter. It has been me.
+
+6
+
+Criminologists — seasoned authorities on crime, harm, violence and transgression — seldom attend to the harms of auto-centric mobility systems. When automobility is compared to other established harm-producing institutions — say police or prisons — students of those institutions are nonplussed. Sometimes, they respond as drivers.
+
+7
+
+Critics of automotive harm must not be ‘anti-motorist’, like police reformers eager not to be dismissed as ‘anti-police’. In both cases, we are in the grip of semi-sacred institutions. The faith is deep, emotive, existential. It must not be touched.
+
+8
+
+It matters how we name the risk, and what we call the damage. There is nothing innocent about terming road injury and death ‘accidents’. As criminologists know well, labels matter: for the design of law and policy; as categories for social research and theorising; as terms of cultural discourse about the dangers of mobility. Can we speak of car ‘harm’? What about road ‘crime’? Is that better? Road offences, after all, make up the bulk of cases in criminal courts. Yet such crime is relegated to a distinct, lesser, part of criminal law. We certainly must not call it ‘road violence’. How inappropriate!
+
+9
+
+If it was violence, it would be illegal. Drivers act within the law; road collisions are unfortunate accidents. But many forms of violence have historically been legal: husbands disciplining/raping their wives, slave-owners working their slaves to death. What of ‘unintended’ harm such as discharging sewage into rivers. The fact that this act is lawful doesn’t make it any less dangerous, or violent.
+
+10
+
+Motorists drive cars into crowds, deliberately trying to maim or kill, and spread fear among onlookers. There seems to more such cases around these days, often committed by ‘terrorists’, but not always, almost always by men. There is much we do not know — about prevalence, historical patterns, offender motivations. People seem okay with calling this violence. So do lawyers. These acts are the serious end of daily micro-aggressions committed by drivers using their vehicles as harm-inflicting machinery against pedestrians, cyclists, and inhabitants of neighbourhoods they desecrate as they recklessly tear them apart.
+
+11
+
+The threat is implicit but clear to all: if you enter the tarmac, you risk being injured or killed. That risk is on you. Drivers understand the risk just as vulnerable road users do, despite the protection of a steel cage. Safety means being high, mighty, and able to inflict more damage than other road users. Why else is today’s average car the size of a 1990s van? We are trapped in an arms-race.
+
+12
+
+Within the range between unquestionably destructive (using cars as weapons) and merely banal, lie a range of driving behaviours. All are indicative of violence.
+
+13
+
+People are seriously injured or killed by drivers who are impaired by drink or drugs, driving dangerously or carelessly, or while distracted by a phone. Criminal law has learned to treat this as serious crime. It punishes the drivers, on whom blame is pinned, in a ritual that reassures us that driving is otherwise safe. Little is done to prevent future risk. These drivers did not intend to maim or kill. But the danger was foreseeable, even designed-in. Now blood has been shed, bones shattered. Lives have been taken, torn from the earth. Is predictable violence not intentional violence?
+
+14
+
+Motorists drive dangerously, or carelessly, or inebriated, and no one gets harmed, at least not directly. So, there is no prosecution, and no crime. These drivers got lucky. But their acts spread fear and anxiety. They create environments of unease and danger. Pedestrians navigate the city with trepidation. A parent resolves not to let their child walk to school, still less cycle. They decide it is safer to drive. How are we to name this?
+
+15
+
+People joke, maybe boast, about speeding. No shame is attached. It is normal, funny even. The risks are dismissed. The law is an ass.
+
+16
+
+People drive. Safely and carefully. It is what they do, how they chose to get around. It’s convenient, comfortable, free of the annoyance of strangers. No one gets hurt. Where’s the harm?
+
+17
+
+Someone hits and kills a child while driving carefully and considerately. It was not their fault. The child ‘just darted out’. ‘There was nothing I could do’.
+
+18
+
+An asthmatic child struggles for breath. The air is full of particulate omissions. Residents are advised to stay inside. Propulsion noise disturbs sleep. Roads are laid, cities heat up. Play space is occupied. Road networks are extended, the non-human world is threatened, bio-diversity lost. The world warms. People look away, disconnect ‘the weather’ from our way of life. Cars are how we live, want to live, or are systemically forced to live. This is mobility freedom. Where’s the harm?
+
+19
+
+This is violence. Structural violence, aggregate, designed-in but not intended, preventable, but not prevented. Slow violence, incremental, invisible, slippery, disavowed. Denial is part of the violence.
+:::
+
+`Loader, I., and Pina-Sánchez, J. (2026).Theses on road violence. The Howard Journal of Crime and Justice. Available at: https://onlinelibrary.wiley.com/page/journal/20591101/conversations/road-violence`
+
+
+------------------------------------------------------------------------
+
+### On the Importance of Subjective Perceptions of Safety:
+
+*Limits of the UK Road Safety Strategy*
+
+[![](https://img.shields.io/badge/Article-TeMA:%20Journal%20of%20Land%20Use,%20Mobility%20and%20Environment-blue)](https://serena.sharepress.it/tema/article/view/13513)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This short article offers a critical assessment of the UK Government’s 2026 Road Safety Strategy (RSS). While the strategy sets ambitious targets for reducing road fatalities, we argue that it is unlikely to achieve its broader objective of promoting active travel and reducing the indirect harms associated with motor traffic. Although the RSS acknowledges wider forms of harm, including physical inactivity and air pollution, its proposals fail to address the factors that most strongly shape pedestrians’ and cyclists’ perceptions of safety: traffic speed and volume, vehicle size, and the availability of safe infrastructure. Instead, the strategy prioritises measures targeting specific driver groups and the adoption of new vehicle safety technologies, interventions that largely protect vehicle occupants while doing little to encourage walking and cycling. We also highlight the absence of meaningful commitments to traffic calming, segregated cycling infrastructure, wider pavements, or a national ban on pavement parking. We conclude that by neglecting simple, evidence-based interventions that can improve both objective and subjective safety, the RSS risks missing an important opportunity to support active travel and reduce the broader harms caused by motor traffic. 
+:::
+
+`Pina-Sánchez, J., Loader, I., and Trinidad, A. (2026). On the importance of subjective perceptions of safety: Limits of the UK Road Safety Strategy. TeMA - Journal of Land Use, Mobility and Environment, 19(2):401–405. https://doi.org/10.6093/1970-9870/13513`
+
+------------------------------------------------------------------------
+
+### The Road Violence Toll of Urban Sprawl:
+
+*A registered report of collisions with cyclists and pedestrians in England and Wales*
+
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](https://osf.io/preprints/socarxiv/skcfr_v2)(under review at Peer Community In Registered Reports)
+
+::: {.callout-note collapse="true" title="Abstract"}
+The risk of road collision for cyclists and pedestrians is higher in sprawls than in city centres. As a result of commuting, we also suspect that the higher risk of collision caused by residents from car-dependent sprawls is not confined to their own areas but disproportionately imposed on city dwellers. However, due to the absence of direct comparisons we do not know the specific road violence imposed by urban sprawls. This registered report will combine collision data from the Department for Transport and the Urban Grammar Spatial Signatures dataset that characterises geography by form and function to estimate the share of road violence induced by sprawls’ residents within and outside their localities, and relative to levels of road violence generated by city dwellers in England and Wales. Furthermore, using the subset of collisions data including contributory factors, we will provide a lower bound estimate regarding the share of collisions that could be classified as motoring offences. Drawing on these findings we will reassess the widely held beliefs of: i) sprawls as safer than city centres; ii) residents from urban sprawls are more law-abiding than city dwellers; and iii) crime prevention strategies that promote car-dependent developments as effective.
+:::
+
+`Pina-Sánchez, J., Tait, C., Beecham, R., and Fonseca Zamora, J. (2026). The road violence toll of urban sprawl: A registered report of collisions with cyclists and pedestrians in England and Wales. SocArXiv`
+
+------------------------------------------------------------------------
+
+### Road Violence and Perceptions of Safety among Pedestrians and Cyclists
+
+[![](https://img.shields.io/badge/Preprint-PDF-blue)](https://doi.org/10.31235/osf.io/4dnrc_v4)(Stage 2 Registered Report)
+
+::: {.callout-note collapse="true" title="Abstract"}
+This registered report investigates whether involvement in road traffic collisions meaningfully shapes pedestrians’ and cyclists’ perceptions of safety. Drawing on criminological insights - particularly the fear‑victimisation paradox - the study explores the common policy assumption that reducing collisions alone improves subjective safety. Using ESRA2 survey data from 24 European countries, the analysis estimates both average and conditional treatment effects of collision experience on perceived safety, accounting for vulnerability (age, gender) and exposure (active travel frequency). The study employs equivalence testing and counterfactual modelling to assess whether any difference in victims' perceptions is substantively meaningful. Findings will clarify whether collision reduction strategies are sufficient to encourage active travel or whether broader interventions addressing vulnerability and environmental cues are required.
+:::
+
+`Pina-Sánchez, J., Trinidad, A., and Loader, I. (2026). Road violence and perceptions of safety among pedestrians and cyclists. SocArXiv. https://doi.org/10.31235/osf.io/4dnrc_v4`
+
+------------------------------------------------------------------------
+
+### In Defence of Walkability as a Crime Prevention Strategy
+
+[![](https://img.shields.io/badge/Article-Howard%20Journal%20of%20Crime%20and%20Justice-blue)](https://onlinelibrary.wiley.com/doi/full/10.1111/hojo.70049)
+
+::: {.callout-note collapse="true" title="Abstract"}
+New Urbanist ideas promoting walkability have many benefits. But they are criticised by proponents of crime prevention through environmental design (CPTED), who blame street connectivity for facilitating target recognition, providing access and escape routes and weakening informal surveillance. In this article, we challenge the consensus portraying walkable neighbourhoods as criminogenic by highlighting two issues overlooked by CPTED and environmental criminology. First, the focus on crime counts which confounds crime risk with the number of human interactions in the physical world. Second, the neglect of how walkable neighbourhoods reduce crime beyond their borders, something that becomes clear once motoring offences are brought within the analytic frame. By indirectly promoting car dependency crime prevention programmes such as Secured by Design inadvertently promote criminal harm. Finally, we explore the intersections between CPTED and walkability and suggest that neighbourhoods can become more vibrant, sustainable and safe by reducing road—not street—connectivity.
+:::
+
+`Pina-Sánchez, J., and Loader, I. (2026). In defence of walkability as a crime prevention strategy. The Howard Journal of Crime and Justice. https://doi.org/10.1111/hojo.70049`
+
+------------------------------------------------------------------------
+
+### Exploring the Effect of Motor Traffic on Street Crime
+
+[![](https://img.shields.io/badge/Article-Kriminologie-blue)](https://www.kriminologie.de/index.php/krimoj/article/view/502)\
+[![](https://img.shields.io/badge/Code-Quarto-blue)](static/Traffic-and-Street-Crime_15thAugust2025.txt)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Traffic impacts street safety in multiple, often under-recognised ways. In addition to their polluting effect and the obvious risk they pose to pedestrians, we hypothesise that heavy motor traffic may also be associated with increased street-level crime. We elaborate this argument drawing from a wide range of well established crime theories. We explore our proposition using longitudinal data from Understanding Crime, and two-way fixed effects models. We find that perceptions of crime are higher in neighbourhoods affected by heavy motor traffic. More importantly, we find that these two phenomena are associated across time, suggesting a likely causal effect. Lastly, we note that the causal effect of motor traffic on street crime is likely mediated by collective efficacy; i.e. traffic erodes community ties, which in turn make informal surveillance less effective.
+:::
+
+`Pina-Sánchez, J., and Davies, T. (2026). Exploring the effect of motor traffic on street crime. Kriminologie, 8(2):147–167. https://doi.org/10.18716/ojs/krimoj/2026.2.3`
+
+------------------------------------------------------------------------

@@ -1,0 +1,79 @@
+---
+title: "Impact"
+---
+
+Through my career I have collaborated with a wide range of charities, think tanks, and criminal justice organisations: Liberty, Justice, the Centre for Public Data, the Sentencing Academy, the Sentencing Council for England and Wales, the Scottish Sentencing Council, the Crown Prosecution Service, the Parole Board, the Ministry of Justice, the Slovenia State Prosecutors Office, and Cumbria, West Yorkshire, and Bedfordshire Police Forces. As a result of those collaborations my research has influenced sentencing policy in the UK and other overseas jurisdictions. Here I list a selection of the type of impact activities I have been involved in, together with some of the most consequential policy contributions driven by my research.
+
+------------------------------------------------------------------------
+
+### Independent Review of the Criminal Courts
+
+In response to a direct request, I submitted a [short report](static/JPS%20Response%20to%20the%20Independent%20Review%20of%20the%20Criminal%20Courts.pdf) providing evidence to the [Independent Review of the Criminal Courts](https://www.gov.uk/guidance/independent-review-of-the-criminal-courts), led by Sir Brian Levenson. In my report, I indicate that the limited evidence available contradicts the view that magistrates are more punitive than Crown Court judges. For this reason, I recommend allowing a larger share of cases to be processed by the Magistrates' Courts. I also highlight how the weak evidence base regarding court functioning and backlogs could be improved if the Ministry of Justice and HM Courts & Tribunals Service took further steps to share their data openly.
+
+------------------------------------------------------------------------
+
+### Independent Sentencing Review 2024 to 2025
+
+In 2023, Sir Bob Neill, then Chair of the Justice Committee, cited one of the [Sentencing Academy bulletins](https://www.sentencingacademy.org.uk/wp-content/uploads/2023/10/Sentencing-Trends-in-England-and-Wales-2002-2022.pdf) that I co-authored in [The Times](Times.png). Specifically, he highlighted our estimate of a 38% increase in sentence severity over the past two decades, as a key factor leading to the prison crisis. Two years later, the [Independent Sentencing Review 2024 to 2025](https://www.gov.uk/guidance/independent-sentencing-review-2024-to-2025) was launched to explore responses to this problem.
+
+I co-authored the [Sentencing Academy response](https://www.sentencingacademy.org.uk/response-to-independent-sentencing-review-2024-to-2025/) to the Independent Sentencing Review 2024 to 2025, led by the Rt Hon Mr David Gauke. One of my key contributions was demonstrating that sentence inflation is not uniform across offence categories. In some cases, apparent inflation trends simply reflect attrition in the criminal justice system — where only the more severe offences progress to court.
+
+`Pina-Sánchez, J., Roberts, J., & Bild, J. (2025). Technical Appendix:  Plotting Sentence Severity and Crime Seriousness. CrimRxiv. https://doi.org/10.21428/cb6ab371.ec4fb0e7`
+
+------------------------------------------------------------------------
+
+### Ethnic Disparities in MOPAC's Knife Crime Tagging Programme
+
+I assisted [Liberty Human Rights](https://www.libertyhumanrights.org.uk/) in analysing ethnic disparities in a knife crime tagging programme operated by the Mayor's Office for Policing and Crime (MOPAC) and the Ministry of Justice (MoJ). Our findings provided evidence of large ethnic disparities (Black individuals were 87% more likely to be selected for the electronic monitoring scheme than white individuals), which helped reach a [settlement](https://blackequityorg.com/new-settlement-seeks-to-eliminate-discrimination-in-tagging-system/) in the Black Equity Organisation's judicial review claim agains
+
+The settlement includes a rapid review of the programme to address concerns of racial disproportionality to ensure fair and unbiased decision-making in the selection of those for tagging. Three specific measures were agreed: i) removing reference to gang involvement as a selection criterion for tagging; ii) consistent collection of data of those selected for tagging; and iii) improvements in communication so individuals know why they have been selected for tagging and how they can challenge their selection. See further coverage of this case in this [ITV news](https://www.itv.com/news/london/2025-02-18/ankle-tagging-disproportionately-applied-to-black-offenders-released-from-prison) clip.
+
+------------------------------------------------------------------------
+
+### CPS Disproportionality Action Plan
+
+Dr Sam Lewis and I were commissioned by the Crown Prosecution Service (CPS) to conduct an analysis of charge decisions in England and Wales. [Our study](https://www.cps.gov.uk/cps/how-crown-prosecution-service-understanding-and-tackling-racial-disproportionality-our-work) uncovered large ethnic disparities, contradicting previous findings reported in the [Lammy Review](https://www.gov.uk/government/publications/lammy-review-final-report). As a result of our findings the CPS has developed a comprehensive ['Disproportionality Action Plan'](https://www.cps.gov.uk/how-crown-prosecution-service-understanding-and-tackling-racial-disproportionality-our-work-our) in order to *"\[...\] develop an anti-racist culture and practices, eliminating racial bias in our decision-making \[...\]"*. Findings from our study were covered by national and international media, including the [Independent](https://www.independent.co.uk/news/uk/crown-prosecution-service-british-max-hill-university-of-leeds-england-b2277685.html), the [Guardian](https://www.theguardian.com/world/2023/feb/07/defendants-of-colour-more-likely-to-be-charged-than-white-people-finds-cps-study), and the [New York Times](https://www.nytimes.com/2023/02/08/world/europe/uk-prosecutions-racial-disparity.html?). The study was also discussed in the [UK Parliament](https://hansard.parliament.uk/Lords/2024-04-25/debates/D3DB8398-195C-4C26-9740-951141E79D7E/CrownProsecutionServiceRacialBias).
+
+------------------------------------------------------------------------
+
+### Data and Statistical Gaps in Criminal Justice
+
+In 2022 I was approached by the [Centre for Public Data](https://www.centreforpublicdata.org/criminal-justice-data-gaps) to help them identify key gaps in sentencing data in England and Wales. Their final report is available [here](https://static1.squarespace.com/static/5ee7a7d964aeed7e5c507900/t/64230b79130cdc7e4b83930f/1680018298114/CFPD+justice+data+gaps+report.pdf).
+
+------------------------------------------------------------------------
+
+### Inquiry on Public Opinion and Understanding of Sentencing
+
+I co-authored a Sentencing Academy report on [Public Knowledge of Sentencing Practice](https://www.sentencingacademy.org.uk/wp-content/uploads/2023/08/Public-Knowledge-of-Sentencing-Practice-and-Trends.pdf), which became a key motivator for the House of Commons Justice Committee's [inquiry on on Public Opinion and Understanding of Sentencing](https://committees.parliament.uk/call-for-evidence/2652/). Together with the Sentencing Academy, I submitted written [evidence](https://committees.parliament.uk/writtenevidence/110097/html/) to the inquiry, and I had the opportunity to provide further evidence by participating in a roundtable discussion with the Justice Committee. Our contributions were acknowledged in the [final report](https://committees.parliament.uk/publications/41844/documents/207521/default/) from the Justice Committee, and discussed in the [UK Parliament](https://committees.parliament.uk/publications/8762/documents/88761/default/).
+
+------------------------------------------------------------------------
+
+### Enhancing the Measurement of Sentence Severity
+
+As part of my National Centre for Research Methods (NCRM) project [Tackling Selection Bias in Sentencing Data Analysis](https://www.ncrm.ac.uk/research/SentencingData/), we developed a new and more informative scale ranking the relative severity of different types of sentences. This severity scale has been used by the Sentencing Council for England and Wales in the evaluations of their guidelines (as noted in the Council's evaluations of their guidelines on [theft offences](https://www.sentencingcouncil.org.uk/wp-content/uploads/Theft-report-FINAL-web.pdf) and [sentencing children and young people](https://www.sentencingcouncil.org.uk/wp-content/uploads/November-2020-CYP-assessment-report-FINAL.pdf)). This contribution led to the [NCRM Impact Case](https://www.ncrm.ac.uk/about/impact/sentencing.php).
+
+------------------------------------------------------------------------
+
+### Governance of Public Parks
+
+I was a co-investigator in [Dr Anna Barker](https://essl.leeds.ac.uk/law/staff/177/dr-anna-barker)'s four stars REF 2021 Impact Case ‘[Safeguarding and revitalising local authority-led governance of public parks](https://results2021.ref.ac.uk/impact/bc8c39cf-4283-49cb-8363-27599d29b267?page=1)’. We know this impact case was rated with four stars because all the impact cases submitted by the School of Law in the University of Leeds received that rating.
+
+------------------------------------------------------------------------
+
+### Sentencing Consistency in England & Wales
+
+The Sentencing Council for England and Wales adopted in 2021 the type of multi-level modelling techniques that I recommended for the [evaluation of the impact of their guidelines](www.sentencingcouncil.org.uk/wp-content/uploads/The-impact-of-three-guidelines-on-consistency-in-sentencing.pdf) on consistency in sentencing. This analytical strategy helped the Sentencing Council [identify and reword](https://www.sentencingcouncil.org.uk/wp-content/uploads/A-review-of-consistency-in-sentencing.pdf) aggravating and mitigating factors inconsistently applied.
+
+------------------------------------------------------------------------
+
+### Sentencing Guidelines Overseas
+
+My research has influenced the debate on the adequacy of adopting sentencing guidelines in several jurisdictions outside England & Wales. See for example, the state of [Victoria](https://www.sentencingcouncil.vic.gov.au/sites/default/files/2019-08/A_Sentencing_Guidelines_Council_for_Victoria_Report.pdf) (Australia), [Northern Ireland](https://www.justice-ni.gov.uk/sites/default/files/consultations/justice/sentencing-review-northern-ireland-consultation.pdf), or the Republic of [Ireland](https://judicialcouncil.ie/assets/uploads/documents/2nd%20Interim%20Report.pdf).
+
+------------------------------------------------------------------------
+
+### Impact Assessment of Sentencing Guidelines
+
+I was part of a research team from [RAND Europe](https://www.rand.org/randeurope/research/projects/2019/sentencing-council-guidelines-evaluation.html) and I was also commissioned by the Sentencing Council to carry out reports that contributed to the impact assessment of the [fraud](https://www.sentencingcouncil.org.uk/wp-content/uploads/Fraud-Bribery-and-Money-Laundering-guideline-assessment.pdf) and [drugs](https://www.sentencingcouncil.org.uk/wp-content/uploads/Theft-report-FINAL-web.pdf) sentencing guidelines in England and Wales.
+
+------------------------------------------------------------------------
