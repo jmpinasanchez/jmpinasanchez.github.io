@@ -1,0 +1,45 @@
+/* Ensure the logo appears in the top-right corner */
+.reveal .slide-logo {
+  position: absolute;
+  top: 0px; /* Distance from the top */
+  left: 35px; /* Distance from the right */
+  transform: scale(2);
+}
+
+/* Apply Garamond as the default font */
+.reveal {
+  font-family: 'Garamond', serif;
+}
+/* Ensure headings and specific elements also use Garamond */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal p,
+.reveal li {
+  font-family: 'Garamond', serif;
+}
+/* Align h2 titles */
+.reveal h2 {
+    text-align: right;
+    margin-top: -10px; /* Use negative margin to pull the title upwards */
+    padding-top: 0; /* Ensure no extra padding pushes it down */
+    padding-bottom: 30px
+}
+/* Specific slide H2 adjustment (push higher) */
+.reveal .custom-title h2 {
+    margin-top: -50px; /* Pull the title much higher */
+    padding-top: 0; /* Remove any additional padding */
+}
+/* Vertically centre h1 headlines on the slide */
+.reveal h1 {
+    display: flex; /* Use flexbox for the headline */
+    justify-content: left; 
+    align-items: center; /* Vertically centre the headline */
+    height: 100%; /* Make the h1 container span the full height of the slide */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any extra padding */
+    text-align: left; 
+}

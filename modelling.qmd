@@ -2,7 +2,7 @@
 title: "Statistical Modelling"
 ---
 
-Here you can find the materials I use in the UG module *Quantitative Social Research II: Advanced Statistical Modelling*, which constitutes the second part of our BSc in Criminology - Quantitative Pathway at the University of Leeds.
+Here you can find the materials for my undergraduate module [*Quantitative Social Research II: Advanced Statistical Modelling*](static/LAW3287_Handbook.pdf), which constitutes the second part of our [BSc in Criminology - Quantitative Pathway](static/Quantitative%20Pathway_Briefing.pdf) at the University of Leeds.
 
 Recap: Advanced Quantitative Methods I\
 - [Lecture](static/LAW3287.Workshop1.Intro_full.pdf)\
@@ -43,7 +43,6 @@ Hierarchical Data\
 - [Lecture](static/LAW3287.Workshop8.Hierarchical%20Data_Full.pdf)\
 - [Practical](static/W8_Hierarchical-data_Full.pdf)\
 - <a href="static/ESS9e01_1.dta" download>Data I</a> (2018/19 European Social Survey)\
-- <a href="static/CCSS_trimmed.csv" download>Data II</a> (2011 Crown Court Sentencing Survey)
 
 Longitudinal Data\
 - [Lecture](static/LAW3287.Workshop9.Longitudinal%20Data.pdf)\

@@ -2,7 +2,7 @@
 title: "Researching Crime & Justice"
 ---
 
-The following are materials I have used to teach research methods to UG and PGT students at the University of Leeds.
+These are some of the materials I used to teach research methods to undergraduate and postgraduate students at the University of Leeds.
 
 Quantitative & Qualitative Research Designs\
 - [Lecture](static/rccj.lecture.week2_.data-and-theory.pdf)
